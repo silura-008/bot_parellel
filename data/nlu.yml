@@ -70,620 +70,649 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+    
+- intent: happy
+  examples: |
+- I just won the game! I'm so thrilled!
+- My dad told me he's proud of me. I feel amazing!
+- I finally bought my dream bike! This is the best day ever!
+- I got an A on my test! So happy right now!
+- My best friend surprised me with a gift! I'm overjoyed!
+- I got my first paycheck today! I feel so accomplished.
+- I got promoted at work! I'm beyond happy!
+- My little sister hugged me and said she loves me. My heart is so full.
+- I made a new friend today. Feeling really good!
+- My team won the championship! I can't stop smiling!
+- I just finished my favorite book, and it was amazing!
+- I helped someone today, and it made me feel so happy.
+- I finally mastered that difficult song on the guitar! Feels great!
+- The weather is so perfect today. It's making me feel really happy.
+- I saw a beautiful sunset, and it just made my day.
+- My dog was so excited to see me when I got home. I love him so much!
+- I got a message from an old friend, and it made me so happy!
+- My favorite show just released a new season! I'm so excited!
+- I got a new phone today! It's so cool!
+- I finally got my driver's license! I'm over the moon!
+- My mom made my favorite dish for dinner. I'm so grateful!
+- I just had the best conversation with someone. I feel so understood.
+- My art got featured in a gallery! I can't believe it!
+- I finally saved enough money for my dream vacation! So happy!
+- My crush just said they like me back! I'm on cloud nine!
+- I woke up feeling so refreshed and happy today.
+- I got accepted into my dream college! Best day ever!
+- My favorite team won the match! I'm so pumped!
+- I aced my interview and got the job! Feeling so proud.
+- Someone complimented my hard work today. It meant a lot!
+- I finally finished my project, and it turned out great!
+- I went on an amazing trip with my friends. It was unforgettable!
+- I received an unexpected gift today! It made my whole day.
+- My little brother made me a handmade card. It's so sweet!
+- My favorite band just announced a concert in my city! So excited!
+- I had the best time at the party last night. Feeling so good!
+- I finally learned how to swim! I'm so proud of myself.
+- I reunited with a childhood friend after years. It feels amazing!
+- I just found out I'm going to be an uncle! I'm so happy!
+- I adopted a pet today! My heart is full of love.
+- I got my dream job! I still can't believe it!
+- I received a scholarship! My hard work paid off!
+- I just baked the perfect cake, and it turned out amazing!
+- I had such a fun day at the amusement park! Best day ever!
+- I finally completed my fitness goal! I feel so accomplished.
+- My kid just said their first word! I'm so emotional and happy.
+- My partner planned a surprise date for me! Feeling so loved.
+- I got a handwritten letter from someone special. It means so much.
+- My parents gave me the best advice today. I feel so supported.
+- I just got my dream apartment! This is unreal!
+- I won a lucky draw contest! Never been this lucky before!
+- I just found a song that perfectly matches my mood. It's amazing!
+- I got a new gaming console! Can't wait to play!
+- I finally cleared my driving test! What a relief!
+- I spent the whole day with my grandparents. It was wonderful!
+- My friend stood up for me today. I feel so valued.
+- I saw a random act of kindness today. It restored my faith in humanity.
+- I tried something new today and absolutely loved it!
+- My garden is finally blooming! It looks so beautiful.
+- I finally finished writing my first book! It feels unreal!
+- My boss appreciated my work today. It made my day!
+- I had the best home-cooked meal. Feeling so satisfied.
+- I rewatched my favorite childhood movie. So nostalgic and happy!
+- I found an old diary with so many good memories! Feeling sentimental.
+- I finally paid off a debt! Feeling so relieved and happy.
+- My favorite coffee shop remembered my order. Such a small thing but made me so happy!
+- I just got a handwritten note from my teacher. It means a lot.
+- My pet just did the cutest thing! I can't stop smiling.
+- I saw the most beautiful rainbow today! Nature is amazing.
+- I met a celebrity I admire! I still can't believe it!
+- I had the most delicious meal today. Feeling so content.
+- My little cousin called me their favorite person. So cute!
+- I just heard the best joke! I can't stop laughing!
+- I woke up to the most beautiful sunrise. It's a good day.
+- My dream came true today! I'm so grateful.
+- I just found money in my old jeans! Best surprise ever!
+- I won a bet with my friend! Feels great to be right!
+- I got a free dessert at my favorite restaurant! So lucky!
+- I finally reached my savings goal! I feel accomplished.
+- My sibling and I had the best bonding moment today.
+- I received a heartfelt thank-you message today. It warmed my heart.
+- My favorite author liked my comment on social media! Unreal!
+- I got selected for an opportunity I really wanted! So excited!
+- My online order arrived earlier than expected! Best feeling!
+- I just finished an amazing workout! Feeling so good!
+- I finally completed a puzzle I've been working on for weeks!
+- I danced my heart out today! Feeling so alive!
+- My parents surprised me with my favorite snack. They know me so well!
+- My friend made me laugh so hard today! It was hilarious!
+- I got a handwritten birthday card. It means the world to me.
+- My boss gave me a bonus! What a great surprise!
+- I just had an amazing creative breakthrough! Feeling so inspired!
+- My crush smiled at me today! I'm so giddy!
+- I had the best time at the beach! The waves were perfect!
+- I received the most heartfelt compliment today. I'll cherish it forever.
+- I just found the coziest reading spot! I'm in heaven.
+- I reconnected with an old hobby, and it brought me so much joy.
+- I had the best cup of coffee today. It was just perfect.
+- My best friend and I wore matching outfits by accident. So funny!
+- I finally figured out a tough problem. Such a relief!
+- I got a personal thank-you from my teacher. It really touched me.
+- I just had the most wholesome conversation with a stranger.
+- I made someone's day today, and that made mine!
+- I just had the best surprise party ever! Feeling so loved.
+- My team members appreciated my effort today. I feel so valued.
+- My favorite childhood snack is back in stores! So nostalgic!
+- I received the sweetest voice note from my friend today.
+- I had an amazing dream last night. I woke up feeling so good!
+- I finally bought that thing I've wanted for so long!
+- I got my first customer today! Feeling so proud.
+- I just received the best advice ever! Feeling so motivated.
+- I made a wish on a shooting star tonight. It was magical.
 
-- intent: admiration
+
+
+- intent : sad
   examples: |
-    - Damn youtube and outrage drama is super lucrative for reddit
-    - Famous for his 3-4 Defense
-    - Twilight... STILL a better love story than The Last Jedi!
-    - What a wonderful world
-    - You just make her sound awesome.
-    - I appreciate his deadpan humour.
-    - [NAME] was one of the only good things in that season
-    - My stylist is a fit, handsome guy with big, sexy hands. Can't say I don't like it when he tousles my hair.
-    - Your response is truly one of the most amazing ones I've seen.
-    - I don't understand why people give gold to crossposts. You deserve all the upvotes.
-    - *"Success is the best revenge."* Good job OP. Stay strong. You're almost there.
-    - It's simple, he's blunt, and that is what some people need.
-    - Such a nice photo of city hall.
-    - I had no idea what the fuck this was about. Found the ad and watched it. It's actually decent.
-    - Sounds nice owo
-    - Oh yeah! He was great for us. 0.69 ERA in 24 G with 10.7 K/9. I forgot about him.
-    - Good news: this is shark tale not finding Nemo
-    - Good for [NAME]. He deserves it.
-    - That was brilliant 😂
-    - **GOD DAMN YOU, FIGHT BACK!!**
-- intent: amusement
-  examples: |
-    - And then they say, “HAHAHAHHA IT WAS RIGHT THERE WOW!”
-    - just noticed, lol. damn pervert foreigners.
-    - Lmao Stole my joke! 😂
-    - Lol, get em Corsi! 
-    - Lol, that's funny. I'll have to find our Aggieopoly and see how it compares.
-    - my mom caught be masturbating to dominatrix porn (i was bored of vanilla shit) LOL But porn addiction is bad because it can stop you from approaching women etc
-    - Lmao the cop stops like *"Fuck, well I guess he won't be resisting on the way"*
-    - the number 9 recruit from the 2019 class at USC has already entered the transfer portal lol it's only been like 3 weeks man give it a chance
-    - Holy shit this golden comment flew under the radar. I laughed so hard
-    - Eventually sure. But the question really lacked the maybe later option lol
-    - I have dayz but haven't played in years. Last I heard it's still a broken mess lol.
-    - It's kinda funny when it's told to you
-    - MEEEEEEEEE. Most people don't get my humour, but every now and then somebody does and we non-stop laugh together. 
-    - The only reason people are there is because they dont know [NAME] is fired lmao.
-    - Yeah no haha. Out of my price range tbh
-    - Lol, ..probably not. But then again, i never wanted to know what blue waffles were and somehow i do. 
-    - PLACE THE DEVICE ON HER HEAD HA HA HA TIME TO DIE
-    - > lack of diversity in the cast now that's a new one lmao
-    - Haha this dude's from the area I'm from. He's a local treasure
-    - Oh, I thought it was about the audio glitch at the end, lol Now I see 
+- I failed my test. I feel so disappointed.
+- My best friend ignored me today. It really hurt.
+- I lost the game. I tried my best, but it wasn't enough.
+- I didn't get the job I wanted. Feeling really down.
+- My pet passed away. I can't stop crying.
+- I feel so alone, like no one understands me.
+- I studied so hard, but I still failed. It's frustrating.
+- My parents are disappointed in me. That breaks my heart.
+- My crush doesn't like me back. It really hurts.
+- I got rejected from my dream college. I feel so lost.
+- I had a fight with my best friend. I hate this feeling.
+- I miss someone so much right now. It's unbearable.
+- I tried my hardest, but it still wasn't enough.
+- I just feel empty inside.
+- I woke up feeling sad for no reason.
+- My favorite show just ended. I feel so lost now.
+- No one remembered my birthday. That really stings.
+- I got replaced in my team. I feel worthless.
+- I lost my wallet today. It's been such a bad day.
+- I thought they cared about me, but I was wrong.
+- I don't know why, but I feel like crying.
+- I feel like I keep disappointing everyone around me.
+- My sibling and I had a huge argument. I feel awful.
+- My parents don't understand me. It's frustrating.
+- I'm homesick. I miss my family so much.
+- I had a bad day at work. Everything went wrong.
+- I failed my driving test. I feel so useless.
+- My partner broke up with me. I'm heartbroken.
+- I just feel like no one really cares.
+- I keep comparing myself to others, and it makes me sad.
+- I feel like I'm not good enough.
+- I tried to make someone happy, but they didn't even notice.
+- I lost a friend today. It hurts so much.
+- I thought I had it all figured out, but I don't.
+- My childhood home got sold. I feel so nostalgic and sad.
+- I got scolded by my teacher in front of everyone. It was embarrassing.
+- I'm feeling so unmotivated lately.
+- I really wanted that opportunity, but I didn't get it.
+- I feel stuck in life.
+- I worked so hard, but no one appreciated it.
+- My favorite pet is sick. I'm really worried.
+- I feel like everyone has moved on without me.
+- I just found out someone I admire passed away.
+- My phone broke, and I lost all my memories in it.
+- I overheard someone talking badly about me. It hurts.
+- I feel like I'm constantly making mistakes.
+- I don't know why, but I feel so down.
+- I miss the good old days.
+- I feel like I let myself down.
+- I got ghosted by someone I really cared about.
+- My dreams feel so far away. I don't know if I'll ever get there.
+- I wish I had someone to talk to.
+- My grades are dropping, and I don't know what to do.
+- I feel like I'm losing control over my life.
+- I miss the person I used to be.
+- I feel like nobody truly understands me.
+- I was excited for today, but it turned out to be disappointing.
+- I saw an old photo, and now I miss those times so much.
+- I feel like I have no purpose.
+- My anxiety has been really bad lately.
+- My favorite place got shut down. I feel so sad.
+- I had high hopes, but they got crushed.
+- I hate how things turned out.
+- I don't feel like doing anything today.
+- I feel like crying, but I don't know why.
+- My trust got broken. I don't know if I can recover from this.
+- I feel like I'll never be enough.
+- I feel distant from the people I love.
+- I hate disappointing others.
+- I feel so drained, like I have nothing left to give.
+- I was really looking forward to something, but it got canceled.
+- My childhood toy broke today. I feel so sad.
+- I'm stuck in the past. I can't move on.
+- I saw something that reminded me of a painful memory.
+- I feel like a failure.
+- I gave my best effort, but no one noticed.
+- I wish I could turn back time.
+- I feel like I lost a part of myself today.
+- I have so much on my mind, and it's overwhelming.
+- I saw my ex with someone else. That hurt more than I expected.
+- I feel like I don't belong anywhere.
+- My teacher didn't appreciate my effort. It made me feel worthless.
+- I wish I had someone to listen to me.
+- My sibling always gets praised, but I feel invisible.
+- I'm struggling, but no one seems to notice.
+- I tried to be positive, but life keeps knocking me down.
+- I feel lost and confused.
+- My friend is moving away. I don't know what I'll do without them.
+- I feel stuck in my routine. Everything feels meaningless.
+- I feel so unwanted.
+- I don't think anyone would miss me if I disappeared.
+- My friend canceled our plans last minute. I was really looking forward to it.
+- I feel like no one sees my worth.
+- I had a panic attack today. It was horrible.
+- I saw an old couple, and it reminded me how lonely I feel.
+- I feel like I can't talk to anyone about how I feel.
+- I keep having nightmares. It's affecting my sleep.
+- I feel like I wasted so much time on something pointless.
+- I wish things were different.
+- I feel like my life is going nowhere.
+- I tried my best, but I still got criticized.
+- I saw an old message from someone who's no longer in my life.
+- I feel so broken inside.
+- I got stood up today. It was humiliating.
+- I miss my childhood. Things were so much easier back then.
+- I'm not okay, but I don't know how to express it.
+- I tried to stay strong, but I couldn't.
+- I lost my lucky charm today. It feels like a bad sign.
+- I feel like I've been left behind.
+- I just need a hug right now.
+- I've been feeling so insecure lately.
+- I was hoping for some good news, but it didn't come.
+- I wish I could just disappear for a while.
+- I saw my dream house today, but I know I'll never afford it.
+- I feel like I'm constantly fighting battles no one sees.
+- I feel like crying myself to sleep tonight.
+- My best friend got a new friend, and I feel replaced.
+- I have so many regrets.
+- My favorite childhood cartoon got removed from TV. I feel so sad.
+- I saw my old school today, and it made me so emotional.
+- I miss the way things used to be.
+- I lost my favorite book. I feel so empty.
+- I feel like I've lost my spark.
+- I just want to be alone for a while.
+- My plants died. I feel so guilty.
+- I wish I had someone who really understood me.
+- I keep replaying painful moments in my head.
+- I feel like I'm losing myself.
+- I found an old letter, and it brought back so many emotions.
+- I tried reaching out, but no one responded.
+- I feel like my life is slipping through my fingers.
+- I feel like I'm drowning in my emotions.
+- I keep smiling for others, but deep down, I feel so sad.
+- I just want to escape reality for a while.
+
+
+
 - intent: anger
   examples: |
-    - WHY THE FUCK IS BAYLESS ISOING
-    - Fucking coward.
-    - Stupidly stubborn / stubbornly stupid
-    - Troll, bro. They know they're saying stupid shit. The motherfucker does nothing but stink up libertarian subs talking shit
-    - The fuck is “mog?!”
-    - Especially that “Australia ain't gonna cop it” ad on TV god I hate [NAME]
-    - I KILL YOU SCUM
-    - You told me it was pointless to point it out. You're the idiot
-    - What the fuck is [NAME] doing in the background
-    - [NAME] fucking [NAME] please no
-    - [NAME] and his supporters are the dumbest humans in the fucking galaxy. They should be locked up for their own safety.
-    - Its ok we all know you suck scrub.
-    - You shouldn't force someone to come out you know. Now look at what you did! You killed [NAME]! You bastard!
-    - Ya i hate to talk bad about don't but they should get the sticks out of their butts and make smarter decisions for their community
-    - Comments like these are the biggest reason I get so pissed off about fucking centrists crying about the "both sides" argument. 
-    - fuck atheist countries
-    - Is your job my job? Because I don't know what it is about hardware stores that make Ppl stupid but hell are they stupid...
-    - Because majority of moves have stupidly long names. GO INTO ANGEL PUNISHER INTO DIVE BOMB RADIANCE AND FINISH THE JOB WITH PUNISHING LIGHT BLADE
-    - What? Who said I hated him? I dont give a damn about him either way.
-    - I'm fucking starving here.
-- intent: annoyance
+- I can't believe they lied to me! I'm so mad!
+- That was so unfair! I did everything right!
+- I hate being ignored! It's so frustrating!
+- I lost the game because someone cheated! I'm furious!
+- They took credit for my work. I'm beyond angry!
+- Why does no one ever listen to me?!
+- I'm tired of people treating me like I don't matter!
+- My boss just gave my project to someone else. I'm livid!
+- I worked so hard, and they didn't even appreciate it!
+- I got scammed! I'm so pissed off!
+- My order was wrong again! This is ridiculous!
+- I hate it when people interrupt me while I'm talking!
+- Someone cut me off in traffic. It made me so mad!
+- My internet is down again! I can't take this!
+- I just found out they were talking behind my back. I'm furious!
+- I can't stand people who break their promises!
+- I studied all night, and the test was completely different! So unfair!
+- I got falsely accused of something I didn't do! I'm fuming!
+- My sibling took my things without asking! I'm so annoyed!
+- They said they'd be here on time, but they're always late!
+- I can't believe they betrayed my trust like that!
+- My friend canceled our plans at the last minute. I'm pissed!
+- I worked overtime, and I didn't even get a thank you!
+- I got kicked out of the tournament because of a stupid rule!
+- Someone took my parking spot right in front of me!
+- My coworker keeps taking credit for my ideas! It's infuriating!
+- My landlord increased the rent again! This is outrageous!
+- I just got overcharged for something I didn't even buy!
+- I hate when people act like they know everything!
+- My phone battery dies too fast! It's so frustrating!
+- I got ghosted! That's so disrespectful!
+- I hate it when people talk over me!
+- My neighbor is blasting music at midnight! So inconsiderate!
+- I lost my progress because my computer crashed! I'm so mad!
+- The referee made a terrible call! We should have won!
+- I asked for no onions, and they put extra onions! So annoying!
+- I hate it when people touch my stuff without asking!
+- My teacher gave me a lower grade for no reason! I'm fuming!
+- My little brother broke my favorite thing! I'm furious!
+- Someone scratched my car in the parking lot and left! Unbelievable!
+- I can't stand people who play loud videos in public!
+- They made a decision about me without even asking my opinion!
+- I hate being left out of plans!
+- My friend borrowed money and never paid me back! So frustrating!
+- My boss made me stay late again! I have a life too!
+- I got blocked for no reason! So childish!
+- Someone stole my idea and presented it as their own! Unacceptable!
+- My order got delayed again! What's the point of fast shipping?!
+- I lost my wallet, and now I have to replace everything!
+- People keep spreading false rumors about me! It's so frustrating!
+- I hate when people talk to me when I'm clearly busy!
+- My flight got canceled, and now I'm stuck here!
+- The meeting was supposed to start on time, but they were late!
+- My bank charged me a fee for no reason! I'm livid!
+- My favorite show just got canceled! So frustrating!
+- I had to wait an hour for my food, and it was cold!
+- Someone sent me spoilers for a movie I was excited about! I'm pissed!
+- My sibling keeps using my things without asking! I'm so annoyed!
+- I asked them to stop, but they keep doing it!
+- The Wi-Fi keeps disconnecting in the middle of my work!
+- I hate when people act fake around me!
+- Someone just bumped into me and didn't even say sorry!
+- I got stuck in traffic for two hours! So frustrating!
+- My teacher gave me extra homework for no reason!
+- I hate it when people walk too slowly in front of me!
+- My boss just gave me more work right before the weekend!
+- My package got lost in the mail! I've been waiting for weeks!
+- They changed the rules at the last minute! So unfair!
+- I asked a simple question, and they ignored me!
+- I just found out they lied to me this whole time!
+- I got rejected for something I deserved! So unfair!
+- My sibling broke something and blamed me! I'm furious!
+- I hate repeating myself over and over!
+- Someone parked in my reserved spot! So disrespectful!
+- My friend borrowed my stuff and returned it broken!
+- I just got kicked out of a group for no reason!
+- My neighbor keeps taking my deliveries! I'm calling them out!
+- I got left on read! That's so rude!
+- I asked for a small favor, and they couldn't even do that!
+- My parents never listen to my side of the story!
+- I was waiting in line, and someone just cut in front of me!
+- I hate it when people cancel plans at the last minute!
+- I trained so hard, and I still got benched!
+- They said they would help, but they didn't do anything!
+- I hate when people make a mess and don't clean up!
+- I lost my progress in the game because of a stupid glitch!
+- Someone keeps using my Netflix account! I'm changing the password!
+- My alarm didn't go off, and I was late! So frustrating!
+- I got insulted in front of everyone! I'm so embarrassed and mad!
+- My friend didn't defend me when I was being insulted!
+- I hate waiting for slow customer service!
+- My coworker left early, and I had to do all the work!
+- I got fined for something that wasn't even my fault!
+- I tried calling customer support, and they were useless!
+- My dog chewed my new shoes! I'm so upset!
+- My little cousin deleted my saved game! I'm furious!
+- I just found out I've been lied to for months!
+- Someone played a prank on me, and it wasn't funny!
+- I was looking forward to something, and now it's ruined!
+- My sibling keeps taking my charger! I'm so annoyed!
+- I got stuck behind a slow driver! So frustrating!
+- I hate when people don't reply to messages but are online!
+- My friend made plans without me! I feel so left out!
+- My favorite item is out of stock again! Why does this always happen?!
+- I hate when people change their mind at the last second!
+- I just found out I was underpaid for months! I'm furious!
+- My teacher graded me unfairly! This isn't right!
+- My partner forgot our anniversary! I'm so hurt!
+- I hate when people chew loudly! It's so annoying!
+- Someone keeps calling me from an unknown number! It's frustrating!
+- My boss keeps adding work to my plate! It's too much!
+- I can't believe they are spreading lies about me!
+- I was in a rush, and someone was moving so slowly in front of me!
+- My coworker left their mess, and I had to clean it up!
+- I got scammed by an online seller! So angry!
+- I hate when people take forever to reply to important messages!
+- I'm sick of people making empty promises!
+- My headphones broke right when I needed them the most!
+- I ordered something and got the wrong item! So frustrating!
+- I lost something important, and now I can't stop thinking about it!
+- I just realized I've been wasting my time on the wrong thing!
+- My team lost because someone didn't do their part!
+- I hate when people talk too loudly on the phone in public!
+
+
+- intent: anxious
   examples: |
-    - Dirty Southern Wankers
-    - [NAME] - same fucking problem, slightly better command of the English language.
-    - The republicans are the military. You are an idiot.
-    - seriously wtf. I want to see how the whole hand went in detail. that was the sickest soulread ever
-    - Three words, no subtlety. "Dude. Stop. Seriously." 
-    - Stop master debating, you are making a fool out of yourself. It's concerning.
-    - It creates perverse incentives. Allow underpaid prison labour and suddenly you've an incentive towards exploiting your prison population rather than rehabilitating them.
-    - We were all duped? I've seen through her from day 1, even posted about how fake she is 
-    - I'm sorry, you just sound like one of those people who takes overwatch super seriously and has no life
-    - Please never don't not reproduce.
-    - I've seen 62 to 8 in 12 hours up north. Weather is crazy stuff.
-    - Now THAT is a murder by words!
-    - You tell me, was this a short trip or not? I was wrong, it was 4.3 
-    - He probably banked on the inherent secrecy of the community and ignorance (on Belgian law) of his victims.
-    - Damn thats so cheap
-    - [NAME] already had that in their comment and I didn't deny it. I guess that level of attention to detail isn't taught at Bellevue Community College.
-    - She's ugly so that might add some more months.
-    - Another reason to instantly kill people who constantly use the word "awesome" for everything. This is just brainless mediocrity at its best.
-    - I HATE that song...I did not vote for it. A few of my songs I liked went at around 60-70
-    - He can't rescind. What a dumbass
-- intent: approval
+- I have an exam tomorrow, and I can't stop worrying.
+- I feel like something bad is about to happen.
+- I have to speak in front of people, and I'm so nervous.
+- My heart is racing, and I don't even know why.
+- I have a job interview coming up, and I can't stop overthinking.
+- I sent a risky text, and now I'm panicking about the response.
+- I hate waiting for results. It's making me so anxious.
+- I feel like everyone is watching and judging me.
+- I can't sleep because my mind won't stop racing.
+- I have to make an important decision, and I'm so stressed about it.
+- My palms are sweaty, and I feel so uneasy.
+- I hate making phone calls. It makes me so nervous.
+- I feel like I said something wrong in that conversation.
+- I keep replaying an embarrassing moment in my head.
+- I'm meeting someone new today, and I'm super anxious.
+- My heart is pounding, and I don't know why.
+- I feel like I forgot something important.
+- I have so much to do, and I don't know where to start.
+- I feel like I'm running out of time.
+- I get nervous every time my phone rings.
+- I have a presentation soon, and my stomach is in knots.
+- I feel like I'm being judged whenever I walk into a room.
+- I hate crowded places. They make me so anxious.
+- I feel like I'm not good enough for this opportunity.
+- I'm waiting for someone to text me back, and it's driving me crazy.
+- I get anxious whenever I have to make small talk.
+- I'm overthinking every little thing I did today.
+- I feel like I'm going to mess up.
+- I don't know why, but I feel on edge today.
+- I keep imagining the worst-case scenario.
+- I have to make a call, and I'm dreading it.
+- I feel like I'm forgetting something important.
+- I get anxious every time I'm in a new place.
+- I hate talking to authority figures. It makes me so nervous.
+- I'm waiting for my test results, and I can't stop worrying.
+- I always get nervous before going to the doctor.
+- I hate being put on the spot. It makes my mind go blank.
+- My hands are shaking, and I don't know why.
+- I feel like my breathing is getting faster.
+- I keep thinking about all the ways this could go wrong.
+- I have to confront someone, and I'm dreading it.
+- I'm worried that I embarrassed myself earlier.
+- I get anxious when I don't know what's going to happen.
+- I feel like I'm not prepared enough, even though I studied.
+- I always feel nervous before sending an important email.
+- I hate waiting for feedback. It stresses me out.
+- I feel like I'm not doing enough, even though I'm trying my best.
+- I keep thinking about an awkward conversation I had.
+- I have social anxiety, and even simple things make me nervous.
+- I'm scared of saying the wrong thing.
+- I get anxious when people take too long to reply.
+- I feel like I'm about to make a huge mistake.
+- I hate asking for help. It makes me feel weak.
+- I get nervous before meeting new people.
+- I feel like I'm disappointing everyone.
+- I can't stop overanalyzing everything I said today.
+- I'm afraid people secretly don't like me.
+- I have a flight tomorrow, and I'm really anxious about it.
+- I feel like I'll never be able to relax.
+- I keep checking my email because I'm nervous about a response.
+- I feel like I have to be perfect all the time.
+- I hate having to explain myself to others. It makes me anxious.
+- I feel like I'm running out of time, even when I have plenty.
+- I hate being the center of attention. It makes me panic.
+- I keep worrying about things that probably won't happen.
+- I get anxious when plans change suddenly.
+- I feel like my mind won't stop racing.
+- I have to introduce myself to someone, and I'm dreading it.
+- I feel like I always say the wrong thing.
+- I get nervous whenever I check my bank balance.
+- I hate going to new places alone. It makes me anxious.
+- I always overthink what I should wear.
+- I feel like I'm losing control over my thoughts.
+- I hate being in situations where I don't know what to expect.
+- I get nervous whenever someone calls my name.
+- I feel like I'll never be able to relax.
+- I keep running through worst-case scenarios in my head.
+- I get anxious about things that don't even matter.
+- I hate ordering food over the phone. It makes me nervous.
+- I feel like I'm stuck in a cycle of worrying.
+- I get nervous before walking into a room full of people.
+- I always think I forgot to lock the door.
+- I feel like I can't breathe when I get too anxious.
+- I get nervous before even the smallest test.
+- I hate when I have to wait too long for an answer.
+- I feel like everyone can see how nervous I am.
+- I always feel like I'm behind in life.
+- I hate making decisions because I'm scared I'll regret them.
+- I feel like I'm not good enough for this job.
+- I always think about the worst things that could happen.
+- I get anxious whenever my boss calls me.
+- I feel like I need constant reassurance.
+- I hate confrontation. It makes me so nervous.
+- I always feel like I'm annoying people.
+- I get anxious when I don't get an immediate response.
+- I hate speaking up in meetings. It makes me feel exposed.
+- I always second-guess myself.
+- I feel like my mind is going a hundred miles per hour.
+- I get anxious when I have too many choices.
+- I hate waiting in long lines. It makes me restless.
+- I feel like I'm not smart enough for this.
+- I get anxious when I hear sirens outside.
+- I feel like something is wrong, even when everything is fine.
+- I keep imagining embarrassing situations that haven't even happened.
+- I feel like my heart is beating too fast.
+- I hate when people watch me do something. It makes me so nervous.
+- I feel like I can never fully relax.
+- I always check things multiple times because I'm scared I forgot something.
+- I get anxious about making small talk.
+- I feel like I'm always one step away from a disaster.
+- I hate being put on the spot.
+- I always worry about what other people think of me.
+- I feel like my anxiety is getting worse.
+- I hate it when people call me unexpectedly.
+- I always get nervous before trying something new.
+- I feel like I'll never be good enough.
+- I get anxious before sending an important message.
+- I always feel like I need to be doing something productive.
+- I feel like I'm losing control of my emotions.
+- I get anxious whenever I have to ask for something.
+- I feel like I can never fully enjoy the moment.
+- I hate not knowing what's going to happen next.
+- I feel like I'm constantly waiting for bad news.
+- I get nervous about the smallest things.
+- I hate feeling this way all the time.
+- I feel like I'm trapped in my own thoughts.
+- I get anxious before even starting a conversation.
+- I hate being in unpredictable situations.
+- I feel like my mind never stops worrying.
+- I always worry that I'm not doing enough.
+- I feel like I'm constantly on edge.
+
+
+
+- intent:fear
   examples: |
-    - You can always kneel.
-    - true I am a troll, but fortunately for me I'm not emotionally invested in it.
-    - At least it's not anything worse, and that you are still close to that person :)
-    - Pay you for what, just standing there? Done.
-    - okay im interested in joining the bare hands hunting posse
-    - That pole and cheap plastic fence surely would offer excellent protection from a car. Walk it off brah.
-    - Yeahhhh no, you're banned for this whole convo.
-    - It's also one of the very few decent solo FPS released this year.
-    - Yes, it's normal. More like considering you options than desperation
-    - Gamers know all too well how it feels to be oppressed by society.
-    - It's extremely common. Hell you probably have it yourself and just don't know.
-    - Season 2 just started and as a huge TNG fan I can definitely say the first season is the closest I've ever seen to another season of TNG
-    - It makes us more determined to tank for Zion
-    - So true, sometimes what's obvious passes over our heads. Good post.
-    - Yeah but even then I feel like they could've went about it better
-    - 100%. She's made herself vulnerable to being sued by a few people.
-    - Fuck is exactly what she's good for
-    - Sure you are, comrade. You've met your quota of replies now, yes?
-    - This really bothers me too. I completely agree. It would have helped us avoid a US situation. Now I think we're barreling toward it
-    - Yea having children will always solve the problem
-- intent: caring
-  examples: |
-    - R/sleeptrain Might be time for some sleep training. Take a look and try to feel out what's right for your family.
-    - i wouldn't take that significant of a pay cut. you should keep your job and do your creative writing on the side/free time.
-    - as long as the tracking shows delivered, it's not your responsibility what happens to it after that
-    - [NAME] better be careful. He'll be next.
-    - Focus on yourself by focusing on your prayers and reminding [NAME]
-    - Yup. You see more hands, have to learn more to be competitive.. etc
-    - You just gotta man up, go out there, and get that kiss.
-    - Good luck [NAME]
-    - Being someone who has severe anxiety and in this predicament before, you need to do what's best for YOU
-    - Try to keep yourself busy with other things to forget the thoughts.
-    - He's a coward, but no need to ruin his life. You should feel sorry for him. 
-    - Block the number, avoid your parents, and cut the toxic people out of your life.
-    - Hi, [NAME]! I am stopping by to wish you the best day, and the best year! -HappyFriendlyBot
-    - Don't worry about it.
-    - Lay off the drugs dude
-    - Be careful with the Washington Times. It's not exactly the Washington Post.
-    - If you're concerned about [NAME], then you must still be concerned about [NAME]. WAR over last 2 seasons: [NAME]: 4.8, 3.1 [NAME]: 4.0, 3.6
-    - Be careful, or he'll have to use 10% of his power on you!
-    - This will pass and you will be happy again. Just not right now. Hang in there.
-    - That's the idea, don't be so indignant that I called out your bs.
-- intent: confusion
-  examples: |
-    - Demographics? I don't know anybody under 35 who has cable tv.
-    - All sounds possible except the key, I can't see how it was missed in the first search. 
-    - What does FPTP have to do with the referendum?
-    - Yeah, I was thinking my boy was into them before that. But I doubt Panic! At the Disco would have peaked his interest.
-    - Not all [NAME] supporters are tankies, but all tankies are [NAME] supporters
-    - What do you think? If you look at my question above? Last thing I should do is to say sorry?
-    - Idk for fun?
-    - OMG if the [NAME] and [NAME] run... I'll have the worst of time deciding who to vote for!
-    - I'm not sure it was [NAME] that changed the definition as much as it was the ATF.
-    - I didn't know it was gonna be that simple Forgive me [NAME] :D
-    - I don't know what you're talking about, but that sounds just as racist as it is sexist.
-    - I don't get what you mean
-    - Polarizing filter needed??
-    - I desperately want to believe you but then
-    - r/uk hates nationalism but likes the SNP. Not sure if hypocrisy or it's different people
-    - Maybe it's just too early but I can't figure out what that's supposed to be.
-    - Scrambled eggs, chevre, sweet potato chips, and a side of I should probably go shopping. A confusing flex
-    - Sorry I dropped mine can I have another?
-    - Because then if the wife gets pregnant it becomes difficult to find out which husband she is pregnant with
-    - >And I could be wrong about my [RELIGION] faith but again that's the point of faith. The point of faith is to be wrong?
-- intent: curiosity
-  examples: |
-    - I think the 90 day rule applies to increases over 5%?
-    - So this means the people who have debt can see those that don't. Am I sensing an easier target for muggings and such?
-    - Wow, that landlady sure is a piece of shit. I'd be interested in knowing how many people she has discriminated against or harassed in the past.
-    - Who do you think can lead the Packers to where they need to be?
-    - You live in Appalachia, don't you?
-    - Also curious. But as someone who lives in northern Ontario, this is pretty accurate
-    - Like the handout this guy got to build the stadium?
-    - I'm assuming you're referring to the poor execution of the hanging? He only used half of the holes
-    - Bet flop. Good [NAME] what are you doing on the river.
-    - Doesn't seem like a big deal. I mean is she in the room?
-    - Why are you trying to cheat NJ transit? NJ transit is in deep financial debt and you are trying to steal from them. Shame.
-    - Imagine what could've happened if you saw the longer director's cut!
-    - Are you still sitting in the car right now?
-    - whats the [NAME] story ? sorry, not up to date on the bloke
-    - Why? They deserve it.
-    - how do you think money is created? it is largely controlled by the government and is distributed to create certain results in our society.
-    - I'm curious though, will they upvote it to own the ~~libs~~ [NAME]?
-    - Are you promoting sex outside of marriage?
-    - Sounds like a true basket case. People that actually obsess over conspiracies, oh my....
-    - I am sure the protection was from other males. How does hat change things?
-- intent: desire
-  examples: |
-    - Really wish we had got something like this!
-    - I want to go back in time and hug you as a child (after you got the lice treated tho).
-    - Mate you're talking to a Remainer who wants to Remain... I just want a Labour Government that's all.
-    - money always talk. i want more to learn from this lesson.
-    - I wanna give [NAME] a mosquito bite
-    - I wish my mom was catgirl savvy.
-    - > I want to feel peace and not have to wake up everyday anxious for what the day has in store. I can relate to this.
-    - That would be perfect! Wish I had that.
-    - Id like to see Finland win it. But id like to see [NAME] and [NAME] carry their teams in every way possible to those losses.
-    - For some reason this post is making me crave an apartment.
-    - I just want instant run off voting, which wasn't one of the three options.
-    - this strikes me hard. I wish i knew my way out of this
-    - They don't want equal rights. They want extra rights.
-    - I so badly wish we could all gain this mindset and keep it. How easy would life be.
-    - Until we win an actual SuperBowl trophy I want all the positive karma.
-    - I wish that laugh would jump off
-    - I know and I really genuinely wish there was something I could do or say to help you take this pain away and to help you feel better.
-    - I wish I could make a garden
-    - I wonder what the laws are if you bartered for a gun. I wash your car, you give me a glock.
-    - I wish the double down would leave *me* out of this! My poor stomach. Once was enough.
-- intent: disappointment
-  examples: |
-    - He was off by 5 minutes, not impressed. 
-    - Just an employee, just stressed that it takes so long to save 10k for example and even that is nothing ! Should of brought more bitcoins
-    - Honestly, same. I was miserable at my admin asst job.
-    - This shirt IS a problem. Get rid of it.
-    - Tis nothing but a scratch
-    - I live in Suiderstrand, which is past Aghulas, no option for fibre here unfortunately :(
-    - We didn't win in Alvalade even when they got 7th place. We just have some sort of block there
-    - You're mistaking a poor character for MC.
-    - It's the lists fault!
-    - I just dropped out of my science class without being at school, hot damn
-    - Got one, it's still bad dude
-    - The contempt from [NAME] in these threads lately is seriously disappointing.
-    - [NAME] - OT3 in my team without me... [NAME] - Sometimes bad things just happen...
-    - I also posted about this a few days ago. Maybe they have different designers but none of them has follow-up or approval from a single person, unfortunate
-    - Instagram literally fueles my eating disorder, I can't have it. It is all fake though
-    - My brother fell asleep on the beach once and his whole back turned purple from sunburn and yours is still worse than his! My [NAME]!!
-    - The smile on these guys face, the will and passion to explore all gone in a second. Rest in peace explorers!
-    - I definitely get that vibe from this post. Or [NAME] was friends with them and didn't get invited to the party lmao
-    - I also remember the scripts stating [NAME] look was one of jealousy, which disappoints me.
-    - I tried to send this to a friend but [NAME] knocked it away.
-- intent: disapproval
-  examples: |
-    - I wouldn't let a sweet potato dictate decisions, ever.
-    - This isn't really wholesome
-    - Your team lacks ethics.
-    - Food stamps are a disgrace. People should get money!
-    - It's bizarre that it's considered normal to intentionally brainwash people into murdering psychos.
-    - Does nobody notice that this is a doctored photo..?? Like really bad clone stamp.. I mean it could be beautiful but this is not a real photo.
-    - They don't seem to care much. Al qaida or ahrar al sham makes little difference anyway.
-    - Source each of these and trend lines from previous years please. No, listing a few agencies and telling people to Google 8t isn't a source. 
-    - But even then it would need something else to live
-    - Stop arguing with people.
-    - Only married once so can't be that bad. Not that it even matters
-    - [NAME] and [NAME] should be there too E: Damn didn't think this would be unpopular lol
-    - You're not being used but she has no right to tell you what to do with your money.
-    - B plug? What the hell. Use an A plug or you're never going to become doctor some day.
-    - Growing up there were people in our church who hated the Smurfs because they were magic using communists.
-    - I get ghosted all the time after I open pics. I don't like it, so would not do it to someone else.
-    - Yeah dude, that's illegal in so many ways.
-    - Look we are starving but we still have some honor. We don't need any help from your people. Especially not 50 cents a day
-    - Didn't find it believable even from the start
-    - Its to bad he doesn't give Tomlin this treatment.
-- intent: disgust
-  examples: |
-    - youre a disgusting piece of filth.
-    - [NAME]
-    - Not surprised, damn that sucks. Concussions are awful.
-    - ick! That makes me feel gross. I have "Addison's Disease". 
-    - I feel awful posting it, but I couldn't not share :|
-    - I get all the deja smells and it's terrible.
-    - I would of taken a shit in the woods real quick
-    - Also the fishing has been terrible for a month now. I am about to take the 5 story jump my friends.
-    - wow it's literally disgusting that you're getting downvoted for pointing out that she abuses her kids. this is the society we live in, eugh
-    - Troo, troo....worse eban dan eat pizza wif aht a ferk. 
-    - thats the future right there, robots trying to help but destroying your whole home in the process. 
-    - The dad is like ARE YOU FUCKING SORRY Jokes aside, good on the dad and the 2nd pissed off dude Tryin to make a change :-
-    - oh gosh i heard about that and though it was absolutely disgusting
-    - I swear of all the people that dislike artifact, the gwent crew is by far the most obnoxious.
-    - This is really disgusting, the 4x4 community is one of the nicest around, Shame that a few c*nts gotta do shit like this.
-    - i swear i've seen this on a poster somewhere at my school, it's awful
-    - Vans are ugly as hell. You just cant make a Minivan look mean. Also why are they trying?
-    - that this ridiculous comparison is this detailed and explicit makes me think the whole beating-a-little-girl-thing is part of his disgusting sexual fantasies.
-    - That might've been the worst pass he's ever thrown. Yikes
-    - Yawn. They're toxic together and their only trait seemed to be getting naked together.
-- intent: embarrassment
-  examples: |
-    - i got a bump and a bald spot. i feel dumb <3
-    - I just shit my pants. Then walk away. Embarrassing enough he won't press or follow you.
-    - It's embarrassing!
-    - Whenever you get a smelly one, don't you feel ashamed? Like what disgusting thing did I do wrong?
-    - The age of consent is 16. It's the indecent nature of the photo that has gotten him in trouble.
-    - I know one time I mixed stuff up and posted the slashes instead of the asterisks to italicize. Oops.
-    - It's embarrassing to share a license with them, that's for sure.
-    - You fruitcart, you oughta be ashamed of knowing that, let alone expecting anyone else to know.
-    - Ugh foot rubs. I feel embarrassed thinking about how my nmom used to make me do this to her. Ugh ugh ugh
-    - How embarrassing.
-    - The school should make a list of sexual assaulters. The boys who engage in this should be shamed publicly.
-    - Shame about him killing [NAME] on camera.
-    - Eh I work oilfield so my sample of peoples opinions is probably pretty skewed. Still super embarrassing knowing this many people are so ignorant.
-    - I want 10 - 0. This organization deserves the embarrassment.
-    - Ehhh I don't know, I still find it kind of cringey with the “[NAME]” talk and all that stuff.
-    - > It'd make porn ~~awkward~~ awesome FTFY
-    - For real. After I saw that, I just stopped reading. My eyes spun right out of my head. 
-    - No, he doesn't. But, the people who elect our officials do. I am appalled and embarrassed that she's a [NAME].
-    - Oh god, going to a social event with someone and never leaving their side is me at almost every social event I go to.
-    - > It almost feels like this is totally a shameless, contentless promo post for your YouTube channel and this book.
-- intent: excitement
-  examples: |
-    - This...has 9k upvotes. Wow.
-    - Oh forgive us for trying to make an exciting atmosphere at our homecourt.
-    - Yeah let's wrap up AS4 I'm suddenly so much more excited for S11
-    - Cheers to you on your cake day.
-    - I'm so excited for this game!! 😄
-    - It's holiday time here in Europe. Today is my first day in work for 2 weeks.
-    - I see it this way also. I have never played Pokemon Go but I feel like DD creates the same excitement.
-    - I actually have an odd feeling the game will become even more fun than before.
-    - Wow that was ...mind blowing.
-    - I'm infinitely more interested in why the Physique one has an extra like
-    - happy cake day
-    - Yayyyy [NAME]!!!! Now go get a hat trick tonight!
-    - I've had the impossible burger. I was actually amazed. Thorough review here looking forward to trying the beyond burger
-    - 🤣 wow... I read it all in a serious tone until the end! 🤣
-    - Now it's a double birth stone, so it's extra special!
-    - Well... this should get interesting.
-    - starting 2019 of with a banger, can't wait what else will happen this year 
-    - They sound amazing :)
-    - Since our newest addition to this holiday I've included a new, fun tradition where you hide a yellow toupee inside of the president's tree.
-    - Chronicles of Elyria seems interesting
-- intent: fear
-  examples: |
-    - To make her feel threatened
-    - Your coaching is terrible.... be ready and see how [NAME] uses [NAME]
-    - He may have, I was more worried about the "running and shooting the AR one handed, off to the side".
-    -  I'm scared to even ask my mom ,I might get yelled at 😟
-    - Seeing that knife on this subreddit put the fear of [NAME] in me
-    - I am afraid to look, but my morbid curiosity draws me to ask.
-    - [NAME] looked terrible that game. I was really hoping to be wrong but he came just as advertised by Hawks fans
-    - Same here man, terrible feeling
-    - Imagine if we dont trade [NAME] and [NAME] fans just kill all of us.
-    - Kotaku never ceases to amaze me with the horrible decisions they make in posting stories that can ruin people's lives with no confirmation or validity.
-    - Weird, FBI did an investigation and proved that never happened. White knights make me cringe.
-    - My worst fear when I finally get over someone Those damn what ifs
-    - This is terrible
-    - We had a clown banging on dorm windows, on campus, with a knife in 2016. Was terrifying. 
-    - oh [NAME] I unleashed the beast
-    - Its natural to fear what is unknown. Especially when someone is trying to force you to open a sketchy box while probably grinning the whole time.
-    - I was worried about that too honestly
-    - Wait for real? That's how they met? lol that's both terrifying and completely fitting considering how nuts they both are
-    - My soul twin must be [NAME] because I'm terrified of water!
-    - Guess we don't need to be afraid of hell, then, 'cause we can easily get out.
-- intent: gratitude
-  examples: |
-    - Yes I heard abt the f bombs! That has to be why. Thanks for your reply:) until then hubby and I will anxiously wait 😝
-    - Thank you friend
-    - Super, thanks
-    - Thanks DB, I'll see if I can find the book
-    - Thanks I'll give it a go. Nothing used for randoms at all? Would it be better for me to find a group to play with?
-    - Yeah, I am! I'll private message you a link to my profile. Thank you.
-    - Glad to see Hearts fans giving [NAME] such a warm welcome back..
-    - Welcome to the party pal!
-    - Thanks, :), as the days go by they are getting better.
-    - The first time I'm seeing it so thank you for sharing. Definitely shows the propaganda efforts.
-    - the young and the goal-less Thanks TSN, i hate it
-    - I told my mum and an ambulance is coming now. Thanks everyone
-    - hey thank you! any time I can help someone, I'm more than happy to:)
-    - Ah, thank you
-    - Thank you, needed to hear this today! 
-    - Ahh gotcha - thanks :)
-    - Congrats, still waiting on getting called for an interview for another internal position. Applying around Christmas HR is so fucking slow.
-    - congrats. i'm broken rn but if I wasn't I'd be happy for you
-    - You're most welcome!
-    - Also available on Spotify and Apple Music. Any feedback would be hugely appreciated!
-- intent: grief
-  examples: |
-    - Thats insane. Someone died like 2 years ago after a bolt got kicked up by a truck and went through his windshield and hit him on 146 in LaPorte
-    - I kill them all and THEN overwrite my only save. I'm bonkers.
-    - youve never played against a good support [NAME] then
-    - He's eating cheese and watching football in the sky now. Rest in peace!
-    - I'm glad you're doing a bit better. Sorry about your grandma. Good luck.
-    - I hate to be the bearer of bad news but she is more than likely dead and will never get to say goodbye
-    - Well that's not what was said he said drugs that kill you sooner than your meant to die.. nicotine fits that description
-    - Even today, many years later that still gives me chills. RIP.
-    - ooh boy that guy went off the deep end and drowned
-    - So glad she died
-    - I'm sorry for your loss bro ❤️
-    - My thoughts EXACTLY [NAME] looks dead.
-    - It's been 2 hours, OP died for a noble cause.
-    - I don't see any shoes on his feet after he lands. Kid is fucking dead.
-    - My father has been dead for two years and it's still been difficult to not talk about him as if he's still alive.
-    - Ah, this may explain all the untimely heart attack deaths we hear about for those who opposed the state or whatnot 
-    - hmm today i will listen to death and destruction
-    - [NAME]. Gun crimes are pretty much unheard of on that side of the pond, isn't it? RIP.
-    - >ribs My condolences on your loss.
-    - My husband died outside the church Damn Vampires
-- intent: joy
-  examples: |
-    - Happy to be able to help.
-    - It's because you play against 1000 ms ping EU players that have no idea what's going on. Happy hunting!
-    - No problem at all, glad I could help :) Cheers!
-    - By [NAME]! That's [NAME] music!
-    - i think its cool because its a hybrid that comes in stickshift
-    - She has at least 12 elbows and all of them are happy. You get it gurl
-    - I have his signature on my jersey. Lined up at Canadian Tire for it when I was younger. Happy retirement!
-    - He will rest easy knowing how happy he made all of us
-    - I'm glad things are coming to light, I pray justice is served for the victims. 
-    - old school from back when we won the cup
-    - Everyday for the last year and a half has been very hard and I should be glad she's gone. I'm almost there.
-    - It's fun until you're looking back
-    - Okay I can see this looking really cool for a festival or photos though 😄
-    - I enjoyed this TED talk.
-    - [NAME] has a fun instagram
-    - Funny, coming from the tool circle jerk reddit.
-    - I read this place obsessively and didn't see it, so I'm enjoying it and upvoting it anyway
-    - So glad to hear that! you go girl<3
-    - I'm glad :)
-    - Haha haha! Excellent
-- intent: love
-  examples: |
-    - I love Rocket Love and Blasted. I just wonder who the songs were written for because these are all reference tracks except Acura Intergul
-    - I adore this comment section <3
-    - horse meat is fucking peng i love it. why is it ok for a cow to be slaughtered for food but not a horse? ridiculous double standards
-    - I'm 14 stone...so probably about 2 stone over weight. I don't drink alcohol or do drugs, but I love food.... 
-    - I like this sub, and I like you. You're alright. 
-    - I really like this photo.
-    - Their orange chicken is the absolute fucking bomb. I love having it on top of a nice bed of rice and veggies :D
-    - Mostly because of the hype. I love going out with my friends!
-    - I have been doing that. The disc-to-digital thing is pretty sweet.
-    - Me too. I love it!
-    - [NAME], [NAME] is the most underrated [NAME]. I love that guy. 
-    - Finally gonna get together with [NAME]. Love is beautiful.
-    - Aww yesss assalamu ‘alaykum akhi i love when i see a reflective post by you in here
-    - I love this. Now I'm craving tacos in the morning.
-    - yeah dude I love my 9(???) with the welded bump stock
-    - I like [NAME] so far but making shots that you missed in the first half aren't coaching adjustments
-    - I know! I would absolutely do this as well. I'd love to to a AMA with him to find out more.
-    - I love this 😂
-    - As much as I hate [NAME] I love the guy a lot
-    - Ha! I like that one.
-- intent: nervousness
-  examples: |
-    - same but with panic at the disco
-    - Stuff like this makes me worry a little less about the future generations.
-    - also anxious that people will be angry or surprised or upset at me for me never telling people about this before
-    - Yeah, I do. I'm just pretty sure that that will fuck my heart eventually. But I'll worry about that later.
-    - It dulls the pain
-    - Yes, once I even deleted my account because I was so nervous about down votes. Lately,every once in a while I comment encouraging good attitude.
-    - I find sativa makes me paranoid/anxious as hell. Indica calms me down more. Smoking too much of any strain makes me anxious by time though
-    - It should go well with kratom anyway. I need to just eliminate anxiety and not have cravings
-    - I told their kid that it was okay to be upset. (He was anxious and I was validating his feelings.)
-    - So edgy.
-    - If nothing was said and you can be engaged all day tomorrow then I wouldn't worry.
-    - Intentionally frightening the Queen is an indictable offence. (Max 14 years) Criminal Code
-    - Nervously laughs in anxiety
-    - this made me stop subconsciously breathing and now I can't stop thinking about it
-    - Disney World/Land or NYE at Time's Square have always made me nervous.
-    - Based on that cars wheels it is now very tired.
-    - Now I'm worried that cat will get salmonella :(
-    - and everyone else is worried about themselves not paying attention to you
-    - I'm more worried about the dude getting pissed all over my shoes
-    - It makes me super fucking nervous edit: was able to buy temple at +1 fuck it lets ride
-- intent: optimism
-  examples: |
-    - It's true though. He either gets no shirt and freezes to death or wears a stupid looking butchers cape. I hope he gets something better next season
-    - good luck buddy
-    - I'm sorry OP, every single thing on that list is incredibly wrong. I hope you're doing well now. 
-    - I hope for the camera-man's sake that gun is empty
-    - I hope she lives to be 200, just to piss them off.
-    - [NAME] has to lose it a some point, just hope it's not tonight.
-    - The impact of his head hitting the court looked so bad. I hope he'll recover from this.
-    - I think [NAME] could've been a long term quality backup. We really should have hung onto him and ejected [NAME] like a bad habit.
-    - The only time this movie should encourage blindfolds is when watching it. Then hopefully you won't witness the giant plot holes and terrible ending.
-    - I don't know how that works, but it's definitive that it will happen on that date.
-    - We can only hope that they will appreciate our sacrifices once they get older!
-    - I became a member in the summer and have still not gotten my packet, your post just gave me hope it still might come
-    - Would need the #1 overall in 2 years... should try to get a first in next years draft for AB and hope that team tanks
-    - Yeah but that post is a day old so OP won't have any chance of getting karma off it, cmmon now
-    - It sounds like you'd have a great time with Final Fantasy XIV.
-    - I really hope more queer couples have kids. It needs to become more normalized. I definitely want at least 2, probably through surrogacy.
-    - Rumor says he failed the medical. Probably false but this is Arsenal anything can happen.
-    - I was hoping they both were gonna hit the ground lol
-    - Woman here - $50 per orgasm please! I could easily make $300 in a half hour wankfest...
-    - Omg i hope this is about [NAME]. I would LOVE to see [NAME] and [NAME] go head to head
-- intent: pride
-  examples: |
-    - I am just like this! Glad to know I'm not imagining it.
-    - So proud our sub is leaking into facebook
-    - My man!
-    - I am just a guy who went to a normal school and I understood every single word
-    - Ahhhh [NAME], you've done it again.
-    - Or maybe just don't have a family and you're financially secured for life.
-    - I'm so proud to be british
-    - This just made me feel so much better about myself :)
-    - This is the single most wholesome thing I've seen on reddit. Proud.
-    - I personally am very proud to be a vegetable. Corn, to be exact. Corn pride y'all
-    - We did it [NAME], we stopped racism
-    - Not even surprised by rudi, the man has been a beast since we got him.
-    - He looks proud of his work, leave him be.
-    - Majority of [NAME] support Dem investigations of a foreign agent? I'm so proud!
-    - Innovation means "I pridefully made this" in China.
-    - The intent is to provide the players with a sense of pride and accomplishment...
-    - Meh, I still rock my Burns jersey with pride. 
-    - The only winner here is this guys future divorce lawyer.
-    - I am the proud owner of a Vernon Gholston jersey. My wife got it for me as a Christmas Gift our first year dating....
-    - Okay, enough me being a great mom.
-- intent: realization
-  examples: |
-    - So I said earlier that this team was boring without [NAME] lately. I take that back after the last two games.
-    - I don't think aspergers causes me distress or anxiety. I think having to live in a society that privileges neurotypical modes of interaction causes me distress and anxiety
-    - It's like you didn't even read the comment you're responding to.
-    - I know I don't know the Spanish alphabet but I can't believe I didn't catch that before
-    - He sunk their house into the ground and blamed the architect and every episoode after that his beard gets a little less washed 🤔
-    - Oh right I forgot [NAME] was on the show
-    - This is the sort of chucklefuck who finds himself saying "and there was nothing I could do" after a mishap... often.
-    - Can't play defence when everything is call and on the other end the Bulls haven't gotten a call since early in the quarter ...
-    - Because [NAME] doesn't have time to monitor what is going on in a couples bedroom.
-    - It sounds like they found out that when asked if they have an allergy, people with a non-allergy food intolerance still answer yes.
-    - I feel like environmentalism has lost steam over the past ten to twenty years as the call to action has gotten too large in scope and abstract.
-    - Took me a few time watching it to realize that was a man and not a child.
-    - ahh yes I forgot to include steps 3a *and* 3b. thanks fam
-    - At least she wasn't engaged 19 TIMES!!!! 😜
-    - I figured as much. If I were them I'd definitely be sceptical.
-    - [NAME] can actually be accessed via the DC universe steaming/comics service
-    - I have never had so many heart attacks..
-    - Yeah? I'll believe it when the Packard plant is a bigger version of the Factory at franklin
-    - Everyone clapped too btw
-    - I just had deja vu reading this comment. Weird.
-- intent: relief
-  examples: |
-    - Glad you feel better! My offer still stands though, if you need someone, I'm here
-    - No one comes here it's cool
-    - I'm glad you fixed Minnesota, because there is a 0% chance we will go Red.
-    - Oh man, glad I'm not watching this with my extremely emetophobic mother 
-    - That's a welcome relief. Lol.
-    - At last, someone I can share this accomplishment with! 
-    - Also dont have to worry about ramos and robles walking in runs to lose games
-    - At least the ice didnt break
-    - Thank [NAME] there wasn't a psychologist among the testers
-    - Totally!! It was such a relief to see that I wasn't the only one (female HL in a DB).
-    - thank god your not on the dev team
-    - Oh thank god, the TV is safe.
-    - At least they didn't destroy the shoes
-    - Thank goodness I'm safe. Don't sound so disappointed.
-    - Good to know! We didn't get any when we went Friday evening, but we can try again.
-    - She knew the magic words. Luckily it doesn't seem like anyone else was harmed.
-    - They're absolutely relaxing in this 3rd quarter, 7 points in 5 minutes so far...
-    - I will mate. No worries.
-    - >Just be glad he didn't kiss [NAME] mum. that'd make a good storyline tho tbh
-    - Woof thank goddddd I changed my flair
-- intent: remorse
-  examples: |
-    - Apologies, I take it all back as I've just seen his latest effort
-    - Eat too many whoppers and he'll be down with the sickness. Lma0 I'm sorry
-    - don't know any [NAME], sorry
-    - Sorry, but getting shot at causes an almost instinctive natural reflexive reaction to shoot back. I guess I'm just weird like that. 
-    - Yeah, sorry, I was on the mobile site, and wasn't able to delete it.
-    - Lmao I'm sorry!
-    - What are you even talking about? I'm sorry you don't like [NAME], get over it.
-    - Didn't notice the date, sorry.
-    - I've seen a number of them on there. I regret seeing most of them but some are legit movies.
-    - Bay Area, sorry ;D
-    - sorry, i phrased that wrong. i meant that as a asexual, i get that a lot
-    - Saddos??? And holy heck that laughing emoji, what a disrespectful sociopath. I'm so sorry you have to deal with her.
-    - sorry should clarify ... have dinner / drinks and then go our separate ways to other events that night.
-    - Sorry for the late question but I wanted to know if can you buy 2 tickets with one Madridista membership? Or is it one ticket per Madridista membership?
-    - I've seen Shot Caller. That's what I've decided prison is... so yeah. Sorry boys.
-    - Burn wait someone already did it sorry
-    - Let's keep making that trade with different teams until we have all 32 picks in the 6th round one year Sorry, I'll go back to my NHL19
-    - Oh my [NAME] I completely didn't realise. I'm so sorry
-    - Guilty of doing this tbph
-    - Sorry was late at night and i was in a real depression fog
-- intent: sadness
-  examples: |
-    - Pretty sure I've seen this. He swings away with the harness he is wearing. Still looks painful but I think he lives
-    - sorry [NAME]! 😘😘😘
-    - my brain hurts...
-    - Go pursue that education. Let [NAME] wallow in her own sadness.
-    - I was suffering a delirium flu during the phantom facemask game so it's all sorts of suffering for me.
-    - No he was given a bad team to work with unfortunately, and never got the final shot he deserved :(
-    - At least you get sunny on Netflix, they took it off in Canada :(
-    - They hated him, because he told them the truth
-    - This stresses me out way too much.
-    - I miss being practically jello as a kid
-    - I once looked at the I-95 and was hospitalised for weeks.
-    - Apologies, got a little carried away. 
-    - Sorry. This happens to too many good people.
-    - I forgot context and thought you meant the band was republican, please don't worry me like this again 
-    - Will see,still better for Chelsea then [NAME] who looked completely lost and devoid of any confidence lately
-    - so painful to watch
-    - That has to be the saddest nba account ever. Like 4 likes every post :(
-    - Spent time with them. Argue with them. Laugh with them. Cry with them. We all get lonely when we are old.
-    - Rape kit test from six year old migrant girl revealed DNA from 30 men.
-    - I don't feel alive anymore. I don't feel anything. I'm just numb all over. All I know is I want it to stop
-- intent: surprise
-  examples: |
-    - OmG pEyToN iSn'T gOoD eNoUgH tO hElP uS iN tHe PlAyOfFs! Dumbass Broncos fans circa December 2015.
-    - Wow. I just read the synopsis, and that's really what happens. 
-    - My [NAME]! This isnt a vaccine! It's a jello shot!
-    - I've never been there before so I can't confirm or deny but I would be really surprised if a casino only had limit holdem
-    - Here did you know that [NAME] slept with 35,000 women. Outrageous.
-    - I am more than pleasantly surprised I clicked this link
-    - I read fuck and not tuck. Was wondering how the hell it wasn't creepy....
-    - “Wow. Just .. wow. Read a book, sweatie!”
-    - wow! thats... a lot of water my dude was your bladder ok
-    - Oh my god. Don't you know it's illegal to share memes if you don't have an IQ of 16 trillion?
-    - In shock and was more concerned about my kid tbh. Now off course I wish I'd sued the arse off her for emotional distress.
-    - Wow.
-    - I was wondering that as well....
-    - I'm rather surprised that these books are STILL being made. Like I thought they died off around 2014.
-    - oh my [NAME]
-    - So juicy i'm surprised the man from Del Monte isn't knocking at his door.
-    - Company car? Oh boy he's in trouble now.
-    - What a coincidence. I also had a Bort.
-    - That sounds intelligent. Wonder why you don't have a job you have to interview for.
-    - Omg!! They are kinda turning [NAME] into new [NAME].
-- intent: neutral
-  examples: |
-    - My favourite food is anything I didn't have to cook myself.
-    - Now if he does off himself, everyone will think hes having a laugh screwing with people instead of actually dead
-    - It might be linked to the trust factor of your friend.
-    - Hello everyone. Im from Toronto as well. Can call and visit in personal if needed.
-    - that is what retardation looks like
-    - You are going to do the dishes now
-    - Slowing things down now
-    - His name has already been released. Just can't post it here.
-    - Mine was apparently [NAME] and the giant peach!
-    - A new study just came out from China that it's actually too late.
-    - Your aunt has some damn nerve, though!
-    - 18 is hot but very bland, it's just here this blonde lady who is not as hot as blonde launch.
-    - When I feel down I listen to music.
-    - Honestly it sounds exhausting being married to him. Maybe it will be better for you in the long run.
-    - It's a better option because it's my life and none of your business? Lmfao, who are you
-    - Sack, shaft, and tip. The trifecta. 
-    - I know. My question was if they **used** to compete in T5-TTT2.
-    - FBI!! OPEN UP!!!
-    - Should've dumped coke all over her right after the movie, and make a run for it. Fk pettiness 
-    - Cheers, sololander!
+- I feel like something bad is about to happen.
+- I'm scared of failing this exam.
+- I don't know what to expect, and that terrifies me.
+- I heard a strange noise outside, and now I'm freaking out.
+- I have to walk alone at night, and I'm really scared.
+- I feel like I'm being watched.
+- I'm terrified of public speaking.
+- I have to make a big decision, and I'm afraid of choosing wrong.
+- I'm scared I'll never be good enough.
+- I have a really bad feeling about this.
+- I'm afraid of disappointing my parents.
+- I saw something move in the dark, and now I can't sleep.
+- I don't know how they'll react, and that scares me.
+- I feel like I'm going to mess everything up.
+- I'm afraid of being alone forever.
+- I just had a nightmare, and now I'm too scared to go back to sleep.
+- I'm worried I'll say the wrong thing and ruin everything.
+- I'm scared of losing the people I love.
+- I feel like my life is falling apart, and I don't know what to do.
+- I hate being in small spaces. It makes me panic.
+- I have a fear of heights, and this bridge is making me dizzy.
+- I can't stop thinking about what might go wrong.
+- I feel paralyzed with fear.
+- I have to confront someone, and I'm dreading it.
+- I'm afraid of what people think about me.
+- I don't know if I can handle this.
+- I just heard some really bad news, and I'm terrified.
+- I'm scared of being judged.
+- I'm afraid I'll never reach my goals.
+- I have to take a big risk, and it's making me really anxious.
+- I feel like I'm in danger.
+- I have a phobia of spiders, and I just saw one in my room.
+- I hate flying. Every little sound on the plane makes me panic.
+- I don't want to let anyone down.
+- I'm terrified of speaking in front of a crowd.
+- I'm scared to check my test results.
+- I'm afraid of what's going to happen next.
+- I feel like I'm running out of time.
+- I just watched a horror movie, and now I'm too scared to sleep.
+- I have an interview tomorrow, and I'm really nervous.
+- I feel like I'm losing control over everything.
+- I just got a message that said, “We need to talk,” and now I'm panicking.
+- I'm afraid of making a fool of myself.
+- I'm scared to trust people because I don't want to get hurt.
+- I hate hospitals. They make me feel uneasy.
+- I just heard someone scream outside, and now I'm scared.
+- I don't know how I'll recover if this goes wrong.
+- I'm afraid of taking the first step.
+- I have to face someone I wronged, and I don't know how they'll react.
+- I hate the feeling of not knowing what's coming.
+- I'm worried I'll get rejected.
+- I'm scared of being abandoned.
+- I have a medical test coming up, and I'm terrified of the results.
+- I feel like something bad is about to happen, but I don't know what.
+- I'm scared I'll regret this decision.
+- I hate thunderstorms. The lightning and thunder terrify me.
+- I feel like I'm trapped in a nightmare.
+- I saw a shadow move, but there's no one else here.
+- I have a deep fear of being forgotten.
+- I don't think I can handle another failure.
+- I'm afraid to ask for help because I don't want to seem weak.
+- I have to tell the truth, but I'm scared of how they'll react.
+- I feel like I'm drowning in fear.
+- I'm scared of the unknown.
+- I hate scary movies. They make me paranoid.
+- I have to walk through a dark alley, and I'm really nervous.
+- I'm afraid to be myself because I don't want to be judged.
+- I have to face my fears, but I don't know if I can do it.
+- I feel like I'm constantly being watched.
+- I'm scared of making the wrong decision.
+- I hate taking risks because I'm scared of failing.
+- I just saw something in the mirror that wasn't there before.
+- I feel like I'm in a horror movie right now.
+- I'm terrified of losing everything I've worked for.
+- I feel like I'm stuck in a bad situation with no way out.
+- I have a bad gut feeling about this.
+- I hate being alone in the dark.
+- I'm scared to speak up because I don't want to cause problems.
+- I feel like I'm suffocating from fear.
+- I can't stop shaking. I'm so scared.
+- I'm afraid I'll never be truly happy.
+- I don't know what's real or just my imagination, and that scares me.
+- I have to face my biggest fear today.
+- I just heard a weird noise, and now I'm frozen in fear.
+- I hate being chased, even in my dreams.
+- I feel like I'm being followed.
+- I'm afraid to start over.
+- I just got bad news, and now my whole world feels like it's crumbling.
+- I'm scared of never being enough.
+- I'm worried I'll never find my purpose.
+- I feel like something is hiding in the dark.
+- I just saw something I can't explain, and it's creeping me out.
+- I have to tell someone bad news, and I don't know how they'll take it.
+- I'm afraid of getting too close to people because they might leave.
+- I have a huge fear of rejection.
+- I don't know if I can handle this pressure.
+- I just got a threatening message, and now I don't know what to do.
+- I feel like my heart is about to explode from fear.
+- I'm scared of losing my loved ones.
+- I hate being home alone at night.
+- I have to make a speech, and I feel like I'm going to faint.
+- I'm terrified of making a mistake.
+- I feel like something is crawling on me, but I don't see anything.
+- I'm afraid of change.
+- I feel like I'm stuck in a nightmare I can't wake up from.
+- I saw something move in the corner of my eye, but no one's there.
+- I'm scared of being laughed at.
+- I don't want to lose everything I've worked for.
+- I have a deep fear of failure.
+- I hate surprises because they make me anxious.
+- I'm afraid of not living up to expectations.
+- I don't know if I'll ever be able to face my fears.
+- I'm scared of the future.
+- I feel like I'm being chased, even though no one's there.
+- I have a phobia of deep water, and I'm going on a boat today.
+- I'm afraid to trust people again.
+- I hate elevators. They make me feel trapped.
+- I just heard footsteps, but I'm home alone.
+- I feel like I'm being watched through the window.
+- I'm scared of losing control.
+- I have to go into a haunted house, and I'm freaking out.
+- I'm afraid I won't be able to recover from this.
+- I feel like I'll never escape my fears.
+- I don't know if I'll ever stop being afraid.
