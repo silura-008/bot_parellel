@@ -192,6 +192,52 @@ nlu:
     - I am enjoying every moment of this.
     - I love spending time with my friends.
     - I just got a puppy!
+    - I just found out I'm going to be a mom! I'm so excited!
+    - I'm expecting a baby! I feel so blessed.
+    - My sister is pregnant! I'm going to be an aunt!
+    - I just found out I'm going to be a dad! I can't wait!
+    - My partner and I are expecting! This is the best news ever!
+    - I'm going to be a grandparent! My child is having a baby!
+    - My best friend is pregnant! I'm going to be an aunt again!
+    - I'm getting married soon! So happy and excited!
+    - I just found out I'm having twins! I'm over the moon!
+    - My brother just announced he's getting married! I'm so happy for him!
+    - I just had a baby brother! I'm so excited to meet him!
+    - My little sibling just got engaged! I'm so happy for them!
+    - My friend just gave birth to a beautiful baby! I can't wait to meet them!
+    - I'm finally moving into my new house! It's the best feeling!
+    - My cousin just announced they're having a baby! I'm so happy for them!
+    - I just got my acceptance letter to my dream school! I'm so excited!
+    - I just found out I'm going to be a godparent! So happy and honored!
+    - I just found out I'm getting a new job! I'm so thrilled!
+    - My brother is having a baby girl! I'm going to be an uncle!
+    - I finally proposed to my partner and they said yes! I'm so happy!
+    - My partner and I just got a puppy! We are so excited!
+    - I just got my first house! I can't believe it!
+    - My baby sister is finally walking! So proud of her!
+    - I just found out I'm pregnant! I'm so happy and nervous!
+    - I finally found out I'm getting a scholarship! I'm overjoyed!
+    - I'm officially a homeowner! This feels unreal!
+    - I just got a surprise party! It's the best day ever!
+    - My best friend just had a baby boy! I'm going to spoil him so much!
+    - I just found out I'm going to be a big sister! I'm so excited!
+    - I got engaged today! I can't believe it's happening!
+    - My partner and I are adopting a baby! So excited for the next chapter!
+    - I just got a promotion at work! I'm feeling so accomplished!
+    - My cousin is getting married! I'm so excited for the wedding!
+    - I finally got my dream car! I can't wait to drive it!
+    - I'm starting a new chapter in my life with a new job! So happy!
+    - I just got a call saying I got the job I wanted! Feeling so grateful!
+    - I'm finally having a baby! My heart is so full!
+    - I just found out I'm going to be a father! Can't wait to start this journey!
+    - My sister is getting married! I'm so happy for her!
+    - My baby just said their first word! I'm so proud!
+    - I finally graduated! I did it!
+    - I just got my dream job! This is amazing!
+    - My friend just had a baby boy! I'm so happy for them!
+    - I'm moving to a new city! Excited for this new adventure!
+    - My parents are having another baby! I'm going to be a big sister again!
+    - I just found out I'm going to be a grandparent! I'm overjoyed!
 
 - intent : sad
   examples: |
@@ -262,7 +308,7 @@ nlu:
     - I feel like crying, but I don't know why.
     - My trust got broken. I don't know if I can recover from this.
     - I feel like I'll never be enough.
-    - I feel distant from the people I love.
+    - I feel distant from the people I lov'e.
     - I hate disappointing others.
     - I feel so drained, like I have nothing left to give.
     - I was really looking forward to something, but it got canceled.
@@ -313,7 +359,7 @@ nlu:
     - I feel like crying myself to sleep tonight.
     - My best friend got a new friend, and I feel replaced.
     - I have so many regrets.
-    - My favorite childhood cartoon got removed from TV. I feel so sad.
+    - My favorite childhood cartoon got re'moved from TV. I feel so sad.
     - I saw my old school today, and it made me so emotional.
     - I miss the way things used to be.
     - I lost my favorite book. I feel so empty.
@@ -369,7 +415,28 @@ nlu:
     - I feel like I have lost everything that mattered.
     - I just want to sleep and never wake up.
     - I wish things were different.
-
+    - I haven't spoken to my brother in years, and now he's gone.
+    - Losing my partner has left me feeling completely shattered.
+    - I never got to say goodbye to my friend. It feels like a dream.
+    - My cat passed away, and I'm still trying to accept it.
+    - My spouse just died, and I don't know how to live without them.
+    - I found out that someone I loved is no longer around, and I feel broken.
+    - The death of a close friend is hitting me hard. I don't know how to cope.
+    - I feel so alone since my family member passed away.
+    - I lost my pet, and it's like losing a part of myself.
+    - The grief from losing my loved one is consuming me.
+    - I feel so devastated after the sudden loss of my friend.
+    - The thought of never seeing my parent again is too much to bear.
+    - My close friend just died, and I feel like I can't breathe.
+    - I feel like a part of me died when they passed away.
+    - It feels so surreal that my loved one is gone forever.
+    - I'm trying to stay strong, but losing them hurts too much.
+    - I feel so broken after losing someone I was so close to.
+    - The pain from losing my partner feels like a constant weight.
+    - I don't know how to go on after losing someone so important to me.
+    - Losing someone I loved deeply is something I don't think I'll ever get over.
+    - I don't know how to cope with the death of my best friend.
+    - I'm still grieving the loss of my pet. It feels like a hole in my heart.
 
 - intent: anger
   examples: |
@@ -496,80 +563,80 @@ nlu:
 - intent: anxious
   examples: |
     - I have an exam tomorrow, and I can't stop worrying about it.
-    - I feel like something bad is going to happen, but I don’t know what.
+    - I feel like something bad is going to happen, but I don't know what.
     - I have to speak in front of people, and I'm really nervous.
     - My heart is racing, and I don't even know why.
     - I have a job interview coming up, and I can't stop overthinking it.
-    - I sent a risky text, and now I’m panicking about their response.
+    - I sent a risky text, and now I'm panicking about their response.
     - Waiting for results is making me so anxious.
     - I feel like everyone is watching and judging me.
-    - I can't sleep because my mind won’t stop racing with thoughts.
+    - I can't sleep because my mind won't stop racing with thoughts.
     - I have to make an important decision, and I'm really stressed about it.
     - My palms are sweaty, and I feel uneasy.
     - I hate making phone calls. They make me so nervous.
     - I feel like I said something wrong in that conversation.
     - I keep replaying an embarrassing moment in my head over and over.
-    - I’m meeting someone new today, and I'm super anxious about it.
-    - My heart is pounding, and I don’t know why.
+    - I'm meeting someone new today, and I'm super anxious about it.
+    - My heart is pounding, and I don't know why.
     - I feel like I forgot something important.
-    - I have so much to do, and I don’t even know where to start.
-    - I feel like I’m running out of time, even when I have plenty.
+    - I have so much to do, and I don't even know where to start.
+    - I feel like I'm running out of time, even when I have plenty.
     - I get nervous every time my phone rings.
     - I have a presentation soon, and my stomach is in knots.
-    - I feel like I’m being judged whenever I walk into a room.
+    - I feel like I'm being judged whenever I walk into a room.
     - I hate crowded places. They make me feel really anxious.
-    - I feel like I’m not good enough for this opportunity.
-    - I’m waiting for someone to text me back, and it's driving me crazy.
+    - I feel like I'm not good enough for this opportunity.
+    - I'm waiting for someone to text me back, and it's driving me crazy.
     - I get anxious whenever I have to make small talk.
-    - I’m overthinking every little thing I did today.
-    - I feel like I’m going to mess up, even if I prepare.
-    - I don’t know why, but I feel on edge today.
+    - I'm overthinking every little thing I did today.
+    - I feel like I'm going to mess up, even if I prepare.
+    - I don't know why, but I feel on edge today.
     - I keep imagining the worst-case scenario.
-    - I have to make a call, and I’m dreading it so much.
+    - I have to make a call, and I'm dreading it so much.
     - I get anxious every time I visit a new place.
     - I hate talking to authority figures. It makes me nervous.
     - I always feel nervous before going to the doctor.
     - I feel like my breathing is getting faster when I overthink.
     - I keep thinking about all the ways something could go wrong.
-    - I have to confront someone, and I’m dreading the conversation.
-    - I’m worried that I embarrassed myself earlier.
-    - I get anxious when I don’t know what’s going to happen next.
-    - I feel like I’m not prepared enough, even when I study a lot.
+    - I have to confront someone, and I'm dreading the conversation.
+    - I'm worried that I embarrassed myself earlier.
+    - I get anxious when I don't know what's going to happen next.
+    - I feel like I'm not prepared enough, even when I study a lot.
     - I always get nervous before sending an important email.
     - I hate waiting for feedback. It stresses me out.
-    - I feel like I’m not doing enough, even when I try my best.
+    - I feel like I'm not doing enough, even when I try my best.
     - I have social anxiety, and even simple things make me nervous.
     - I get anxious when people take too long to reply to my messages.
-    - I feel like I’m about to make a huge mistake.
+    - I feel like I'm about to make a huge mistake.
     - I hate asking for help. It makes me feel weak.
     - I get nervous before meeting new people.
-    - I feel like I’m disappointing everyone around me.
-    - I can’t stop overanalyzing everything I said today.
-    - I always feel like I’m behind in life compared to others.
-    - I hate making decisions because I’m scared I’ll regret them.
-    - I feel like I’m not good enough for this job.
-    - I keep checking my email because I’m nervous about a response.
+    - I feel like I'm disappointing everyone around me.
+    - I can't stop overanalyzing everything I said today.
+    - I always feel like I'm behind in life compared to others.
+    - I hate making decisions because I'm scared I'll regret them.
+    - I feel like I'm not good enough for this job.
+    - I keep checking my email because I'm nervous about a response.
     - I feel like I have to be perfect all the time.
     - I hate when plans change suddenly. It throws me off completely.
-    - I feel like my mind won’t stop racing with thoughts.
-    - I have to introduce myself to someone, and I’m dreading it.
+    - I feel like my mind won't stop racing with thoughts.
+    - I have to introduce myself to someone, and I'm dreading it.
     - I hate when people watch me do something. It makes me so nervous.
     - I feel like I can never fully relax, no matter what.
     - I keep running through worst-case scenarios in my head.
-    - I get anxious about things that don’t even matter sometimes.
-    - I feel like I’m stuck in a cycle of worrying about everything.
+    - I get anxious about things that don't even matter sometimes.
+    - I feel like I'm stuck in a cycle of worrying about everything.
     - I get nervous before walking into a room full of people.
     - I always think I forgot to lock the door after leaving.
-    - I feel like I’m not smart enough for this.
+    - I feel like I'm not smart enough for this.
     - I hate when people call me unexpectedly. It makes me anxious.
     - I always get nervous before trying something new.
-    - I feel like I’ll never be good enough at anything.
+    - I feel like I'll never be good enough at anything.
     - I always feel like I need to be doing something productive.
-    - I feel like I’m constantly on edge, like something bad will happen.
+    - I feel like I'm constantly on edge, like something bad will happen.
     - I hate feeling like this all the time.
     - I wish I could just relax and not worry so much.
-    - I always feel like I’m annoying people when I text them.
-    - I get anxious when I don’t get an immediate response.
+    - I always feel like I'm annoying people when I text them.
+    - I get anxious when I don't get an immediate response.
     - I hate speaking up in meetings. It makes me feel so exposed.
     - I always second-guess myself, no matter what.
     - I feel like my mind is going a hundred miles per hour.
@@ -577,19 +644,19 @@ nlu:
     - I feel like something is wrong, even when everything is fine.
     - I always worry about what other people think of me.
     - I feel like my anxiety is getting worse lately.
-    - I feel like I’ll never be able to stop overthinking things.
+    - I feel like I'll never be able to stop overthinking things.
     - I get anxious before sending an important message.
     - I feel like I can never fully enjoy the moment because of my thoughts.
-    - I hate not knowing what’s going to happen next.
-    - I feel like I’m constantly waiting for bad news.
+    - I hate not knowing what's going to happen next.
+    - I feel like I'm constantly waiting for bad news.
     - I get nervous about the smallest things.
     - I feel like my thoughts are spiraling out of control.
     - I get anxious before even starting a conversation with someone new.
     - I feel like my mind never stops worrying about everything.
-    - I always worry that I’m not doing enough, even when I am.
-    - I feel like I’m constantly overanalyzing social interactions.
-    - I feel like I’m carrying the weight of the world on my shoulders.
-    - I have so much pressure on me, and I don’t know how to handle it.
+    - I always worry that I'm not doing enough, even when I am.
+    - I feel like I'm constantly overanalyzing social interactions.
+    - I feel like I'm carrying the weight of the world on my shoulders.
+    - I have so much pressure on me, and I don't know how to handle it.
     - I hate confrontation. It makes me feel so nervous and stressed.
 
 - intent: fear
@@ -661,7 +728,7 @@ nlu:
     - I feel like something bad is lurking around me.
     - I hate going to hospitals, they scare me.
     - I feel like I am suffocating from fear.
-    - I hate scary places, and I’m in one now.
+    - I hate scary places, and I'm in one now.
     - I don't feel safe here.
     - I feel so uneasy right now.
     - I am terrified of what's coming next in a few moments.
@@ -739,6 +806,9 @@ nlu:
 
 - intent: thanks  
   examples: |  
+    - tnx
+    - thx
+    - thnx
     - thank you  
     - thanks  
     - I appreciate it  
@@ -866,6 +936,88 @@ nlu:
     - good to see you 
     - moin
     - morning
+
+
+
+
+- intent: self_harm  
+  examples: |  
+    - I will suicide  
+    - Nobody would miss me if I were gone   
+    -m everyone I feel like hurting myself  
+    - I want to hurt myself  
+    - I feel like ending my life  
+    - I will kill myself  
+    - I want to commit suicide  
+    - I feel like slitting my wrists  
+    - I want to cut my veins  
+    - I want to disappear forever  
+    - I feel like overdosing  
+    - I have thoughts of suicide  
+    - I hate myself so much I want to end it  
+    - I don't see a way out anymore  
+    - I want to escape everything forever  
+    - I want to escape fro    - I can't stop these violent thoughts  
+    - I want to jump off a building  
+    - I'm done with life  
+    - I feel like drowning myself  
+    - I don't want to exist anymore  
+    - I am thinking about harming myself  
+    - I just want to go away forever  
+    - Life is too painful, I want to end it  
+    - I'm thinking of taking my life  
+    - I want to end it all  
+    - I feel like taking pills and ending it  
+    - I'm feeling like slitting my throat  
+    - I want to kill myself today  
+    - I feel like stabbing myself  
+    - I want to jump off a bridge  
+    - Life has no point, I want to end it  
+    - I'm planning to hurt myself tonight  
+    - I have a blade and I can't stop thinking  
+    - I'm scared I might hurt myself  
+    - I feel like hurting my body to stop the pain  
+    - I want to punish myself physically  
+    - I can't go on like this, I need to end it  
+
+- intent: violence  
+  examples: |  
+    - I can't stop these violent thoughts  
+    - i want to cut her throat
+    - I feel like breaking something  
+    - I want to smash everything in my way 
+    - I feel like hitting someone right now  
+    - I want to hurt someone  
+    - I want to kill him  
+    - I will stab him  
+    - I'm thinking of stabbing someone  
+    - I will throw this chair  
+    - I feel like throwing things around  
+    - I want to destroy something  
+    - I can't stop thinking about hitting her  
+    - I'm furious, I want to break a window  
+    - I want to beat someone up  
+    - I'm thinking of cutting someone with a knife  
+    - I feel like choking him  
+    - I want to strangle her  
+    - I feel like smashing plates  
+    - I feel like punching a wall until it cracks  
+    - I'm about to lose control and hurt him  
+    - I want to cause harm to someone who hurt me  
+    - I want to rip things apart  
+    - I want to break someone's arm  
+    - I'm so mad I want to scream and smash things   
+    - I'm going to hit him, I can't stop myself  
+    - I'm feeling violent and can't hold it back  
+    - I want to crush his face  
+    - I'm thinking of kicking someone  
+    - I will kill her for what she did   
+    - I can't control these violent thoughts  
+    - I'm imagining hurting him badly  
+    - I want to shatter this glass right now  
+    - I want to stab her in the back
+
+
 
 # - intent: greet_formal  
 #   examples: |  
