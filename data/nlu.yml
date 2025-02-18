@@ -37,7 +37,7 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
     
-    
+
 - intent: happy
   examples: |
     - I just won the game! I'm so thrilled!
@@ -370,6 +370,7 @@ nlu:
     - I just want to sleep and never wake up.
     - I wish things were different.
 
+
 - intent: anger
   examples: |
     - I hate you.
@@ -384,7 +385,6 @@ nlu:
     - This is so frustrating!
     - I can't believe they lied to me! I'm so mad!
     - That was so unfair! I did everything right!
-    - I hate being ignored! It's so frustrating!
     - I lost the game because someone cheated! I'm furious!
     - They took credit for my work. I'm beyond angry!
     - Why does no one ever listen to me?!
@@ -405,70 +405,28 @@ nlu:
     - I can't believe they betrayed my trust like that!
     - My friend canceled our plans at the last minute. I'm pissed!
     - I worked overtime, and I didn't even get a thank you!
-    - I got kicked out of the tournament because of a stupid rule!
-    - Someone took my parking spot right in front of me!
-    - My coworker keeps taking credit for my ideas! It's infuriating!
-    - My landlord increased the rent again! This is outrageous!
-    - I just got overcharged for something I didn't even buy!
-    - I hate when people act like they know everything!
-    - My phone battery dies too fast! It's so frustrating!
-    - I got ghosted! That's so disrespectful!
-    - I hate it when people talk over me!
-    - My neighbor is blasting music at midnight! So inconsiderate!
-    - I lost my progress because my computer crashed! I'm so mad!
-    - The referee made a terrible call! We should have won!
-    - I asked for no onions, and they put extra onions! So annoying!
-    - I hate it when people touch my stuff without asking!
-    - My teacher gave me a lower grade for no reason! I'm fuming!
-    - My little brother broke my favorite thing! I'm furious!
-    - Someone scratched my car in the parking lot and left! Unbelievable!
-    - I can't stand people who play loud videos in public!
-    - They made a decision about me without even asking my opinion!
-    - I hate being left out of plans!
-    - My friend borrowed money and never paid me back! So frustrating!
-    - My boss made me stay late again! I have a life too!
-    - I got blocked for no reason! So childish!
     - Someone stole my idea and presented it as their own! Unacceptable!
     - My order got delayed again! What's the point of fast shipping?!
     - I lost my wallet, and now I have to replace everything!
     - People keep spreading false rumors about me! It's so frustrating!
     - I hate when people talk to me when I'm clearly busy!
     - My flight got canceled, and now I'm stuck here!
-    - The meeting was supposed to start on time, but they were late!
-    - My bank charged me a fee for no reason! I'm livid!
-    - My favorite show just got canceled! So frustrating!
-    - I had to wait an hour for my food, and it was cold!
-    - Someone sent me spoilers for a movie I was excited about! I'm pissed!
-    - My sibling keeps using my things without asking! I'm so annoyed!
-    - I asked them to stop, but they keep doing it!
-    - The Wi-Fi keeps disconnecting in the middle of my work!
-    - I hate when people act fake around me!
-    - Someone just bumped into me and didn't even say sorry!
-    - I got stuck in traffic for two hours! So frustrating!
-    - My teacher gave me extra homework for no reason!
-    - I hate it when people walk too slowly in front of me!
-    - My boss just gave me more work right before the weekend!
-    - My package got lost in the mail! I've been waiting for weeks!
-    - They changed the rules at the last minute! So unfair!
-    - I asked a simple question, and they ignored me!
-    - I just found out they lied to me this whole time!
-    - I got rejected for something I deserved! So unfair!
-    - My sibling broke something and blamed me! I'm furious!
-    - I hate repeating myself over and over!
-    - Someone parked in my reserved spot! So disrespectful!
-    - My friend borrowed my stuff and returned it broken!
-    - I just got kicked out of a group for no reason!
-    - My neighbor keeps taking my deliveries! I'm calling them out!
-    - I got left on read! That's so rude!
-    - I asked for a small favor, and they couldn't even do that!
-    - My parents never listen to my side of the story!
-    - I was waiting in line, and someone just cut in front of me!
-    - I hate it when people cancel plans at the last minute!
-    - I trained so hard, and I still got benched!
-    - They said they would help, but they didn't do anything!
-    - I hate when people make a mess and don't clean up!
+    - My boss made me stay late again! I have a life too!
+    - My landlord increased the rent again! This is outrageous!
+    - I hate when people act like they know everything!
+    - My phone battery dies too fast! It's so frustrating!
+    - I got ghosted! That's so disrespectful!
+    - My neighbor is blasting music at midnight! So inconsiderate!
+    - I lost my progress because my computer crashed! I'm so mad!
+    - I asked for no onions, and they put extra onions! So annoying!
+    - I hate it when people touch my stuff without asking!
+    - My teacher gave me a lower grade for no reason! I'm fuming!
+    - Someone scratched my car in the parking lot and left! Unbelievable!
+    - I can't stand people who play loud videos in public!
+    - I hate being left out of plans!
+    - My friend borrowed money and never paid me back! So frustrating!
+    - I got blocked for no reason! So childish!
     - I lost my progress in the game because of a stupid glitch!
-    - Someone keeps using my Netflix account! I'm changing the password!
     - My alarm didn't go off, and I was late! So frustrating!
     - I got insulted in front of everyone! I'm so embarrassed and mad!
     - My friend didn't defend me when I was being insulted!
@@ -505,76 +463,6 @@ nlu:
     - I just realized I've been wasting my time on the wrong thing!
     - My team lost because someone didn't do their part!
     - I hate when people talk too loudly on the phone in public!
-    - I hate you.
-    - I hate her.
-    - I hate him.
-    - I can't stand this.
-    - This makes me so mad.
-    - I am so frustrated right now.
-    - I hate when this happens.
-    - I hate being ignored.
-    - I hate when people lie to me.
-    - This is so unfair.
-    - I am really angry right now.
-    - This is pissing me off.
-    - I hate this so much.
-    - I can't believe they did this to me.
-    - This is driving me crazy.
-    - I am sick of this.
-    - I hate my life sometimes.
-    - I am furious!
-    - This is the worst thing ever.
-    - I can't stand being treated like this.
-    - Why does this always happen to me?
-    - I hate when people don't listen.
-    - I am boiling with anger.
-    - I just want to scream.
-    - This is so annoying.
-    - I can't believe they said that.
-    - I am done with this.
-    - I feel like punching something.
-    - This is making me lose my mind.
-    - I hate fake people.
-    - I hate being lied to.
-    - I am never talking to them again.
-    - I am losing my patience.
-    - This is getting on my nerves.
-    - I can't control my temper right now.
-    - I feel like breaking something.
-    - This is absolutely ridiculous.
-    - I hate my job.
-    - I hate school.
-    - I hate when people don't respect me.
-    - I feel so disrespected.
-    - I can't believe they betrayed me.
-    - This is making me so upset.
-    - I can't take this anymore.
-    - This situation is making me angry.
-    - I am fuming right now.
-    - I feel like I'm about to explode.
-    - I hate waiting for things.
-    - I hate when people interrupt me.
-    - I hate when people take me for granted.
-    - I hate cheaters.
-    - I hate rude people.
-    - I am really pissed off.
-    - This is making me crazy.
-    - I feel so irritated.
-    - I hate it when people waste my time.
-    - I am losing it.
-    - I am so mad at myself.
-    - I hate this feeling.
-    - I can't forgive them for this.
-    - I am sick of people treating me like this.
-    - I feel like throwing my phone.
-    - I hate when people don't understand me.
-    - I just want to be left alone.
-    - This situation is really frustrating me.
-    - I hate everything about this.
-    - I am fed up with this nonsense.
-    - I hate dealing with stupid people.
-    - I can't believe they hurt me like this.
-    - I don't even want to talk to them.
     - I hate being taken advantage of.
     - I hate feeling like this.
     - I feel like screaming into a pillow.
@@ -585,95 +473,6 @@ nlu:
     - I hate being controlled.
     - I am so disappointed and angry.
     - I am so mad I could cry.
-    - I hate being late.
-    - I hate getting blamed for things I didn't do.
-    - I feel like I'm about to explode with anger.
-    - I hate when people talk over me.
-    - I can't stand this anymore.
-    - I hate being in arguments.
-    - I am so angry I can't think straight.
-    - I am furious at myself.
-    - I hate losing.- I hate you.
-    - I hate her.
-    - I hate him.
-    - I can't stand this.
-    - This makes me so mad.
-    - I am so frustrated right now.
-    - I hate when this happens.
-    - I hate being ignored.
-    - I hate when people lie to me.
-    - This is so unfair.
-    - I am really angry right now.
-    - This is pissing me off.
-    - I hate this so much.
-    - I can't believe they did this to me.
-    - This is driving me crazy.
-    - I am sick of this.
-    - I hate my life sometimes.
-    - I am furious!
-    - This is the worst thing ever.
-    - I can't stand being treated like this.
-    - Why does this always happen to me?
-    - I hate when people don't listen.
-    - I am boiling with anger.
-    - I just want to scream.
-    - This is so annoying.
-    - I can't believe they said that.
-    - I am done with this.
-    - I feel like punching something.
-    - This is making me lose my mind.
-    - I hate fake people.
-    - I hate being lied to.
-    - I am never talking to them again.
-    - I am losing my patience.
-    - This is getting on my nerves.
-    - I can't control my temper right now.
-    - I feel like breaking something.
-    - This is absolutely ridiculous.
-    - I hate my job.
-    - I hate school.
-    - I hate when people don't respect me.
-    - I feel so disrespected.
-    - I can't believe they betrayed me.
-    - This is making me so upset.
-    - I can't take this anymore.
-    - This situation is making me angry.
-    - I am fuming right now.
-    - I feel like I'm about to explode.
-    - I hate waiting for things.
-    - I hate when people interrupt me.
-    - I hate when people take me for granted.
-    - I hate cheaters.
-    - I hate rude people.
-    - I am really pissed off.
-    - This is making me crazy.
-    - I feel so irritated.
-    - I hate it when people waste my time.
-    - I am losing it.
-    - I am so mad at myself.
-    - I hate this feeling.
-    - I can't forgive them for this.
-    - I am sick of people treating me like this.
-    - I feel like throwing my phone.
-    - I hate when people don't understand me.
-    - I just want to be left alone.
-    - This situation is really frustrating me.
-    - I hate everything about this.
-    - I am fed up with this nonsense.
-    - I hate dealing with stupid people.
-    - I can't believe they hurt me like this.
-    - I don't even want to talk to them.
-    - I hate being taken advantage of.
-    - I hate feeling like this.
-    - I feel like screaming into a pillow.
-    - This is ruining my day.
-    - I hate being stuck in traffic.
-    - I hate when people break their promises.
-    - I hate when things don't go my way.
-    - I hate being controlled.
-    - I am so disappointed and angry.
-    - I am so mad I could cry.
-    - I hate being late.
     - I hate getting blamed for things I didn't do.
     - I feel like I'm about to explode with anger.
     - I hate when people talk over me.
@@ -693,357 +492,183 @@ nlu:
     - I am so mad I can't even explain it.
     - I am burning with rage.
     - I can't stand rude behavior.
-    - I hate when I get ignored.
-    - I hate when people act fake.
-    - I hate being misunderstood.
-    - I am about to lose it.
-    - I feel like slamming the door right now.
-    - I am so done with this conversation.
-    - I hate when things go wrong.
-    - I hate being talked down to.
-    - I am so mad I can't even explain it.
-    - I am burning with rage.
-    - I can't stand rude behavior.
 
 - intent: anxious
   examples: |
-    - I have an exam tomorrow, and I can't stop worrying.
-    - I feel like something bad is about to happen.
-    - I have to speak in front of people, and I'm so nervous.
+    - I have an exam tomorrow, and I can't stop worrying about it.
+    - I feel like something bad is going to happen, but I don’t know what.
+    - I have to speak in front of people, and I'm really nervous.
     - My heart is racing, and I don't even know why.
-    - I have a job interview coming up, and I can't stop overthinking.
-    - I sent a risky text, and now I'm panicking about the response.
-    - I hate waiting for results. It's making me so anxious.
+    - I have a job interview coming up, and I can't stop overthinking it.
+    - I sent a risky text, and now I’m panicking about their response.
+    - Waiting for results is making me so anxious.
     - I feel like everyone is watching and judging me.
-    - I can't sleep because my mind won't stop racing.
-    - I have to make an important decision, and I'm so stressed about it.
-    - My palms are sweaty, and I feel so uneasy.
-    - I hate making phone calls. It makes me so nervous.
+    - I can't sleep because my mind won’t stop racing with thoughts.
+    - I have to make an important decision, and I'm really stressed about it.
+    - My palms are sweaty, and I feel uneasy.
+    - I hate making phone calls. They make me so nervous.
     - I feel like I said something wrong in that conversation.
-    - I keep replaying an embarrassing moment in my head.
-    - I'm meeting someone new today, and I'm super anxious.
-    - My heart is pounding, and I don't know why.
+    - I keep replaying an embarrassing moment in my head over and over.
+    - I’m meeting someone new today, and I'm super anxious about it.
+    - My heart is pounding, and I don’t know why.
     - I feel like I forgot something important.
-    - I have so much to do, and I don't know where to start.
-    - I feel like I'm running out of time.
+    - I have so much to do, and I don’t even know where to start.
+    - I feel like I’m running out of time, even when I have plenty.
     - I get nervous every time my phone rings.
     - I have a presentation soon, and my stomach is in knots.
-    - I feel like I'm being judged whenever I walk into a room.
-    - I hate crowded places. They make me so anxious.
-    - I feel like I'm not good enough for this opportunity.
-    - I'm waiting for someone to text me back, and it's driving me crazy.
+    - I feel like I’m being judged whenever I walk into a room.
+    - I hate crowded places. They make me feel really anxious.
+    - I feel like I’m not good enough for this opportunity.
+    - I’m waiting for someone to text me back, and it's driving me crazy.
     - I get anxious whenever I have to make small talk.
-    - I'm overthinking every little thing I did today.
-    - I feel like I'm going to mess up.
-    - I don't know why, but I feel on edge today.
+    - I’m overthinking every little thing I did today.
+    - I feel like I’m going to mess up, even if I prepare.
+    - I don’t know why, but I feel on edge today.
     - I keep imagining the worst-case scenario.
-    - I have to make a call, and I'm dreading it.
-    - I feel like I'm forgetting something important.
-    - I get anxious every time I'm in a new place.
-    - I hate talking to authority figures. It makes me so nervous.
-    - I'm waiting for my test results, and I can't stop worrying.
-    - I always get nervous before going to the doctor.
-    - I hate being put on the spot. It makes my mind go blank.
-    - My hands are shaking, and I don't know why.
-    - I feel like my breathing is getting faster.
-    - I keep thinking about all the ways this could go wrong.
-    - I have to confront someone, and I'm dreading it.
-    - I'm worried that I embarrassed myself earlier.
-    - I get anxious when I don't know what's going to happen.
-    - I feel like I'm not prepared enough, even though I studied.
-    - I always feel nervous before sending an important email.
+    - I have to make a call, and I’m dreading it so much.
+    - I get anxious every time I visit a new place.
+    - I hate talking to authority figures. It makes me nervous.
+    - I always feel nervous before going to the doctor.
+    - I feel like my breathing is getting faster when I overthink.
+    - I keep thinking about all the ways something could go wrong.
+    - I have to confront someone, and I’m dreading the conversation.
+    - I’m worried that I embarrassed myself earlier.
+    - I get anxious when I don’t know what’s going to happen next.
+    - I feel like I’m not prepared enough, even when I study a lot.
+    - I always get nervous before sending an important email.
     - I hate waiting for feedback. It stresses me out.
-    - I feel like I'm not doing enough, even though I'm trying my best.
-    - I keep thinking about an awkward conversation I had.
+    - I feel like I’m not doing enough, even when I try my best.
     - I have social anxiety, and even simple things make me nervous.
-    - I'm scared of saying the wrong thing.
-    - I get anxious when people take too long to reply.
-    - I feel like I'm about to make a huge mistake.
+    - I get anxious when people take too long to reply to my messages.
+    - I feel like I’m about to make a huge mistake.
     - I hate asking for help. It makes me feel weak.
     - I get nervous before meeting new people.
-    - I feel like I'm disappointing everyone.
-    - I can't stop overanalyzing everything I said today.
-    - I'm afraid people secretly don't like me.
-    - I have a flight tomorrow, and I'm really anxious about it.
-    - I feel like I'll never be able to relax.
-    - I keep checking my email because I'm nervous about a response.
+    - I feel like I’m disappointing everyone around me.
+    - I can’t stop overanalyzing everything I said today.
+    - I always feel like I’m behind in life compared to others.
+    - I hate making decisions because I’m scared I’ll regret them.
+    - I feel like I’m not good enough for this job.
+    - I keep checking my email because I’m nervous about a response.
     - I feel like I have to be perfect all the time.
-    - I hate having to explain myself to others. It makes me anxious.
-    - I feel like I'm running out of time, even when I have plenty.
-    - I hate being the center of attention. It makes me panic.
-    - I keep worrying about things that probably won't happen.
-    - I get anxious when plans change suddenly.
-    - I feel like my mind won't stop racing.
-    - I have to introduce myself to someone, and I'm dreading it.
-    - I feel like I always say the wrong thing.
-    - I get nervous whenever I check my bank balance.
-    - I hate going to new places alone. It makes me anxious.
-    - I always overthink what I should wear.
-    - I feel like I'm losing control over my thoughts.
-    - I hate being in situations where I don't know what to expect.
-    - I get nervous whenever someone calls my name.
-    - I feel like I'll never be able to relax.
-    - I keep running through worst-case scenarios in my head.
-    - I get anxious about things that don't even matter.
-    - I hate ordering food over the phone. It makes me nervous.
-    - I feel like I'm stuck’ in a cycle of worrying.
-    - I get nervous before walking into a room full of people.
-    - I always think I forgot to lock the door.
-    - I feel like I can't breathe when I get too anxious.
-    - I get nervous before even the smallest test.
-    - I hate when I have to wait too long for an answer.
-    - I feel like everyone can see how nervous I am.
-    - I always feel like I'm behind in life.
-    - I hate making decisions because I'm scared I'll regret them.
-    - I feel like I'm not good enough for this job.
-    - I always think about the worst things that could happen.
-    - I get anxious whenever my boss calls me.
-    - I feel like I need constant reassurance.
-    - I hate confrontation. It makes me so nervous.
-    - I always feel like I'm annoying people.
-    - I get anxious when I don't get an immediate response.
-    - I hate speaking up in’ meetings. It makes me feel exposed.
-    - I always second-guess myself.
-    - I feel like my mind is going a hundred miles per hour.
-    - I get anxious when I have too many choices.
-    - I hate waiting in long lines. It makes me restless.
-    - I feel like I'm not smart enough for this.
-    - I get anxious when I hear sirens outside.
-    - I feel like something is wrong, even when everything is fine.
-    - I keep imagining embarrassing situations that haven't even happened.
-    - I feel like my heart is beating too fast.
+    - I hate when plans change suddenly. It throws me off completely.
+    - I feel like my mind won’t stop racing with thoughts.
+    - I have to introduce myself to someone, and I’m dreading it.
     - I hate when people watch me do something. It makes me so nervous.
-    - I feel like I can never fully relax.
-    - I always check things multiple times because I'm scared I forgot something.
-    - I get anxious about making small talk.
-    - I feel like I'm always one step away from a disaster.
-    - I hate being put on the spot.
-    - I always worry about what other people think of me.
-    - I feel like my anxiety is getting worse.
-    - I hate it when people call me unexpectedly.
+    - I feel like I can never fully relax, no matter what.
+    - I keep running through worst-case scenarios in my head.
+    - I get anxious about things that don’t even matter sometimes.
+    - I feel like I’m stuck in a cycle of worrying about everything.
+    - I get nervous before walking into a room full of people.
+    - I always think I forgot to lock the door after leaving.
+    - I feel like I’m not smart enough for this.
+    - I hate when people call me unexpectedly. It makes me anxious.
     - I always get nervous before trying something new.
-    - I feel like I'll never be good enough.
-    - I get anxious before sending an important message.
+    - I feel like I’ll never be good enough at anything.
     - I always feel like I need to be doing something productive.
-    - I feel like I'm losing control of my emotions.
-    - I get anxious whenever I have to ask for something.
-    - I feel like I can never fully enjoy the moment.
-    - I hate not knowing what's going to happen next.
-    - I feel like I'm constantly waiting for bad news.
+    - I feel like I’m constantly on edge, like something bad will happen.
+    - I hate feeling like this all the time.
+    - I wish I could just relax and not worry so much.
+    - I always feel like I’m annoying people when I text them.
+    - I get anxious when I don’t get an immediate response.
+    - I hate speaking up in meetings. It makes me feel so exposed.
+    - I always second-guess myself, no matter what.
+    - I feel like my mind is going a hundred miles per hour.
+    - I get anxious when I have too many choices to make.
+    - I feel like something is wrong, even when everything is fine.
+    - I always worry about what other people think of me.
+    - I feel like my anxiety is getting worse lately.
+    - I feel like I’ll never be able to stop overthinking things.
+    - I get anxious before sending an important message.
+    - I feel like I can never fully enjoy the moment because of my thoughts.
+    - I hate not knowing what’s going to happen next.
+    - I feel like I’m constantly waiting for bad news.
     - I get nervous about the smallest things.
-    - I hate feeling this way all the time.
-    - I feel like I'm trapped in my own thoughts.
-    - I get anxious before even starting a conversation.
-    - I hate being in unpredictable situations.
-    - I feel like my mind never stops worrying.
-    - I always worry that I'm not doing enough.
-    - I feel like I'm constantly on edge.
-    - I am feeling really anxious right now.
-    - I can't stop worrying.
-    - My heart is racing.
-    - I feel so nervous.
-    - I don't know how to handle this stress.
-    - I feel like I can't breathe.
-    - I am overthinking everything.
-    - I feel so uneasy.
-    - I have a really bad feeling.
-    - I can't stop shaking.
-    - I am dreading tomorrow.
-    - I don't know what to do.
-    - I feel so restless.
-    - I am so stressed out.
-    - I keep thinking about the worst-case scenario.
-    - I feel like I'm about to panic.
-    - I hate this feeling.
-    - I am so overwhelmed right now.
-    - I feel like I am going to mess up.
-    - I can't focus because I'm so anxious.
-    - I feel like I am losing control.
-    - I can't calm down.
-    - I am scared something bad will happen.
-    - My hands are sweating so much.
-    - I keep replaying everything in my head.
-    - I feel like crying from stress.
-    - I am so worried about this.
-    - I feel like I am running out of time.
-    - I don't think I can do this.
-    - I am afraid of making a mistake.
-    - I can't sit still, I am so anxious.
-    - I feel like everyone is judging me.
-    - I don't know how to stop these thoughts.
-    - I feel sick from stress.
-    - I hate feeling like this.
-    - I wish I could relax.
-    - I feel like I am carrying the weight of the world.
-    - I have so much pressure on me.
-    - I can't handle this right now.
-    - I just want to disappear.
+    - I feel like my thoughts are spiraling out of control.
+    - I get anxious before even starting a conversation with someone new.
+    - I feel like my mind never stops worrying about everything.
+    - I always worry that I’m not doing enough, even when I am.
+    - I feel like I’m constantly overanalyzing social interactions.
+    - I feel like I’m carrying the weight of the world on my shoulders.
+    - I have so much pressure on me, and I don’t know how to handle it.
+    - I hate confrontation. It makes me feel so nervous and stressed.
 
 - intent: fear
   examples: |
-    - I feel like something bad is about to happen.
-    - I'm scared of failing this exam.
-    - I don't know what to expect, and that terrifies me.
+    - I feel like something bad is about to happen right now.
+    - I'm scared of failing this exam tomorrow.
     - I heard a strange noise outside, and now I'm freaking out.
     - I have to walk alone at night, and I'm really scared.
     - I feel like I'm being watched.
-    - I'm terrified of public speaking.
-    - I have to make a big decision, and I'm afraid of choosing wrong.
-    - I'm scared I'll never be good enough.
-    - I have a really bad feeling about this.
-    - I'm afraid of disappointing my parents.
+    - I'm terrified of public speaking happening in an hour.
     - I saw something move in the dark, and now I can't sleep.
-    - I don't know how they'll react, and that scares me.
-    - I feel like I'm going to mess everything up.
-    - I'm afraid of being alone forever.
     - I just had a nightmare, and now I'm too scared to go back to sleep.
-    - I'm worried I'll say the wrong thing and ruin everything.
-    - I'm scared of losing the people I love.
-    - I feel like my life is falling apart, and I don't know what to do.
+    - I'm scared of losing the people I love right now.
     - I hate being in small spaces. It makes me panic.
     - I have a fear of heights, and this bridge is making me dizzy.
-    - I can't stop thinking about what might go wrong.
     - I feel paralyzed with fear.
-    - I have to confront someone, and I'm dreading it.
-    - I'm afraid of what people think about me.
-    - I don't know if I can handle this.
+    - I have to confront someone in a few minutes, and I'm dreading it.
     - I just heard some really bad news, and I'm terrified.
-    - I'm scared of being judged.
-    - I'm afraid I'll never reach my goals.
-    - I have to take a big risk, and it's making me really anxious.
-    - I feel like I'm in danger.
+    - I feel like I'm in danger right now.
     - I have a phobia of spiders, and I just saw one in my room.
     - I hate flying. Every little sound on the plane makes me panic.
-    - I don't want to let anyone down.
     - I'm terrified of speaking in front of a crowd.
-    - I'm scared to check my test results.
+    - I'm scared to check my test results right now.
     - I'm afraid of what's going to happen next.
-    - I feel like I'm running out of time.
     - I just watched a horror movie, and now I'm too scared to sleep.
-    - I have an interview tomorrow, and I'm really nervous.
-    - I feel like I'm losing control over everything.
     - I just got a message that said, “We need to talk,” and now I'm panicking.
-    - I'm afraid of making a fool of myself.
-    - I'm scared to trust people because I don't want to get hurt.
-    - I hate hospitals. They make me feel uneasy.
     - I just heard someone scream outside, and now I'm scared.
-    - I don't know how I'll recover if this goes wrong.
-    - I'm afraid of taking the first step.
     - I have to face someone I wronged, and I don't know how they'll react.
-    - I hate the feeling of not knowing what's coming.
-    - I'm worried I'll get rejected.
-    - I'm scared of being abandoned.
-    - I have a medical test coming up, and I'm terrified of the results.
-    - I feel like something bad is about to happen, but I don't know what.
-    - I'm scared I'll regret this decision.
     - I hate thunderstorms. The lightning and thunder terrify me.
     - I feel like I'm trapped in a nightmare.
     - I saw a shadow move, but there's no one else here.
-    - I have a deep fear of being forgotten.
-    - I don't think I can handle another failure.
-    - I'm afraid to ask for help because I don't want to seem weak.
-    - I have to tell the truth, but I'm scared of how they'll react.
-    - I feel like I'm drowning in fear.
-    - I'm scared of the unknown.
-    - I hate scary movies. They make me paranoid.
-    - I have to walk through a dark alley, and I'm really nervous.
-    - I'm afraid to be myself because I don't want to be judged.
-    - I have to face my fears, but I don't know if I can do it.
-    - I feel like I'm constantly being watched.
-    - I'm scared of making the wrong decision.
-    - I hate taking risks because I'm scared of failing.
-    - I just saw something in the mirror that wasn't there before.
-    - I feel like I'm in a horror movie right now.
-    - I'm terrified of losing everything I've worked for.
-    - I feel like I'm stuck in a bad situation with no way out.
-    - I have a bad gut feeling about this.
-    - I hate being alone in the dark.
-    - I'm scared to speak up because I don't want to cause problems.
-    - I feel like I'm suffocating from fear.
-    - I can't stop shaking. I'm so scared.
-    - I'm afraid I'll never be truly happy.
-    - I don't know what's real or just my imagination, and that scares me.
-    - I have to face my biggest fear today.
+    - I don't think I can handle another failure happening today.
     - I just heard a weird noise, and now I'm frozen in fear.
     - I hate being chased, even in my dreams.
     - I feel like I'm being followed.
-    - I'm afraid to start over.
     - I just got bad news, and now my whole world feels like it's crumbling.
-    - I'm scared of never being enough.
-    - I'm worried I'll never find my purpose.
-    - I feel like something is hiding in the dark.
-    - I just saw something I can't explain, and it's creeping me out.
+    - I just saw something in the mirror that wasn't there before.
+    - I feel like I'm in a horror movie right now.
     - I have to tell someone bad news, and I don't know how they'll take it.
-    - I'm afraid of getting too close to people because they might leave.
-    - I have a huge fear of rejection.
-    - I don't know if I can handle this pressure.
+    - I have a huge fear of rejection, and I need to ask something important.
     - I just got a threatening message, and now I don't know what to do.
     - I feel like my heart is about to explode from fear.
-    - I'm scared of losing my loved ones.
     - I hate being home alone at night.
-    - I have to make a speech, and I feel like I'm going to faint.
-    - I'm terrified of making a mistake.
+    - I have to make a speech in 10 minutes, and I feel like I'm going to faint.
     - I feel like something is crawling on me, but I don't see anything.
-    - I'm afraid of change.
-    - I feel like I'm stuck in a nightmare I can't wake up from.
     - I saw something move in the corner of my eye, but no one's there.
-    - I'm scared of being laughed at.
-    - I don't want to lose everything I've worked for.
-    - I have a deep fear of failure.
-    - I hate surprises because they make me anxious.
-    - I'm afraid of not living up to expectations.
-    - I don't know if I'll ever be able to face my fears.
-    - I'm scared of the future.
-    - I feel like I'm being chased, even though no one's there.
-    - I have a phobia of deep water, and I'm going on a boat today.
-    - I'm afraid to trust people again.
-    - I hate elevators. They make me feel trapped.
     - I just heard footsteps, but I'm home alone.
     - I feel like I'm being watched through the window.
-    - I'm scared of losing control.
     - I have to go into a haunted house, and I'm freaking out.
-    - I'm afraid I won't be able to recover from this.
-    - I feel like I'll never escape my fears.
-    - I don't know if I'll ever stop being afraid.
-    - I am really scared.
+    - I can't stop shaking. I'm so scared.
+    - I am really scared right now.
     - I am so afraid right now.
     - I don't know what to do, I'm terrified.
     - This is really freaking me out.
-    - I feel like something bad is going to happen.
+    - I feel like something bad is going to happen any second.
     - I am scared of the dark.
-    - I am afraid to be alone.
-    - I am scared of failing.
+    - I am afraid to be alone right now.
+    - I am scared of failing this instant.
     - I am shaking with fear.
-    - I feel like I am being watched.
-    - I am terrified of speaking in public.
-    - I am afraid of what will happen next.
+    - I am terrified of speaking in public today.
+    - I am afraid of what will happen next in a few minutes.
     - I feel like something is chasing me.
-    - I am scared of heights.
+    - I am scared of heights, and I have to cross a bridge now.
     - I am so nervous, I feel sick.
-    - I hate horror movies, they scare me.
-    - I am scared of losing everything.
-    - I don't want to look under my bed.
-    - I have a bad feeling about this.
-    - I am afraid of being judged.
-    - I feel like I am trapped.
-    - I am afraid of making mistakes.
-    - I hate walking alone at night.
-    - I am scared of talking to new people.
-    - I am afraid of getting hurt.
-    - I don't want to fail.
-    - I am afraid of what they will say.
-    - I feel like something bad is lurking around.
+    - I hate horror movies, they scare me too much.
+    - I don't want to look under my bed right now.
+    - I have a bad feeling about something happening soon.
+    - I feel like I am trapped right now.
+    - I feel like something bad is lurking around me.
     - I hate going to hospitals, they scare me.
-    - I don't know how to face this fear.
-    - I feel like I am suffocating.
-    - I hate scary places.
-    - I don't feel safe.
+    - I feel like I am suffocating from fear.
+    - I hate scary places, and I’m in one now.
+    - I don't feel safe here.
     - I feel so uneasy right now.
-    - I am terrified of what's coming next.
-    - I can't sleep because I'm scared.
-    - I am afraid I will regret this.
-    - I feel like I'm stuck in a nightmare.
-    - I don't want to be left alone here.
+    - I am terrified of what's coming next in a few moments.
+    - I can't sleep because I'm scared right now.
+    - I feel like I'm stuck in a nightmare I can't wake up from.
+    - I don't want to be left alone here at this moment.
+
 
 
 
