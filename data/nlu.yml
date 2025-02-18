@@ -37,6 +37,7 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
     
+    
 - intent: happy
   examples: |
     - I just won the game! I'm so thrilled!
@@ -151,6 +152,46 @@ nlu:
     - I got my first customer today! Feeling so proud.
     - I just received the best advice ever! Feeling so motivated.
     - I made a wish on a shooting star tonight. It was magical.
+    - I am so happy right now!
+    - I feel amazing today.
+    - This is the best day ever.
+    - I am so excited!
+    - I can't stop smiling.
+    - I just got the best news.
+    - I feel on top of the world.
+    - I am in such a good mood.
+    - This makes me so happy.
+    - I love this feeling.
+    - I am so proud of myself.
+    - I just won!
+    - I am laughing so much right now.
+    - I am so grateful for today.
+    - I can't believe how lucky I am.
+    - I feel so loved.
+    - This is the happiest moment of my life.
+    - I am so excited for what's coming next.
+    - I just got a big surprise!
+    - I am feeling so positive today.
+    - I love my life right now.
+    - I am having the best time.
+    - This is exactly what I needed.
+    - I just got my dream job!
+    - I feel like celebrating.
+    - I can't wait to share this good news.
+    - I feel so appreciated.
+    - I love when things go my way.
+    - I just got a promotion!
+    - I finally achieved my goal.
+    - I am so proud of what I've done.
+    - I can't believe this is real.
+    - I just got a new car!
+    - I feel so confident today.
+    - I am surrounded by so much love.
+    - I just finished my project and it feels amazing.
+    - This is the best feeling ever.
+    - I am enjoying every moment of this.
+    - I love spending time with my friends.
+    - I just got a puppy!
 
 - intent : sad
   examples: |
@@ -288,9 +329,59 @@ nlu:
     - I feel like I'm drowning in my emotions.
     - I keep smiling for others, but deep down, I feel so sad.
     - I just want to escape reality for a while.
+    - I feel so sad.
+    - I am really down today.
+    - I just want to cry.
+    - I feel like I am all alone.
+    - Nothing is going right.
+    - I am heartbroken.
+    - I feel so empty inside.
+    - I just lost something important to me.
+    - I can't stop thinking about how sad I am.
+    - I feel completely hopeless.
+    - I miss someone so much.
+    - I feel like giving up.
+    - I don't have the energy for anything.
+    - I just want to be alone.
+    - I hate feeling this way.
+    - I feel like no one understands me.
+    - I have no motivation for anything.
+    - I feel like I am stuck in a dark place.
+    - I am so tired of everything.
+    - I just got really bad news.
+    - I feel like my heart is broken.
+    - I am disappointed in myself.
+    - I feel like a failure.
+    - I just lost a loved one.
+    - I hate how I feel right now.
+    - I feel like crying but I can't.
+    - I feel so drained.
+    - I just want to disappear.
+    - I don't feel like doing anything today.
+    - I feel like I am losing everything.
+    - I am so lonely.
+    - I feel completely lost.
+    - I don't know how to move forward.
+    - I hate feeling like this.
+    - I feel like the world is against me.
+    - I can't stop thinking about my mistakes.
+    - I feel like I have no one to turn to.
+    - I feel like I have lost everything that mattered.
+    - I just want to sleep and never wake up.
+    - I wish things were different.
 
 - intent: anger
   examples: |
+    - I hate you.
+    - I hate him so much.
+    - I hate her attitude.
+    - I can't stand you.
+    - I despise him.
+    - I loathe this situation.
+    - I hate being ignored.
+    - I hate when people lie.
+    - You make me so angry!
+    - This is so frustrating!
     - I can't believe they lied to me! I'm so mad!
     - That was so unfair! I did everything right!
     - I hate being ignored! It's so frustrating!
@@ -414,6 +505,205 @@ nlu:
     - I just realized I've been wasting my time on the wrong thing!
     - My team lost because someone didn't do their part!
     - I hate when people talk too loudly on the phone in public!
+    - I hate you.
+    - I hate her.
+    - I hate him.
+    - I can't stand this.
+    - This makes me so mad.
+    - I am so frustrated right now.
+    - I hate when this happens.
+    - I hate being ignored.
+    - I hate when people lie to me.
+    - This is so unfair.
+    - I am really angry right now.
+    - This is pissing me off.
+    - I hate this so much.
+    - I can't believe they did this to me.
+    - This is driving me crazy.
+    - I am sick of this.
+    - I hate my life sometimes.
+    - I am furious!
+    - This is the worst thing ever.
+    - I can't stand being treated like this.
+    - Why does this always happen to me?
+    - I hate when people don't listen.
+    - I am boiling with anger.
+    - I just want to scream.
+    - This is so annoying.
+    - I can't believe they said that.
+    - I am done with this.
+    - I feel like punching something.
+    - This is making me lose my mind.
+    - I hate fake people.
+    - I hate being lied to.
+    - I am never talking to them again.
+    - I am losing my patience.
+    - This is getting on my nerves.
+    - I can't control my temper right now.
+    - I feel like breaking something.
+    - This is absolutely ridiculous.
+    - I hate my job.
+    - I hate school.
+    - I hate when people don't respect me.
+    - I feel so disrespected.
+    - I can't believe they betrayed me.
+    - This is making me so upset.
+    - I can't take this anymore.
+    - This situation is making me angry.
+    - I am fuming right now.
+    - I feel like I'm about to explode.
+    - I hate waiting for things.
+    - I hate when people interrupt me.
+    - I hate when people take me for granted.
+    - I hate cheaters.
+    - I hate rude people.
+    - I am really pissed off.
+    - This is making me crazy.
+    - I feel so irritated.
+    - I hate it when people waste my time.
+    - I am losing it.
+    - I am so mad at myself.
+    - I hate this feeling.
+    - I can't forgive them for this.
+    - I am sick of people treating me like this.
+    - I feel like throwing my phone.
+    - I hate when people don't understand me.
+    - I just want to be left alone.
+    - This situation is really frustrating me.
+    - I hate everything about this.
+    - I am fed up with this nonsense.
+    - I hate dealing with stupid people.
+    - I can't believe they hurt me like this.
+    - I don't even want to talk to them.
+    - I hate being taken advantage of.
+    - I hate feeling like this.
+    - I feel like screaming into a pillow.
+    - This is ruining my day.
+    - I hate being stuck in traffic.
+    - I hate when people break their promises.
+    - I hate when things don't go my way.
+    - I hate being controlled.
+    - I am so disappointed and angry.
+    - I am so mad I could cry.
+    - I hate being late.
+    - I hate getting blamed for things I didn't do.
+    - I feel like I'm about to explode with anger.
+    - I hate when people talk over me.
+    - I can't stand this anymore.
+    - I hate being in arguments.
+    - I am so angry I can't think straight.
+    - I am furious at myself.
+    - I hate losing.- I hate you.
+    - I hate her.
+    - I hate him.
+    - I can't stand this.
+    - This makes me so mad.
+    - I am so frustrated right now.
+    - I hate when this happens.
+    - I hate being ignored.
+    - I hate when people lie to me.
+    - This is so unfair.
+    - I am really angry right now.
+    - This is pissing me off.
+    - I hate this so much.
+    - I can't believe they did this to me.
+    - This is driving me crazy.
+    - I am sick of this.
+    - I hate my life sometimes.
+    - I am furious!
+    - This is the worst thing ever.
+    - I can't stand being treated like this.
+    - Why does this always happen to me?
+    - I hate when people don't listen.
+    - I am boiling with anger.
+    - I just want to scream.
+    - This is so annoying.
+    - I can't believe they said that.
+    - I am done with this.
+    - I feel like punching something.
+    - This is making me lose my mind.
+    - I hate fake people.
+    - I hate being lied to.
+    - I am never talking to them again.
+    - I am losing my patience.
+    - This is getting on my nerves.
+    - I can't control my temper right now.
+    - I feel like breaking something.
+    - This is absolutely ridiculous.
+    - I hate my job.
+    - I hate school.
+    - I hate when people don't respect me.
+    - I feel so disrespected.
+    - I can't believe they betrayed me.
+    - This is making me so upset.
+    - I can't take this anymore.
+    - This situation is making me angry.
+    - I am fuming right now.
+    - I feel like I'm about to explode.
+    - I hate waiting for things.
+    - I hate when people interrupt me.
+    - I hate when people take me for granted.
+    - I hate cheaters.
+    - I hate rude people.
+    - I am really pissed off.
+    - This is making me crazy.
+    - I feel so irritated.
+    - I hate it when people waste my time.
+    - I am losing it.
+    - I am so mad at myself.
+    - I hate this feeling.
+    - I can't forgive them for this.
+    - I am sick of people treating me like this.
+    - I feel like throwing my phone.
+    - I hate when people don't understand me.
+    - I just want to be left alone.
+    - This situation is really frustrating me.
+    - I hate everything about this.
+    - I am fed up with this nonsense.
+    - I hate dealing with stupid people.
+    - I can't believe they hurt me like this.
+    - I don't even want to talk to them.
+    - I hate being taken advantage of.
+    - I hate feeling like this.
+    - I feel like screaming into a pillow.
+    - This is ruining my day.
+    - I hate being stuck in traffic.
+    - I hate when people break their promises.
+    - I hate when things don't go my way.
+    - I hate being controlled.
+    - I am so disappointed and angry.
+    - I am so mad I could cry.
+    - I hate being late.
+    - I hate getting blamed for things I didn't do.
+    - I feel like I'm about to explode with anger.
+    - I hate when people talk over me.
+    - I can't stand this anymore.
+    - I hate being in arguments.
+    - I am so angry I can't think straight.
+    - I am furious at myself.
+    - I hate losing.
+    - I hate when I get ignored.
+    - I hate when people act fake.
+    - I hate being misunderstood.
+    - I am about to lose it.
+    - I feel like slamming the door right now.
+    - I am so done with this conversation.
+    - I hate when things go wrong.
+    - I hate being talked down to.
+    - I am so mad I can't even explain it.
+    - I am burning with rage.
+    - I can't stand rude behavior.
+    - I hate when I get ignored.
+    - I hate when people act fake.
+    - I hate being misunderstood.
+    - I am about to lose it.
+    - I feel like slamming the door right now.
+    - I am so done with this conversation.
+    - I hate when things go wrong.
+    - I hate being talked down to.
+    - I am so mad I can't even explain it.
+    - I am burning with rage.
+    - I can't stand rude behavior.
 
 - intent: anxious
   examples: |
@@ -496,7 +786,7 @@ nlu:
     - I keep running through worst-case scenarios in my head.
     - I get anxious about things that don't even matter.
     - I hate ordering food over the phone. It makes me nervous.
-    - I feel like I'm stuck in a cycle of worrying.
+    - I feel like I'm stuck’ in a cycle of worrying.
     - I get nervous before walking into a room full of people.
     - I always think I forgot to lock the door.
     - I feel like I can't breathe when I get too anxious.
@@ -512,7 +802,7 @@ nlu:
     - I hate confrontation. It makes me so nervous.
     - I always feel like I'm annoying people.
     - I get anxious when I don't get an immediate response.
-    - I hate speaking up in meetings. It makes me feel exposed.
+    - I hate speaking up in’ meetings. It makes me feel exposed.
     - I always second-guess myself.
     - I feel like my mind is going a hundred miles per hour.
     - I get anxious when I have too many choices.
@@ -548,6 +838,46 @@ nlu:
     - I feel like my mind never stops worrying.
     - I always worry that I'm not doing enough.
     - I feel like I'm constantly on edge.
+    - I am feeling really anxious right now.
+    - I can't stop worrying.
+    - My heart is racing.
+    - I feel so nervous.
+    - I don't know how to handle this stress.
+    - I feel like I can't breathe.
+    - I am overthinking everything.
+    - I feel so uneasy.
+    - I have a really bad feeling.
+    - I can't stop shaking.
+    - I am dreading tomorrow.
+    - I don't know what to do.
+    - I feel so restless.
+    - I am so stressed out.
+    - I keep thinking about the worst-case scenario.
+    - I feel like I'm about to panic.
+    - I hate this feeling.
+    - I am so overwhelmed right now.
+    - I feel like I am going to mess up.
+    - I can't focus because I'm so anxious.
+    - I feel like I am losing control.
+    - I can't calm down.
+    - I am scared something bad will happen.
+    - My hands are sweating so much.
+    - I keep replaying everything in my head.
+    - I feel like crying from stress.
+    - I am so worried about this.
+    - I feel like I am running out of time.
+    - I don't think I can do this.
+    - I am afraid of making a mistake.
+    - I can't sit still, I am so anxious.
+    - I feel like everyone is judging me.
+    - I don't know how to stop these thoughts.
+    - I feel sick from stress.
+    - I hate feeling like this.
+    - I wish I could relax.
+    - I feel like I am carrying the weight of the world.
+    - I have so much pressure on me.
+    - I can't handle this right now.
+    - I just want to disappear.
 
 - intent: fear
   examples: |
@@ -675,6 +1005,46 @@ nlu:
     - I'm afraid I won't be able to recover from this.
     - I feel like I'll never escape my fears.
     - I don't know if I'll ever stop being afraid.
+    - I am really scared.
+    - I am so afraid right now.
+    - I don't know what to do, I'm terrified.
+    - This is really freaking me out.
+    - I feel like something bad is going to happen.
+    - I am scared of the dark.
+    - I am afraid to be alone.
+    - I am scared of failing.
+    - I am shaking with fear.
+    - I feel like I am being watched.
+    - I am terrified of speaking in public.
+    - I am afraid of what will happen next.
+    - I feel like something is chasing me.
+    - I am scared of heights.
+    - I am so nervous, I feel sick.
+    - I hate horror movies, they scare me.
+    - I am scared of losing everything.
+    - I don't want to look under my bed.
+    - I have a bad feeling about this.
+    - I am afraid of being judged.
+    - I feel like I am trapped.
+    - I am afraid of making mistakes.
+    - I hate walking alone at night.
+    - I am scared of talking to new people.
+    - I am afraid of getting hurt.
+    - I don't want to fail.
+    - I am afraid of what they will say.
+    - I feel like something bad is lurking around.
+    - I hate going to hospitals, they scare me.
+    - I don't know how to face this fear.
+    - I feel like I am suffocating.
+    - I hate scary places.
+    - I don't feel safe.
+    - I feel so uneasy right now.
+    - I am terrified of what's coming next.
+    - I can't sleep because I'm scared.
+    - I am afraid I will regret this.
+    - I feel like I'm stuck in a nightmare.
+    - I don't want to be left alone here.
+
 
 
 - intent: affirm
