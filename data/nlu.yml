@@ -1,68 +1,34 @@
 version: "3.1"
 
 nlu:
-- intent: greet
-  examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+# - intent: greet
+#   examples: |
+#     - hey
+#     - hello
+#     - hi
+#     - hello there
+#     - good morning
+#     - good evening
+#     - moin
+#     - hey there
+#     - let's go
+#     - hey dude
+#     - goodmorning
+#     - goodevening
+#     - good afternoon
 
-- intent: goodbye
-  examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
-
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+# - intent: goodbye
+#   examples: |
+#     - cu
+#     - good by
+#     - cee you later
+#     - good night
+#     - bye
+#     - goodbye
+#     - have a nice day
+#     - see you around
+#     - bye bye
+#     - see you later
 
 - intent: bot_challenge
   examples: |
@@ -73,646 +39,838 @@ nlu:
     
 - intent: happy
   examples: |
-- I just won the game! I'm so thrilled!
-- My dad told me he's proud of me. I feel amazing!
-- I finally bought my dream bike! This is the best day ever!
-- I got an A on my test! So happy right now!
-- My best friend surprised me with a gift! I'm overjoyed!
-- I got my first paycheck today! I feel so accomplished.
-- I got promoted at work! I'm beyond happy!
-- My little sister hugged me and said she loves me. My heart is so full.
-- I made a new friend today. Feeling really good!
-- My team won the championship! I can't stop smiling!
-- I just finished my favorite book, and it was amazing!
-- I helped someone today, and it made me feel so happy.
-- I finally mastered that difficult song on the guitar! Feels great!
-- The weather is so perfect today. It's making me feel really happy.
-- I saw a beautiful sunset, and it just made my day.
-- My dog was so excited to see me when I got home. I love him so much!
-- I got a message from an old friend, and it made me so happy!
-- My favorite show just released a new season! I'm so excited!
-- I got a new phone today! It's so cool!
-- I finally got my driver's license! I'm over the moon!
-- My mom made my favorite dish for dinner. I'm so grateful!
-- I just had the best conversation with someone. I feel so understood.
-- My art got featured in a gallery! I can't believe it!
-- I finally saved enough money for my dream vacation! So happy!
-- My crush just said they like me back! I'm on cloud nine!
-- I woke up feeling so refreshed and happy today.
-- I got accepted into my dream college! Best day ever!
-- My favorite team won the match! I'm so pumped!
-- I aced my interview and got the job! Feeling so proud.
-- Someone complimented my hard work today. It meant a lot!
-- I finally finished my project, and it turned out great!
-- I went on an amazing trip with my friends. It was unforgettable!
-- I received an unexpected gift today! It made my whole day.
-- My little brother made me a handmade card. It's so sweet!
-- My favorite band just announced a concert in my city! So excited!
-- I had the best time at the party last night. Feeling so good!
-- I finally learned how to swim! I'm so proud of myself.
-- I reunited with a childhood friend after years. It feels amazing!
-- I just found out I'm going to be an uncle! I'm so happy!
-- I adopted a pet today! My heart is full of love.
-- I got my dream job! I still can't believe it!
-- I received a scholarship! My hard work paid off!
-- I just baked the perfect cake, and it turned out amazing!
-- I had such a fun day at the amusement park! Best day ever!
-- I finally completed my fitness goal! I feel so accomplished.
-- My kid just said their first word! I'm so emotional and happy.
-- My partner planned a surprise date for me! Feeling so loved.
-- I got a handwritten letter from someone special. It means so much.
-- My parents gave me the best advice today. I feel so supported.
-- I just got my dream apartment! This is unreal!
-- I won a lucky draw contest! Never been this lucky before!
-- I just found a song that perfectly matches my mood. It's amazing!
-- I got a new gaming console! Can't wait to play!
-- I finally cleared my driving test! What a relief!
-- I spent the whole day with my grandparents. It was wonderful!
-- My friend stood up for me today. I feel so valued.
-- I saw a random act of kindness today. It restored my faith in humanity.
-- I tried something new today and absolutely loved it!
-- My garden is finally blooming! It looks so beautiful.
-- I finally finished writing my first book! It feels unreal!
-- My boss appreciated my work today. It made my day!
-- I had the best home-cooked meal. Feeling so satisfied.
-- I rewatched my favorite childhood movie. So nostalgic and happy!
-- I found an old diary with so many good memories! Feeling sentimental.
-- I finally paid off a debt! Feeling so relieved and happy.
-- My favorite coffee shop remembered my order. Such a small thing but made me so happy!
-- I just got a handwritten note from my teacher. It means a lot.
-- My pet just did the cutest thing! I can't stop smiling.
-- I saw the most beautiful rainbow today! Nature is amazing.
-- I met a celebrity I admire! I still can't believe it!
-- I had the most delicious meal today. Feeling so content.
-- My little cousin called me their favorite person. So cute!
-- I just heard the best joke! I can't stop laughing!
-- I woke up to the most beautiful sunrise. It's a good day.
-- My dream came true today! I'm so grateful.
-- I just found money in my old jeans! Best surprise ever!
-- I won a bet with my friend! Feels great to be right!
-- I got a free dessert at my favorite restaurant! So lucky!
-- I finally reached my savings goal! I feel accomplished.
-- My sibling and I had the best bonding moment today.
-- I received a heartfelt thank-you message today. It warmed my heart.
-- My favorite author liked my comment on social media! Unreal!
-- I got selected for an opportunity I really wanted! So excited!
-- My online order arrived earlier than expected! Best feeling!
-- I just finished an amazing workout! Feeling so good!
-- I finally completed a puzzle I've been working on for weeks!
-- I danced my heart out today! Feeling so alive!
-- My parents surprised me with my favorite snack. They know me so well!
-- My friend made me laugh so hard today! It was hilarious!
-- I got a handwritten birthday card. It means the world to me.
-- My boss gave me a bonus! What a great surprise!
-- I just had an amazing creative breakthrough! Feeling so inspired!
-- My crush smiled at me today! I'm so giddy!
-- I had the best time at the beach! The waves were perfect!
-- I received the most heartfelt compliment today. I'll cherish it forever.
-- I just found the coziest reading spot! I'm in heaven.
-- I reconnected with an old hobby, and it brought me so much joy.
-- I had the best cup of coffee today. It was just perfect.
-- My best friend and I wore matching outfits by accident. So funny!
-- I finally figured out a tough problem. Such a relief!
-- I got a personal thank-you from my teacher. It really touched me.
-- I just had the most wholesome conversation with a stranger.
-- I made someone's day today, and that made mine!
-- I just had the best surprise party ever! Feeling so loved.
-- My team members appreciated my effort today. I feel so valued.
-- My favorite childhood snack is back in stores! So nostalgic!
-- I received the sweetest voice note from my friend today.
-- I had an amazing dream last night. I woke up feeling so good!
-- I finally bought that thing I've wanted for so long!
-- I got my first customer today! Feeling so proud.
-- I just received the best advice ever! Feeling so motivated.
-- I made a wish on a shooting star tonight. It was magical.
-
-
+    - I just won the game! I'm so thrilled!
+    - My dad told me he's proud of me. I feel amazing!
+    - I finally bought my dream bike! This is the best day ever!
+    - I got an A on my test! So happy right now!
+    - My best friend surprised me with a gift! I'm overjoyed!
+    - I got my first paycheck today! I feel so accomplished.
+    - I got promoted at work! I'm beyond happy!
+    - My little sister hugged me and said she loves me. My heart is so full.
+    - I made a new friend today. Feeling really good!
+    - My team won the championship! I can't stop smiling!
+    - I just finished my favorite book, and it was amazing!
+    - I helped someone today, and it made me feel so happy.
+    - I finally mastered that difficult song on the guitar! Feels great!
+    - The weather is so perfect today. It's making me feel really happy.
+    - I saw a beautiful sunset, and it just made my day.
+    - My dog was so excited to see me when I got home. I love him so much!
+    - I got a message from an old friend, and it made me so happy!
+    - My favorite show just released a new season! I'm so excited!
+    - I got a new phone today! It's so cool!
+    - I finally got my driver's license! I'm over the moon!
+    - My mom made my favorite dish for dinner. I'm so grateful!
+    - I just had the best conversation with someone. I feel so understood.
+    - My art got featured in a gallery! I can't believe it!
+    - I finally saved enough money for my dream vacation! So happy!
+    - My crush just said they like me back! I'm on cloud nine!
+    - I woke up feeling so refreshed and happy today.
+    - I got accepted into my dream college! Best day ever!
+    - My favorite team won the match! I'm so pumped!
+    - I aced my interview and got the job! Feeling so proud.
+    - Someone complimented my hard work today. It meant a lot!
+    - I finally finished my project, and it turned out great!
+    - I went on an amazing trip with my friends. It was unforgettable!
+    - I received an unexpected gift today! It made my whole day.
+    - My little brother made me a handmade card. It's so sweet!
+    - My favorite band just announced a concert in my city! So excited!
+    - I had the best time at the party last night. Feeling so good!
+    - I finally learned how to swim! I'm so proud of myself.
+    - I reunited with a childhood friend after years. It feels amazing!
+    - I just found out I'm going to be an uncle! I'm so happy!
+    - I adopted a pet today! My heart is full of love.
+    - I got my dream job! I still can't believe it!
+    - I received a scholarship! My hard work paid off!
+    - I just baked the perfect cake, and it turned out amazing!
+    - I had such a fun day at the amusement park! Best day ever!
+    - I finally completed my fitness goal! I feel so accomplished.
+    - My kid just said their first word! I'm so emotional and happy.
+    - My partner planned a surprise date for me! Feeling so loved.
+    - I got a handwritten letter from someone special. It means so much.
+    - My parents gave me the best advice today. I feel so supported.
+    - I just got my dream apartment! This is unreal!
+    - I won a lucky draw contest! Never been this lucky before!
+    - I just found a song that perfectly matches my mood. It's amazing!
+    - I got a new gaming console! Can't wait to play!
+    - I finally cleared my driving test! What a relief!
+    - I spent the whole day with my grandparents. It was wonderful!
+    - My friend stood up for me today. I feel so valued.
+    - I saw a random act of kindness today. It restored my faith in humanity.
+    - I tried something new today and absolutely loved it!
+    - My garden is finally blooming! It looks so beautiful.
+    - I finally finished writing my first book! It feels unreal!
+    - My boss appreciated my work today. It made my day!
+    - I had the best home-cooked meal. Feeling so satisfied.
+    - I rewatched my favorite childhood movie. So nostalgic and happy!
+    - I found an old diary with so many good memories! Feeling sentimental.
+    - I finally paid off a debt! Feeling so relieved and happy.
+    - My favorite coffee shop remembered my order. Such a small thing but made me so happy!
+    - I just got a handwritten note from my teacher. It means a lot.
+    - My pet just did the cutest thing! I can't stop smiling.
+    - I saw the most beautiful rainbow today! Nature is amazing.
+    - I met a celebrity I admire! I still can't believe it!
+    - I had the most delicious meal today. Feeling so content.
+    - My little cousin called me their favorite person. So cute!
+    - I just heard the best joke! I can't stop laughing!
+    - I woke up to the most beautiful sunrise. It's a good day.
+    - My dream came true today! I'm so grateful.
+    - I just found money in my old jeans! Best surprise ever!
+    - I won a bet with my friend! Feels great to be right!
+    - I got a free dessert at my favorite restaurant! So lucky!
+    - I finally reached my savings goal! I feel accomplished.
+    - My sibling and I had the best bonding moment today.
+    - I received a heartfelt thank-you message today. It warmed my heart.
+    - My favorite author liked my comment on social media! Unreal!
+    - I got selected for an opportunity I really wanted! So excited!
+    - My online order arrived earlier than expected! Best feeling!
+    - I just finished an amazing workout! Feeling so good!
+    - I finally completed a puzzle I've been working on for weeks!
+    - I danced my heart out today! Feeling so alive!
+    - My parents surprised me with my favorite snack. They know me so well!
+    - My friend made me laugh so hard today! It was hilarious!
+    - I got a handwritten birthday card. It means the world to me.
+    - My boss gave me a bonus! What a great surprise!
+    - I just had an amazing creative breakthrough! Feeling so inspired!
+    - My crush smiled at me today! I'm so giddy!
+    - I had the best time at the beach! The waves were perfect!
+    - I received the most heartfelt compliment today. I'll cherish it forever.
+    - I just found the coziest reading spot! I'm in heaven.
+    - I reconnected with an old hobby, and it brought me so much joy.
+    - I had the best cup of coffee today. It was just perfect.
+    - My best friend and I wore matching outfits by accident. So funny!
+    - I finally figured out a tough problem. Such a relief!
+    - I got a personal thank-you from my teacher. It really touched me.
+    - I just had the most wholesome conversation with a stranger.
+    - I made someone's day today, and that made mine!
+    - I just had the best surprise party ever! Feeling so loved.
+    - My team members appreciated my effort today. I feel so valued.
+    - My favorite childhood snack is back in stores! So nostalgic!
+    - I received the sweetest voice note from my friend today.
+    - I had an amazing dream last night. I woke up feeling so good!
+    - I finally bought that thing I've wanted for so long!
+    - I got my first customer today! Feeling so proud.
+    - I just received the best advice ever! Feeling so motivated.
+    - I made a wish on a shooting star tonight. It was magical.
 
 - intent : sad
   examples: |
-- I failed my test. I feel so disappointed.
-- My best friend ignored me today. It really hurt.
-- I lost the game. I tried my best, but it wasn't enough.
-- I didn't get the job I wanted. Feeling really down.
-- My pet passed away. I can't stop crying.
-- I feel so alone, like no one understands me.
-- I studied so hard, but I still failed. It's frustrating.
-- My parents are disappointed in me. That breaks my heart.
-- My crush doesn't like me back. It really hurts.
-- I got rejected from my dream college. I feel so lost.
-- I had a fight with my best friend. I hate this feeling.
-- I miss someone so much right now. It's unbearable.
-- I tried my hardest, but it still wasn't enough.
-- I just feel empty inside.
-- I woke up feeling sad for no reason.
-- My favorite show just ended. I feel so lost now.
-- No one remembered my birthday. That really stings.
-- I got replaced in my team. I feel worthless.
-- I lost my wallet today. It's been such a bad day.
-- I thought they cared about me, but I was wrong.
-- I don't know why, but I feel like crying.
-- I feel like I keep disappointing everyone around me.
-- My sibling and I had a huge argument. I feel awful.
-- My parents don't understand me. It's frustrating.
-- I'm homesick. I miss my family so much.
-- I had a bad day at work. Everything went wrong.
-- I failed my driving test. I feel so useless.
-- My partner broke up with me. I'm heartbroken.
-- I just feel like no one really cares.
-- I keep comparing myself to others, and it makes me sad.
-- I feel like I'm not good enough.
-- I tried to make someone happy, but they didn't even notice.
-- I lost a friend today. It hurts so much.
-- I thought I had it all figured out, but I don't.
-- My childhood home got sold. I feel so nostalgic and sad.
-- I got scolded by my teacher in front of everyone. It was embarrassing.
-- I'm feeling so unmotivated lately.
-- I really wanted that opportunity, but I didn't get it.
-- I feel stuck in life.
-- I worked so hard, but no one appreciated it.
-- My favorite pet is sick. I'm really worried.
-- I feel like everyone has moved on without me.
-- I just found out someone I admire passed away.
-- My phone broke, and I lost all my memories in it.
-- I overheard someone talking badly about me. It hurts.
-- I feel like I'm constantly making mistakes.
-- I don't know why, but I feel so down.
-- I miss the good old days.
-- I feel like I let myself down.
-- I got ghosted by someone I really cared about.
-- My dreams feel so far away. I don't know if I'll ever get there.
-- I wish I had someone to talk to.
-- My grades are dropping, and I don't know what to do.
-- I feel like I'm losing control over my life.
-- I miss the person I used to be.
-- I feel like nobody truly understands me.
-- I was excited for today, but it turned out to be disappointing.
-- I saw an old photo, and now I miss those times so much.
-- I feel like I have no purpose.
-- My anxiety has been really bad lately.
-- My favorite place got shut down. I feel so sad.
-- I had high hopes, but they got crushed.
-- I hate how things turned out.
-- I don't feel like doing anything today.
-- I feel like crying, but I don't know why.
-- My trust got broken. I don't know if I can recover from this.
-- I feel like I'll never be enough.
-- I feel distant from the people I love.
-- I hate disappointing others.
-- I feel so drained, like I have nothing left to give.
-- I was really looking forward to something, but it got canceled.
-- My childhood toy broke today. I feel so sad.
-- I'm stuck in the past. I can't move on.
-- I saw something that reminded me of a painful memory.
-- I feel like a failure.
-- I gave my best effort, but no one noticed.
-- I wish I could turn back time.
-- I feel like I lost a part of myself today.
-- I have so much on my mind, and it's overwhelming.
-- I saw my ex with someone else. That hurt more than I expected.
-- I feel like I don't belong anywhere.
-- My teacher didn't appreciate my effort. It made me feel worthless.
-- I wish I had someone to listen to me.
-- My sibling always gets praised, but I feel invisible.
-- I'm struggling, but no one seems to notice.
-- I tried to be positive, but life keeps knocking me down.
-- I feel lost and confused.
-- My friend is moving away. I don't know what I'll do without them.
-- I feel stuck in my routine. Everything feels meaningless.
-- I feel so unwanted.
-- I don't think anyone would miss me if I disappeared.
-- My friend canceled our plans last minute. I was really looking forward to it.
-- I feel like no one sees my worth.
-- I had a panic attack today. It was horrible.
-- I saw an old couple, and it reminded me how lonely I feel.
-- I feel like I can't talk to anyone about how I feel.
-- I keep having nightmares. It's affecting my sleep.
-- I feel like I wasted so much time on something pointless.
-- I wish things were different.
-- I feel like my life is going nowhere.
-- I tried my best, but I still got criticized.
-- I saw an old message from someone who's no longer in my life.
-- I feel so broken inside.
-- I got stood up today. It was humiliating.
-- I miss my childhood. Things were so much easier back then.
-- I'm not okay, but I don't know how to express it.
-- I tried to stay strong, but I couldn't.
-- I lost my lucky charm today. It feels like a bad sign.
-- I feel like I've been left behind.
-- I just need a hug right now.
-- I've been feeling so insecure lately.
-- I was hoping for some good news, but it didn't come.
-- I wish I could just disappear for a while.
-- I saw my dream house today, but I know I'll never afford it.
-- I feel like I'm constantly fighting battles no one sees.
-- I feel like crying myself to sleep tonight.
-- My best friend got a new friend, and I feel replaced.
-- I have so many regrets.
-- My favorite childhood cartoon got removed from TV. I feel so sad.
-- I saw my old school today, and it made me so emotional.
-- I miss the way things used to be.
-- I lost my favorite book. I feel so empty.
-- I feel like I've lost my spark.
-- I just want to be alone for a while.
-- My plants died. I feel so guilty.
-- I wish I had someone who really understood me.
-- I keep replaying painful moments in my head.
-- I feel like I'm losing myself.
-- I found an old letter, and it brought back so many emotions.
-- I tried reaching out, but no one responded.
-- I feel like my life is slipping through my fingers.
-- I feel like I'm drowning in my emotions.
-- I keep smiling for others, but deep down, I feel so sad.
-- I just want to escape reality for a while.
-
-
+    - I failed my test. I feel so disappointed.
+    - My best friend ignored me today. It really hurt.
+    - I lost the game. I tried my best, but it wasn't enough.
+    - I didn't get the job I wanted. Feeling really down.
+    - My pet passed away. I can't stop crying.
+    - I feel so alone, like no one understands me.
+    - I studied so hard, but I still failed. It's frustrating.
+    - My parents are disappointed in me. That breaks my heart.
+    - My crush doesn't like me back. It really hurts.
+    - I got rejected from my dream college. I feel so lost.
+    - I had a fight with my best friend. I hate this feeling.
+    - I miss someone so much right now. It's unbearable.
+    - I tried my hardest, but it still wasn't enough.
+    - I just feel empty inside.
+    - I woke up feeling sad for no reason.
+    - My favorite show just ended. I feel so lost now.
+    - No one remembered my birthday. That really stings.
+    - I got replaced in my team. I feel worthless.
+    - I lost my wallet today. It's been such a bad day.
+    - I thought they cared about me, but I was wrong.
+    - I don't know why, but I feel like crying.
+    - I feel like I keep disappointing everyone around me.
+    - My sibling and I had a huge argument. I feel awful.
+    - My parents don't understand me. It's frustrating.
+    - I'm homesick. I miss my family so much.
+    - I had a bad day at work. Everything went wrong.
+    - I failed my driving test. I feel so useless.
+    - My partner broke up with me. I'm heartbroken.
+    - I just feel like no one really cares.
+    - I keep comparing myself to others, and it makes me sad.
+    - I feel like I'm not good enough.
+    - I tried to make someone happy, but they didn't even notice.
+    - I lost a friend today. It hurts so much.
+    - I thought I had it all figured out, but I don't.
+    - My childhood home got sold. I feel so nostalgic and sad.
+    - I got scolded by my teacher in front of everyone. It was embarrassing.
+    - I'm feeling so unmotivated lately.
+    - I really wanted that opportunity, but I didn't get it.
+    - I feel stuck in life.
+    - I worked so hard, but no one appreciated it.
+    - My favorite pet is sick. I'm really worried.
+    - I feel like everyone has moved on without me.
+    - I just found out someone I admire passed away.
+    - My phone broke, and I lost all my memories in it.
+    - I overheard someone talking badly about me. It hurts.
+    - I feel like I'm constantly making mistakes.
+    - I don't know why, but I feel so down.
+    - I miss the good old days.
+    - I feel like I let myself down.
+    - I got ghosted by someone I really cared about.
+    - My dreams feel so far away. I don't know if I'll ever get there.
+    - I wish I had someone to talk to.
+    - My grades are dropping, and I don't know what to do.
+    - I feel like I'm losing control over my life.
+    - I miss the person I used to be.
+    - I feel like nobody truly understands me.
+    - I was excited for today, but it turned out to be disappointing.
+    - I saw an old photo, and now I miss those times so much.
+    - I feel like I have no purpose.
+    - My anxiety has been really bad lately.
+    - My favorite place got shut down. I feel so sad.
+    - I had high hopes, but they got crushed.
+    - I hate how things turned out.
+    - I don't feel like doing anything today.
+    - I feel like crying, but I don't know why.
+    - My trust got broken. I don't know if I can recover from this.
+    - I feel like I'll never be enough.
+    - I feel distant from the people I love.
+    - I hate disappointing others.
+    - I feel so drained, like I have nothing left to give.
+    - I was really looking forward to something, but it got canceled.
+    - My childhood toy broke today. I feel so sad.
+    - I'm stuck in the past. I can't move on.
+    - I saw something that reminded me of a painful memory.
+    - I feel like a failure.
+    - I gave my best effort, but no one noticed.
+    - I wish I could turn back time.
+    - I feel like I lost a part of myself today.
+    - I have so much on my mind, and it's overwhelming.
+    - I saw my ex with someone else. That hurt more than I expected.
+    - I feel like I don't belong anywhere.
+    - My teacher didn't appreciate my effort. It made me feel worthless.
+    - I wish I had someone to listen to me.
+    - My sibling always gets praised, but I feel invisible.
+    - I'm struggling, but no one seems to notice.
+    - I tried to be positive, but life keeps knocking me down.
+    - I feel lost and confused.
+    - My friend is moving away. I don't know what I'll do without them.
+    - I feel stuck in my routine. Everything feels meaningless.
+    - I feel so unwanted.
+    - I don't think anyone would miss me if I disappeared.
+    - My friend canceled our plans last minute. I was really looking forward to it.
+    - I feel like no one sees my worth.
+    - I had a panic attack today. It was horrible.
+    - I saw an old couple, and it reminded me how lonely I feel.
+    - I feel like I can't talk to anyone about how I feel.
+    - I keep having nightmares. It's affecting my sleep.
+    - I feel like I wasted so much time on something pointless.
+    - I wish things were different.
+    - I feel like my life is going nowhere.
+    - I tried my best, but I still got criticized.
+    - I saw an old message from someone who's no longer in my life.
+    - I feel so broken inside.
+    - I got stood up today. It was humiliating.
+    - I miss my childhood. Things were so much easier back then.
+    - I'm not okay, but I don't know how to express it.
+    - I tried to stay strong, but I couldn't.
+    - I lost my lucky charm today. It feels like a bad sign.
+    - I feel like I've been left behind.
+    - I just need a hug right now.
+    - I've been feeling so insecure lately.
+    - I was hoping for some good news, but it didn't come.
+    - I wish I could just disappear for a while.
+    - I saw my dream house today, but I know I'll never afford it.
+    - I feel like I'm constantly fighting battles no one sees.
+    - I feel like crying myself to sleep tonight.
+    - My best friend got a new friend, and I feel replaced.
+    - I have so many regrets.
+    - My favorite childhood cartoon got removed from TV. I feel so sad.
+    - I saw my old school today, and it made me so emotional.
+    - I miss the way things used to be.
+    - I lost my favorite book. I feel so empty.
+    - I feel like I've lost my spark.
+    - I just want to be alone for a while.
+    - My plants died. I feel so guilty.
+    - I wish I had someone who really understood me.
+    - I keep replaying painful moments in my head.
+    - I feel like I'm losing myself.
+    - I found an old letter, and it brought back so many emotions.
+    - I tried reaching out, but no one responded.
+    - I feel like my life is slipping through my fingers.
+    - I feel like I'm drowning in my emotions.
+    - I keep smiling for others, but deep down, I feel so sad.
+    - I just want to escape reality for a while.
 
 - intent: anger
   examples: |
-- I can't believe they lied to me! I'm so mad!
-- That was so unfair! I did everything right!
-- I hate being ignored! It's so frustrating!
-- I lost the game because someone cheated! I'm furious!
-- They took credit for my work. I'm beyond angry!
-- Why does no one ever listen to me?!
-- I'm tired of people treating me like I don't matter!
-- My boss just gave my project to someone else. I'm livid!
-- I worked so hard, and they didn't even appreciate it!
-- I got scammed! I'm so pissed off!
-- My order was wrong again! This is ridiculous!
-- I hate it when people interrupt me while I'm talking!
-- Someone cut me off in traffic. It made me so mad!
-- My internet is down again! I can't take this!
-- I just found out they were talking behind my back. I'm furious!
-- I can't stand people who break their promises!
-- I studied all night, and the test was completely different! So unfair!
-- I got falsely accused of something I didn't do! I'm fuming!
-- My sibling took my things without asking! I'm so annoyed!
-- They said they'd be here on time, but they're always late!
-- I can't believe they betrayed my trust like that!
-- My friend canceled our plans at the last minute. I'm pissed!
-- I worked overtime, and I didn't even get a thank you!
-- I got kicked out of the tournament because of a stupid rule!
-- Someone took my parking spot right in front of me!
-- My coworker keeps taking credit for my ideas! It's infuriating!
-- My landlord increased the rent again! This is outrageous!
-- I just got overcharged for something I didn't even buy!
-- I hate when people act like they know everything!
-- My phone battery dies too fast! It's so frustrating!
-- I got ghosted! That's so disrespectful!
-- I hate it when people talk over me!
-- My neighbor is blasting music at midnight! So inconsiderate!
-- I lost my progress because my computer crashed! I'm so mad!
-- The referee made a terrible call! We should have won!
-- I asked for no onions, and they put extra onions! So annoying!
-- I hate it when people touch my stuff without asking!
-- My teacher gave me a lower grade for no reason! I'm fuming!
-- My little brother broke my favorite thing! I'm furious!
-- Someone scratched my car in the parking lot and left! Unbelievable!
-- I can't stand people who play loud videos in public!
-- They made a decision about me without even asking my opinion!
-- I hate being left out of plans!
-- My friend borrowed money and never paid me back! So frustrating!
-- My boss made me stay late again! I have a life too!
-- I got blocked for no reason! So childish!
-- Someone stole my idea and presented it as their own! Unacceptable!
-- My order got delayed again! What's the point of fast shipping?!
-- I lost my wallet, and now I have to replace everything!
-- People keep spreading false rumors about me! It's so frustrating!
-- I hate when people talk to me when I'm clearly busy!
-- My flight got canceled, and now I'm stuck here!
-- The meeting was supposed to start on time, but they were late!
-- My bank charged me a fee for no reason! I'm livid!
-- My favorite show just got canceled! So frustrating!
-- I had to wait an hour for my food, and it was cold!
-- Someone sent me spoilers for a movie I was excited about! I'm pissed!
-- My sibling keeps using my things without asking! I'm so annoyed!
-- I asked them to stop, but they keep doing it!
-- The Wi-Fi keeps disconnecting in the middle of my work!
-- I hate when people act fake around me!
-- Someone just bumped into me and didn't even say sorry!
-- I got stuck in traffic for two hours! So frustrating!
-- My teacher gave me extra homework for no reason!
-- I hate it when people walk too slowly in front of me!
-- My boss just gave me more work right before the weekend!
-- My package got lost in the mail! I've been waiting for weeks!
-- They changed the rules at the last minute! So unfair!
-- I asked a simple question, and they ignored me!
-- I just found out they lied to me this whole time!
-- I got rejected for something I deserved! So unfair!
-- My sibling broke something and blamed me! I'm furious!
-- I hate repeating myself over and over!
-- Someone parked in my reserved spot! So disrespectful!
-- My friend borrowed my stuff and returned it broken!
-- I just got kicked out of a group for no reason!
-- My neighbor keeps taking my deliveries! I'm calling them out!
-- I got left on read! That's so rude!
-- I asked for a small favor, and they couldn't even do that!
-- My parents never listen to my side of the story!
-- I was waiting in line, and someone just cut in front of me!
-- I hate it when people cancel plans at the last minute!
-- I trained so hard, and I still got benched!
-- They said they would help, but they didn't do anything!
-- I hate when people make a mess and don't clean up!
-- I lost my progress in the game because of a stupid glitch!
-- Someone keeps using my Netflix account! I'm changing the password!
-- My alarm didn't go off, and I was late! So frustrating!
-- I got insulted in front of everyone! I'm so embarrassed and mad!
-- My friend didn't defend me when I was being insulted!
-- I hate waiting for slow customer service!
-- My coworker left early, and I had to do all the work!
-- I got fined for something that wasn't even my fault!
-- I tried calling customer support, and they were useless!
-- My dog chewed my new shoes! I'm so upset!
-- My little cousin deleted my saved game! I'm furious!
-- I just found out I've been lied to for months!
-- Someone played a prank on me, and it wasn't funny!
-- I was looking forward to something, and now it's ruined!
-- My sibling keeps taking my charger! I'm so annoyed!
-- I got stuck behind a slow driver! So frustrating!
-- I hate when people don't reply to messages but are online!
-- My friend made plans without me! I feel so left out!
-- My favorite item is out of stock again! Why does this always happen?!
-- I hate when people change their mind at the last second!
-- I just found out I was underpaid for months! I'm furious!
-- My teacher graded me unfairly! This isn't right!
-- My partner forgot our anniversary! I'm so hurt!
-- I hate when people chew loudly! It's so annoying!
-- Someone keeps calling me from an unknown number! It's frustrating!
-- My boss keeps adding work to my plate! It's too much!
-- I can't believe they are spreading lies about me!
-- I was in a rush, and someone was moving so slowly in front of me!
-- My coworker left their mess, and I had to clean it up!
-- I got scammed by an online seller! So angry!
-- I hate when people take forever to reply to important messages!
-- I'm sick of people making empty promises!
-- My headphones broke right when I needed them the most!
-- I ordered something and got the wrong item! So frustrating!
-- I lost something important, and now I can't stop thinking about it!
-- I just realized I've been wasting my time on the wrong thing!
-- My team lost because someone didn't do their part!
-- I hate when people talk too loudly on the phone in public!
-
+    - I can't believe they lied to me! I'm so mad!
+    - That was so unfair! I did everything right!
+    - I hate being ignored! It's so frustrating!
+    - I lost the game because someone cheated! I'm furious!
+    - They took credit for my work. I'm beyond angry!
+    - Why does no one ever listen to me?!
+    - I'm tired of people treating me like I don't matter!
+    - My boss just gave my project to someone else. I'm livid!
+    - I worked so hard, and they didn't even appreciate it!
+    - I got scammed! I'm so pissed off!
+    - My order was wrong again! This is ridiculous!
+    - I hate it when people interrupt me while I'm talking!
+    - Someone cut me off in traffic. It made me so mad!
+    - My internet is down again! I can't take this!
+    - I just found out they were talking behind my back. I'm furious!
+    - I can't stand people who break their promises!
+    - I studied all night, and the test was completely different! So unfair!
+    - I got falsely accused of something I didn't do! I'm fuming!
+    - My sibling took my things without asking! I'm so annoyed!
+    - They said they'd be here on time, but they're always late!
+    - I can't believe they betrayed my trust like that!
+    - My friend canceled our plans at the last minute. I'm pissed!
+    - I worked overtime, and I didn't even get a thank you!
+    - I got kicked out of the tournament because of a stupid rule!
+    - Someone took my parking spot right in front of me!
+    - My coworker keeps taking credit for my ideas! It's infuriating!
+    - My landlord increased the rent again! This is outrageous!
+    - I just got overcharged for something I didn't even buy!
+    - I hate when people act like they know everything!
+    - My phone battery dies too fast! It's so frustrating!
+    - I got ghosted! That's so disrespectful!
+    - I hate it when people talk over me!
+    - My neighbor is blasting music at midnight! So inconsiderate!
+    - I lost my progress because my computer crashed! I'm so mad!
+    - The referee made a terrible call! We should have won!
+    - I asked for no onions, and they put extra onions! So annoying!
+    - I hate it when people touch my stuff without asking!
+    - My teacher gave me a lower grade for no reason! I'm fuming!
+    - My little brother broke my favorite thing! I'm furious!
+    - Someone scratched my car in the parking lot and left! Unbelievable!
+    - I can't stand people who play loud videos in public!
+    - They made a decision about me without even asking my opinion!
+    - I hate being left out of plans!
+    - My friend borrowed money and never paid me back! So frustrating!
+    - My boss made me stay late again! I have a life too!
+    - I got blocked for no reason! So childish!
+    - Someone stole my idea and presented it as their own! Unacceptable!
+    - My order got delayed again! What's the point of fast shipping?!
+    - I lost my wallet, and now I have to replace everything!
+    - People keep spreading false rumors about me! It's so frustrating!
+    - I hate when people talk to me when I'm clearly busy!
+    - My flight got canceled, and now I'm stuck here!
+    - The meeting was supposed to start on time, but they were late!
+    - My bank charged me a fee for no reason! I'm livid!
+    - My favorite show just got canceled! So frustrating!
+    - I had to wait an hour for my food, and it was cold!
+    - Someone sent me spoilers for a movie I was excited about! I'm pissed!
+    - My sibling keeps using my things without asking! I'm so annoyed!
+    - I asked them to stop, but they keep doing it!
+    - The Wi-Fi keeps disconnecting in the middle of my work!
+    - I hate when people act fake around me!
+    - Someone just bumped into me and didn't even say sorry!
+    - I got stuck in traffic for two hours! So frustrating!
+    - My teacher gave me extra homework for no reason!
+    - I hate it when people walk too slowly in front of me!
+    - My boss just gave me more work right before the weekend!
+    - My package got lost in the mail! I've been waiting for weeks!
+    - They changed the rules at the last minute! So unfair!
+    - I asked a simple question, and they ignored me!
+    - I just found out they lied to me this whole time!
+    - I got rejected for something I deserved! So unfair!
+    - My sibling broke something and blamed me! I'm furious!
+    - I hate repeating myself over and over!
+    - Someone parked in my reserved spot! So disrespectful!
+    - My friend borrowed my stuff and returned it broken!
+    - I just got kicked out of a group for no reason!
+    - My neighbor keeps taking my deliveries! I'm calling them out!
+    - I got left on read! That's so rude!
+    - I asked for a small favor, and they couldn't even do that!
+    - My parents never listen to my side of the story!
+    - I was waiting in line, and someone just cut in front of me!
+    - I hate it when people cancel plans at the last minute!
+    - I trained so hard, and I still got benched!
+    - They said they would help, but they didn't do anything!
+    - I hate when people make a mess and don't clean up!
+    - I lost my progress in the game because of a stupid glitch!
+    - Someone keeps using my Netflix account! I'm changing the password!
+    - My alarm didn't go off, and I was late! So frustrating!
+    - I got insulted in front of everyone! I'm so embarrassed and mad!
+    - My friend didn't defend me when I was being insulted!
+    - I hate waiting for slow customer service!
+    - My coworker left early, and I had to do all the work!
+    - I got fined for something that wasn't even my fault!
+    - I tried calling customer support, and they were useless!
+    - My dog chewed my new shoes! I'm so upset!
+    - My little cousin deleted my saved game! I'm furious!
+    - I just found out I've been lied to for months!
+    - Someone played a prank on me, and it wasn't funny!
+    - I was looking forward to something, and now it's ruined!
+    - My sibling keeps taking my charger! I'm so annoyed!
+    - I got stuck behind a slow driver! So frustrating!
+    - I hate when people don't reply to messages but are online!
+    - My friend made plans without me! I feel so left out!
+    - My favorite item is out of stock again! Why does this always happen?!
+    - I hate when people change their mind at the last second!
+    - I just found out I was underpaid for months! I'm furious!
+    - My teacher graded me unfairly! This isn't right!
+    - My partner forgot our anniversary! I'm so hurt!
+    - I hate when people chew loudly! It's so annoying!
+    - Someone keeps calling me from an unknown number! It's frustrating!
+    - My boss keeps adding work to my plate! It's too much!
+    - I can't believe they are spreading lies about me!
+    - I was in a rush, and someone was moving so slowly in front of me!
+    - My coworker left their mess, and I had to clean it up!
+    - I got scammed by an online seller! So angry!
+    - I hate when people take forever to reply to important messages!
+    - I'm sick of people making empty promises!
+    - My headphones broke right when I needed them the most!
+    - I ordered something and got the wrong item! So frustrating!
+    - I lost something important, and now I can't stop thinking about it!
+    - I just realized I've been wasting my time on the wrong thing!
+    - My team lost because someone didn't do their part!
+    - I hate when people talk too loudly on the phone in public!
 
 - intent: anxious
   examples: |
-- I have an exam tomorrow, and I can't stop worrying.
-- I feel like something bad is about to happen.
-- I have to speak in front of people, and I'm so nervous.
-- My heart is racing, and I don't even know why.
-- I have a job interview coming up, and I can't stop overthinking.
-- I sent a risky text, and now I'm panicking about the response.
-- I hate waiting for results. It's making me so anxious.
-- I feel like everyone is watching and judging me.
-- I can't sleep because my mind won't stop racing.
-- I have to make an important decision, and I'm so stressed about it.
-- My palms are sweaty, and I feel so uneasy.
-- I hate making phone calls. It makes me so nervous.
-- I feel like I said something wrong in that conversation.
-- I keep replaying an embarrassing moment in my head.
-- I'm meeting someone new today, and I'm super anxious.
-- My heart is pounding, and I don't know why.
-- I feel like I forgot something important.
-- I have so much to do, and I don't know where to start.
-- I feel like I'm running out of time.
-- I get nervous every time my phone rings.
-- I have a presentation soon, and my stomach is in knots.
-- I feel like I'm being judged whenever I walk into a room.
-- I hate crowded places. They make me so anxious.
-- I feel like I'm not good enough for this opportunity.
-- I'm waiting for someone to text me back, and it's driving me crazy.
-- I get anxious whenever I have to make small talk.
-- I'm overthinking every little thing I did today.
-- I feel like I'm going to mess up.
-- I don't know why, but I feel on edge today.
-- I keep imagining the worst-case scenario.
-- I have to make a call, and I'm dreading it.
-- I feel like I'm forgetting something important.
-- I get anxious every time I'm in a new place.
-- I hate talking to authority figures. It makes me so nervous.
-- I'm waiting for my test results, and I can't stop worrying.
-- I always get nervous before going to the doctor.
-- I hate being put on the spot. It makes my mind go blank.
-- My hands are shaking, and I don't know why.
-- I feel like my breathing is getting faster.
-- I keep thinking about all the ways this could go wrong.
-- I have to confront someone, and I'm dreading it.
-- I'm worried that I embarrassed myself earlier.
-- I get anxious when I don't know what's going to happen.
-- I feel like I'm not prepared enough, even though I studied.
-- I always feel nervous before sending an important email.
-- I hate waiting for feedback. It stresses me out.
-- I feel like I'm not doing enough, even though I'm trying my best.
-- I keep thinking about an awkward conversation I had.
-- I have social anxiety, and even simple things make me nervous.
-- I'm scared of saying the wrong thing.
-- I get anxious when people take too long to reply.
-- I feel like I'm about to make a huge mistake.
-- I hate asking for help. It makes me feel weak.
-- I get nervous before meeting new people.
-- I feel like I'm disappointing everyone.
-- I can't stop overanalyzing everything I said today.
-- I'm afraid people secretly don't like me.
-- I have a flight tomorrow, and I'm really anxious about it.
-- I feel like I'll never be able to relax.
-- I keep checking my email because I'm nervous about a response.
-- I feel like I have to be perfect all the time.
-- I hate having to explain myself to others. It makes me anxious.
-- I feel like I'm running out of time, even when I have plenty.
-- I hate being the center of attention. It makes me panic.
-- I keep worrying about things that probably won't happen.
-- I get anxious when plans change suddenly.
-- I feel like my mind won't stop racing.
-- I have to introduce myself to someone, and I'm dreading it.
-- I feel like I always say the wrong thing.
-- I get nervous whenever I check my bank balance.
-- I hate going to new places alone. It makes me anxious.
-- I always overthink what I should wear.
-- I feel like I'm losing control over my thoughts.
-- I hate being in situations where I don't know what to expect.
-- I get nervous whenever someone calls my name.
-- I feel like I'll never be able to relax.
-- I keep running through worst-case scenarios in my head.
-- I get anxious about things that don't even matter.
-- I hate ordering food over the phone. It makes me nervous.
-- I feel like I'm stuck in a cycle of worrying.
-- I get nervous before walking into a room full of people.
-- I always think I forgot to lock the door.
-- I feel like I can't breathe when I get too anxious.
-- I get nervous before even the smallest test.
-- I hate when I have to wait too long for an answer.
-- I feel like everyone can see how nervous I am.
-- I always feel like I'm behind in life.
-- I hate making decisions because I'm scared I'll regret them.
-- I feel like I'm not good enough for this job.
-- I always think about the worst things that could happen.
-- I get anxious whenever my boss calls me.
-- I feel like I need constant reassurance.
-- I hate confrontation. It makes me so nervous.
-- I always feel like I'm annoying people.
-- I get anxious when I don't get an immediate response.
-- I hate speaking up in meetings. It makes me feel exposed.
-- I always second-guess myself.
-- I feel like my mind is going a hundred miles per hour.
-- I get anxious when I have too many choices.
-- I hate waiting in long lines. It makes me restless.
-- I feel like I'm not smart enough for this.
-- I get anxious when I hear sirens outside.
-- I feel like something is wrong, even when everything is fine.
-- I keep imagining embarrassing situations that haven't even happened.
-- I feel like my heart is beating too fast.
-- I hate when people watch me do something. It makes me so nervous.
-- I feel like I can never fully relax.
-- I always check things multiple times because I'm scared I forgot something.
-- I get anxious about making small talk.
-- I feel like I'm always one step away from a disaster.
-- I hate being put on the spot.
-- I always worry about what other people think of me.
-- I feel like my anxiety is getting worse.
-- I hate it when people call me unexpectedly.
-- I always get nervous before trying something new.
-- I feel like I'll never be good enough.
-- I get anxious before sending an important message.
-- I always feel like I need to be doing something productive.
-- I feel like I'm losing control of my emotions.
-- I get anxious whenever I have to ask for something.
-- I feel like I can never fully enjoy the moment.
-- I hate not knowing what's going to happen next.
-- I feel like I'm constantly waiting for bad news.
-- I get nervous about the smallest things.
-- I hate feeling this way all the time.
-- I feel like I'm trapped in my own thoughts.
-- I get anxious before even starting a conversation.
-- I hate being in unpredictable situations.
-- I feel like my mind never stops worrying.
-- I always worry that I'm not doing enough.
-- I feel like I'm constantly on edge.
+    - I have an exam tomorrow, and I can't stop worrying.
+    - I feel like something bad is about to happen.
+    - I have to speak in front of people, and I'm so nervous.
+    - My heart is racing, and I don't even know why.
+    - I have a job interview coming up, and I can't stop overthinking.
+    - I sent a risky text, and now I'm panicking about the response.
+    - I hate waiting for results. It's making me so anxious.
+    - I feel like everyone is watching and judging me.
+    - I can't sleep because my mind won't stop racing.
+    - I have to make an important decision, and I'm so stressed about it.
+    - My palms are sweaty, and I feel so uneasy.
+    - I hate making phone calls. It makes me so nervous.
+    - I feel like I said something wrong in that conversation.
+    - I keep replaying an embarrassing moment in my head.
+    - I'm meeting someone new today, and I'm super anxious.
+    - My heart is pounding, and I don't know why.
+    - I feel like I forgot something important.
+    - I have so much to do, and I don't know where to start.
+    - I feel like I'm running out of time.
+    - I get nervous every time my phone rings.
+    - I have a presentation soon, and my stomach is in knots.
+    - I feel like I'm being judged whenever I walk into a room.
+    - I hate crowded places. They make me so anxious.
+    - I feel like I'm not good enough for this opportunity.
+    - I'm waiting for someone to text me back, and it's driving me crazy.
+    - I get anxious whenever I have to make small talk.
+    - I'm overthinking every little thing I did today.
+    - I feel like I'm going to mess up.
+    - I don't know why, but I feel on edge today.
+    - I keep imagining the worst-case scenario.
+    - I have to make a call, and I'm dreading it.
+    - I feel like I'm forgetting something important.
+    - I get anxious every time I'm in a new place.
+    - I hate talking to authority figures. It makes me so nervous.
+    - I'm waiting for my test results, and I can't stop worrying.
+    - I always get nervous before going to the doctor.
+    - I hate being put on the spot. It makes my mind go blank.
+    - My hands are shaking, and I don't know why.
+    - I feel like my breathing is getting faster.
+    - I keep thinking about all the ways this could go wrong.
+    - I have to confront someone, and I'm dreading it.
+    - I'm worried that I embarrassed myself earlier.
+    - I get anxious when I don't know what's going to happen.
+    - I feel like I'm not prepared enough, even though I studied.
+    - I always feel nervous before sending an important email.
+    - I hate waiting for feedback. It stresses me out.
+    - I feel like I'm not doing enough, even though I'm trying my best.
+    - I keep thinking about an awkward conversation I had.
+    - I have social anxiety, and even simple things make me nervous.
+    - I'm scared of saying the wrong thing.
+    - I get anxious when people take too long to reply.
+    - I feel like I'm about to make a huge mistake.
+    - I hate asking for help. It makes me feel weak.
+    - I get nervous before meeting new people.
+    - I feel like I'm disappointing everyone.
+    - I can't stop overanalyzing everything I said today.
+    - I'm afraid people secretly don't like me.
+    - I have a flight tomorrow, and I'm really anxious about it.
+    - I feel like I'll never be able to relax.
+    - I keep checking my email because I'm nervous about a response.
+    - I feel like I have to be perfect all the time.
+    - I hate having to explain myself to others. It makes me anxious.
+    - I feel like I'm running out of time, even when I have plenty.
+    - I hate being the center of attention. It makes me panic.
+    - I keep worrying about things that probably won't happen.
+    - I get anxious when plans change suddenly.
+    - I feel like my mind won't stop racing.
+    - I have to introduce myself to someone, and I'm dreading it.
+    - I feel like I always say the wrong thing.
+    - I get nervous whenever I check my bank balance.
+    - I hate going to new places alone. It makes me anxious.
+    - I always overthink what I should wear.
+    - I feel like I'm losing control over my thoughts.
+    - I hate being in situations where I don't know what to expect.
+    - I get nervous whenever someone calls my name.
+    - I feel like I'll never be able to relax.
+    - I keep running through worst-case scenarios in my head.
+    - I get anxious about things that don't even matter.
+    - I hate ordering food over the phone. It makes me nervous.
+    - I feel like I'm stuck in a cycle of worrying.
+    - I get nervous before walking into a room full of people.
+    - I always think I forgot to lock the door.
+    - I feel like I can't breathe when I get too anxious.
+    - I get nervous before even the smallest test.
+    - I hate when I have to wait too long for an answer.
+    - I feel like everyone can see how nervous I am.
+    - I always feel like I'm behind in life.
+    - I hate making decisions because I'm scared I'll regret them.
+    - I feel like I'm not good enough for this job.
+    - I always think about the worst things that could happen.
+    - I get anxious whenever my boss calls me.
+    - I feel like I need constant reassurance.
+    - I hate confrontation. It makes me so nervous.
+    - I always feel like I'm annoying people.
+    - I get anxious when I don't get an immediate response.
+    - I hate speaking up in meetings. It makes me feel exposed.
+    - I always second-guess myself.
+    - I feel like my mind is going a hundred miles per hour.
+    - I get anxious when I have too many choices.
+    - I hate waiting in long lines. It makes me restless.
+    - I feel like I'm not smart enough for this.
+    - I get anxious when I hear sirens outside.
+    - I feel like something is wrong, even when everything is fine.
+    - I keep imagining embarrassing situations that haven't even happened.
+    - I feel like my heart is beating too fast.
+    - I hate when people watch me do something. It makes me so nervous.
+    - I feel like I can never fully relax.
+    - I always check things multiple times because I'm scared I forgot something.
+    - I get anxious about making small talk.
+    - I feel like I'm always one step away from a disaster.
+    - I hate being put on the spot.
+    - I always worry about what other people think of me.
+    - I feel like my anxiety is getting worse.
+    - I hate it when people call me unexpectedly.
+    - I always get nervous before trying something new.
+    - I feel like I'll never be good enough.
+    - I get anxious before sending an important message.
+    - I always feel like I need to be doing something productive.
+    - I feel like I'm losing control of my emotions.
+    - I get anxious whenever I have to ask for something.
+    - I feel like I can never fully enjoy the moment.
+    - I hate not knowing what's going to happen next.
+    - I feel like I'm constantly waiting for bad news.
+    - I get nervous about the smallest things.
+    - I hate feeling this way all the time.
+    - I feel like I'm trapped in my own thoughts.
+    - I get anxious before even starting a conversation.
+    - I hate being in unpredictable situations.
+    - I feel like my mind never stops worrying.
+    - I always worry that I'm not doing enough.
+    - I feel like I'm constantly on edge.
 
-
-
-- intent:fear
+- intent: fear
   examples: |
-- I feel like something bad is about to happen.
-- I'm scared of failing this exam.
-- I don't know what to expect, and that terrifies me.
-- I heard a strange noise outside, and now I'm freaking out.
-- I have to walk alone at night, and I'm really scared.
-- I feel like I'm being watched.
-- I'm terrified of public speaking.
-- I have to make a big decision, and I'm afraid of choosing wrong.
-- I'm scared I'll never be good enough.
-- I have a really bad feeling about this.
-- I'm afraid of disappointing my parents.
-- I saw something move in the dark, and now I can't sleep.
-- I don't know how they'll react, and that scares me.
-- I feel like I'm going to mess everything up.
-- I'm afraid of being alone forever.
-- I just had a nightmare, and now I'm too scared to go back to sleep.
-- I'm worried I'll say the wrong thing and ruin everything.
-- I'm scared of losing the people I love.
-- I feel like my life is falling apart, and I don't know what to do.
-- I hate being in small spaces. It makes me panic.
-- I have a fear of heights, and this bridge is making me dizzy.
-- I can't stop thinking about what might go wrong.
-- I feel paralyzed with fear.
-- I have to confront someone, and I'm dreading it.
-- I'm afraid of what people think about me.
-- I don't know if I can handle this.
-- I just heard some really bad news, and I'm terrified.
-- I'm scared of being judged.
-- I'm afraid I'll never reach my goals.
-- I have to take a big risk, and it's making me really anxious.
-- I feel like I'm in danger.
-- I have a phobia of spiders, and I just saw one in my room.
-- I hate flying. Every little sound on the plane makes me panic.
-- I don't want to let anyone down.
-- I'm terrified of speaking in front of a crowd.
-- I'm scared to check my test results.
-- I'm afraid of what's going to happen next.
-- I feel like I'm running out of time.
-- I just watched a horror movie, and now I'm too scared to sleep.
-- I have an interview tomorrow, and I'm really nervous.
-- I feel like I'm losing control over everything.
-- I just got a message that said, “We need to talk,” and now I'm panicking.
-- I'm afraid of making a fool of myself.
-- I'm scared to trust people because I don't want to get hurt.
-- I hate hospitals. They make me feel uneasy.
-- I just heard someone scream outside, and now I'm scared.
-- I don't know how I'll recover if this goes wrong.
-- I'm afraid of taking the first step.
-- I have to face someone I wronged, and I don't know how they'll react.
-- I hate the feeling of not knowing what's coming.
-- I'm worried I'll get rejected.
-- I'm scared of being abandoned.
-- I have a medical test coming up, and I'm terrified of the results.
-- I feel like something bad is about to happen, but I don't know what.
-- I'm scared I'll regret this decision.
-- I hate thunderstorms. The lightning and thunder terrify me.
-- I feel like I'm trapped in a nightmare.
-- I saw a shadow move, but there's no one else here.
-- I have a deep fear of being forgotten.
-- I don't think I can handle another failure.
-- I'm afraid to ask for help because I don't want to seem weak.
-- I have to tell the truth, but I'm scared of how they'll react.
-- I feel like I'm drowning in fear.
-- I'm scared of the unknown.
-- I hate scary movies. They make me paranoid.
-- I have to walk through a dark alley, and I'm really nervous.
-- I'm afraid to be myself because I don't want to be judged.
-- I have to face my fears, but I don't know if I can do it.
-- I feel like I'm constantly being watched.
-- I'm scared of making the wrong decision.
-- I hate taking risks because I'm scared of failing.
-- I just saw something in the mirror that wasn't there before.
-- I feel like I'm in a horror movie right now.
-- I'm terrified of losing everything I've worked for.
-- I feel like I'm stuck in a bad situation with no way out.
-- I have a bad gut feeling about this.
-- I hate being alone in the dark.
-- I'm scared to speak up because I don't want to cause problems.
-- I feel like I'm suffocating from fear.
-- I can't stop shaking. I'm so scared.
-- I'm afraid I'll never be truly happy.
-- I don't know what's real or just my imagination, and that scares me.
-- I have to face my biggest fear today.
-- I just heard a weird noise, and now I'm frozen in fear.
-- I hate being chased, even in my dreams.
-- I feel like I'm being followed.
-- I'm afraid to start over.
-- I just got bad news, and now my whole world feels like it's crumbling.
-- I'm scared of never being enough.
-- I'm worried I'll never find my purpose.
-- I feel like something is hiding in the dark.
-- I just saw something I can't explain, and it's creeping me out.
-- I have to tell someone bad news, and I don't know how they'll take it.
-- I'm afraid of getting too close to people because they might leave.
-- I have a huge fear of rejection.
-- I don't know if I can handle this pressure.
-- I just got a threatening message, and now I don't know what to do.
-- I feel like my heart is about to explode from fear.
-- I'm scared of losing my loved ones.
-- I hate being home alone at night.
-- I have to make a speech, and I feel like I'm going to faint.
-- I'm terrified of making a mistake.
-- I feel like something is crawling on me, but I don't see anything.
-- I'm afraid of change.
-- I feel like I'm stuck in a nightmare I can't wake up from.
-- I saw something move in the corner of my eye, but no one's there.
-- I'm scared of being laughed at.
-- I don't want to lose everything I've worked for.
-- I have a deep fear of failure.
-- I hate surprises because they make me anxious.
-- I'm afraid of not living up to expectations.
-- I don't know if I'll ever be able to face my fears.
-- I'm scared of the future.
-- I feel like I'm being chased, even though no one's there.
-- I have a phobia of deep water, and I'm going on a boat today.
-- I'm afraid to trust people again.
-- I hate elevators. They make me feel trapped.
-- I just heard footsteps, but I'm home alone.
-- I feel like I'm being watched through the window.
-- I'm scared of losing control.
-- I have to go into a haunted house, and I'm freaking out.
-- I'm afraid I won't be able to recover from this.
-- I feel like I'll never escape my fears.
-- I don't know if I'll ever stop being afraid.
+    - I feel like something bad is about to happen.
+    - I'm scared of failing this exam.
+    - I don't know what to expect, and that terrifies me.
+    - I heard a strange noise outside, and now I'm freaking out.
+    - I have to walk alone at night, and I'm really scared.
+    - I feel like I'm being watched.
+    - I'm terrified of public speaking.
+    - I have to make a big decision, and I'm afraid of choosing wrong.
+    - I'm scared I'll never be good enough.
+    - I have a really bad feeling about this.
+    - I'm afraid of disappointing my parents.
+    - I saw something move in the dark, and now I can't sleep.
+    - I don't know how they'll react, and that scares me.
+    - I feel like I'm going to mess everything up.
+    - I'm afraid of being alone forever.
+    - I just had a nightmare, and now I'm too scared to go back to sleep.
+    - I'm worried I'll say the wrong thing and ruin everything.
+    - I'm scared of losing the people I love.
+    - I feel like my life is falling apart, and I don't know what to do.
+    - I hate being in small spaces. It makes me panic.
+    - I have a fear of heights, and this bridge is making me dizzy.
+    - I can't stop thinking about what might go wrong.
+    - I feel paralyzed with fear.
+    - I have to confront someone, and I'm dreading it.
+    - I'm afraid of what people think about me.
+    - I don't know if I can handle this.
+    - I just heard some really bad news, and I'm terrified.
+    - I'm scared of being judged.
+    - I'm afraid I'll never reach my goals.
+    - I have to take a big risk, and it's making me really anxious.
+    - I feel like I'm in danger.
+    - I have a phobia of spiders, and I just saw one in my room.
+    - I hate flying. Every little sound on the plane makes me panic.
+    - I don't want to let anyone down.
+    - I'm terrified of speaking in front of a crowd.
+    - I'm scared to check my test results.
+    - I'm afraid of what's going to happen next.
+    - I feel like I'm running out of time.
+    - I just watched a horror movie, and now I'm too scared to sleep.
+    - I have an interview tomorrow, and I'm really nervous.
+    - I feel like I'm losing control over everything.
+    - I just got a message that said, “We need to talk,” and now I'm panicking.
+    - I'm afraid of making a fool of myself.
+    - I'm scared to trust people because I don't want to get hurt.
+    - I hate hospitals. They make me feel uneasy.
+    - I just heard someone scream outside, and now I'm scared.
+    - I don't know how I'll recover if this goes wrong.
+    - I'm afraid of taking the first step.
+    - I have to face someone I wronged, and I don't know how they'll react.
+    - I hate the feeling of not knowing what's coming.
+    - I'm worried I'll get rejected.
+    - I'm scared of being abandoned.
+    - I have a medical test coming up, and I'm terrified of the results.
+    - I feel like something bad is about to happen, but I don't know what.
+    - I'm scared I'll regret this decision.
+    - I hate thunderstorms. The lightning and thunder terrify me.
+    - I feel like I'm trapped in a nightmare.
+    - I saw a shadow move, but there's no one else here.
+    - I have a deep fear of being forgotten.
+    - I don't think I can handle another failure.
+    - I'm afraid to ask for help because I don't want to seem weak.
+    - I have to tell the truth, but I'm scared of how they'll react.
+    - I feel like I'm drowning in fear.
+    - I'm scared of the unknown.
+    - I hate scary movies. They make me paranoid.
+    - I have to walk through a dark alley, and I'm really nervous.
+    - I'm afraid to be myself because I don't want to be judged.
+    - I have to face my fears, but I don't know if I can do it.
+    - I feel like I'm constantly being watched.
+    - I'm scared of making the wrong decision.
+    - I hate taking risks because I'm scared of failing.
+    - I just saw something in the mirror that wasn't there before.
+    - I feel like I'm in a horror movie right now.
+    - I'm terrified of losing everything I've worked for.
+    - I feel like I'm stuck in a bad situation with no way out.
+    - I have a bad gut feeling about this.
+    - I hate being alone in the dark.
+    - I'm scared to speak up because I don't want to cause problems.
+    - I feel like I'm suffocating from fear.
+    - I can't stop shaking. I'm so scared.
+    - I'm afraid I'll never be truly happy.
+    - I don't know what's real or just my imagination, and that scares me.
+    - I have to face my biggest fear today.
+    - I just heard a weird noise, and now I'm frozen in fear.
+    - I hate being chased, even in my dreams.
+    - I feel like I'm being followed.
+    - I'm afraid to start over.
+    - I just got bad news, and now my whole world feels like it's crumbling.
+    - I'm scared of never being enough.
+    - I'm worried I'll never find my purpose.
+    - I feel like something is hiding in the dark.
+    - I just saw something I can't explain, and it's creeping me out.
+    - I have to tell someone bad news, and I don't know how they'll take it.
+    - I'm afraid of getting too close to people because they might leave.
+    - I have a huge fear of rejection.
+    - I don't know if I can handle this pressure.
+    - I just got a threatening message, and now I don't know what to do.
+    - I feel like my heart is about to explode from fear.
+    - I'm scared of losing my loved ones.
+    - I hate being home alone at night.
+    - I have to make a speech, and I feel like I'm going to faint.
+    - I'm terrified of making a mistake.
+    - I feel like something is crawling on me, but I don't see anything.
+    - I'm afraid of change.
+    - I feel like I'm stuck in a nightmare I can't wake up from.
+    - I saw something move in the corner of my eye, but no one's there.
+    - I'm scared of being laughed at.
+    - I don't want to lose everything I've worked for.
+    - I have a deep fear of failure.
+    - I hate surprises because they make me anxious.
+    - I'm afraid of not living up to expectations.
+    - I don't know if I'll ever be able to face my fears.
+    - I'm scared of the future.
+    - I feel like I'm being chased, even though no one's there.
+    - I have a phobia of deep water, and I'm going on a boat today.
+    - I'm afraid to trust people again.
+    - I hate elevators. They make me feel trapped.
+    - I just heard footsteps, but I'm home alone.
+    - I feel like I'm being watched through the window.
+    - I'm scared of losing control.
+    - I have to go into a haunted house, and I'm freaking out.
+    - I'm afraid I won't be able to recover from this.
+    - I feel like I'll never escape my fears.
+    - I don't know if I'll ever stop being afraid.
+
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - yep
+    - yeah
+    - ofcourse
+    - ofc
+    - ok
+    - okay
+    - no shit
+    - why not
+    - with pleasure
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - nah
+    - nop
+
+- intent: wrong
+  examples: |
+    - wrong
+    - false
+    - that's not what I meant
+    - you misunderstood me
+    - that's not correct
+    - that's wrong
+    - you're wrong
+    - you got it wrong
+    - I didn't mean that
+    - that's not the answer I was looking for
+    - that's not right
+    - incorrect
+    - you're not understanding me
+    - this is not what I meant
+    - wrong response
+    - you didn't understand me
+    - not what I expected
+    - that's not accurate
+    - wrong interpretation
+    - you're not getting it
+    - this is incorrect
+    - you didn't get it
+    - that's way off
+    - not even close
+    - no, not even close
+    - you're mistaken
+    - nope, wrong again
+    - sorry, that's not it
+    - not at all what I meant
+    - you missed my point
+    - that's a misunderstanding
+    - this is not what I was saying
+
+
+- intent: thanks  
+  examples: |  
+    - thank you  
+    - thanks  
+    - I appreciate it  
+    - much appreciated  
+    - thanks for your help  
+    - thank you so much  
+    - I'm grateful  
+    - I appreciate your support  
+    - cheers  
+    - thank you, that helps  
+    - thanks for being here  
+    - thanks a ton 
+    - thanks a lot, buddy
+    - appreciate it, pal  
+    - thanks, mate  
+    - thanks a ton, friend  
+    - you rock, thanks!  
+    - couldn't have done it without you 
+    - many thanks  
+    - thank you kindly  
+    - thanks a lot for your help  
+    - I'm grateful for your assistance  
+    - I sincerely thank you
+    - thanks a lot  
+    - thank you very much  
+    - thanks for your help 
+
+- intent: bye  
+  examples: |  
+    - bye  
+    - goodbye  
+    - see you later  
+    - take care  
+    - talk to you soon  
+    - catch you later  
+    - bye for now  
+    - see you  
+    - thanks, bye  
+    - I'll talk to you later  
+    - goodbye for now  
+    - later  
+    - peace out
+    - cu
+    - good by
+    - ni8
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later 
+    - later, buddy  
+    - peace out  
+    - see you, pal  
+    - bye, mate  
+    - talk soon, friend  
+    - see you later, buddy  
+    - take care, pal
+    - farewell  
+    - I wish you well  
+    - thank you and goodbye  
+    - see you next time  
+    - talk to you soon 
+    - see you
+
+
+- intent: greet
+  examples: |  
+    - hey buddy  
+    - sup bro  
+    - yo!  
+    - hey dude  
+    - hi there, pal  
+    - what's up?  
+    - hey mate  
+    - yo, you there
+    - hey, my friend
+    - sup  
+    - hiya  
+    - hey bro  
+    - hey man  
+    - how's it going?  
+    - what's good
+    - hey, buddy
+    - hey, friend
+    - hey, pal
+    - what's up, buddy
+    - hey, you there
+    - yo, what's cookin'?  
+    - heyo!  
+    - hey, sup my bot?  
+    - yo, long time no see!  
+    - hiya! Let's vibe.   
+    - sup, ready to chat?
+    - good morning  
+    - good afternoon  
+    - good evening  
+    - greetings  
+    - good day  
+    - hello, can we talk  
+    - nice to meet you  
+    - I'd like to speak with you  
+    - hi, I'd like some support  
+    - may I speak with you?  
+    - hi, I need assistance
+    - hi, I need help
+    - hello, I'd like to talk
+    - hello, I have a problem
+    - hi, I need some advice
+    - hello, I have a concern 
+    - hello  
+    - hi  
+    - hey  
+    - hi there  
+    - hello there  
+    - good to see you  
+    - nice to meet you  
+    - hi, how are you?  
+    - hello, what's up?  
+    - hi, I'm here  
+    - hey, let's chat
+    - let's chat
+    - good to see you 
+    - moin
+    - morning
+
+# - intent: greet_formal  
+#   examples: |  
