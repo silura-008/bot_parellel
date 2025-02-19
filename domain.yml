@@ -506,6 +506,65 @@ responses:
 
 
 
+
+slots:
+  suggestion:
+    type: text  
+    mappings:
+        - type: custom
+    initial_value: ""
+    influence_conversation: false
+
+  tone:
+    type: categorical
+    values:
+        - friendly
+        - formal   
+    mappings:
+        - type: custom
+    initial_value: formal
+    influence_conversation: true
+
+  personality:
+    type: categorical
+    values:
+        - new
+        - joy
+        - sorrow
+        - fury
+        - nervous
+    mappings:
+        - type: custom
+    initial_value: new
+    influence_conversation: true
+
+  emotion:
+    type: categorical
+    values:
+        - happy
+        - sad
+        - angry
+        - anxious
+        - fear
+    mappings:
+        - type: custom
+    influence_conversation: true
+
+  msg_type:
+    type: categorical
+    values:
+        - gibberish
+        - share_emotion
+        - elaborate_emotion
+    mappings:
+        - type: custom
+    influence_conversation: true
+
+actions:
+    - action_set_tone
+    - action_handle_fallback
+    - action_set_suggestion
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
