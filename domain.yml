@@ -2,32 +2,509 @@ version: "3.1"
 
 intents:
   - greet
-  - goodbye
+  - bye
+  - thanks
+  - nlu_fallback
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
+  - wrong
+  - self_harm
+  - violence
+  - anger
+  - sad
+  - happy
+  - anxious
+  - fear
   - bot_challenge
 
-responses:
-  utter_greet:
-  - text: "Hey! How are you?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+responses:  
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+# greet/bye/thanks
 
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_greet_friendly:  
+    - text:  
+        "Hey buddy! I'm here for you. What's up?"  
+    - text:  
+        "Yo! Let's talk, I've got your back."   
+    - text:  
+        "Hey there, my friend! I'm all ears, what's going on?"  
+    - text:  
+        "Yo! Let's chat. I'm here to support you."  
+    - text:  
+        "Hey buddy! Whatever's on your mind, I'm here to help."  
+    - text:  
+        "Hi there, pal! How is it going?"
+    - text:  
+        "What's up, mate? I've got your back—tell me what's on your mind."  
+    - text:  
+        "Hey there! Let's talk, I'm here for anything you need." 
+    - text:  
+        "Yo! Let's talk—whatever's on your mind, I'm all ears."  
+    - text:  
+        "Sup, mate? I'm here for you , what's going on?"
 
-  utter_goodbye:
-  - text: "Bye"
+  utter_greet_formal:  
+    - text:  
+        "Hello! I'm here to listen, what's on your mind?"
+    - text:  
+        "Hi! I'm here to help you with anything you need."
+    - text:  
+        "Hi there! I'm here to listen and help in any way I can. What's on your mind?"  
+    - text:  
+        "Hey! It's so nice to connect with you. How can I assist you today?"  
+    - text:  
+        "Hello! You're in a safe space here. How can I help you feel better?"  
+    - text:  
+        "Hi! I'm here for you. Please share anything you'd like to talk about."
+    - text:  
+        "Hello! It's wonderful to connect with you. I'm here to support you in any way I can."  
+    - text:  
+        "Hi there! Please know this is a safe space, and I'm here to listen to whatever's on your mind."  
+    - text:  
+        "Good to see you! How can I assist you today? You're not alone, and I'm here to help."  
+    - text:  
+        "Hi! I'm here to help you feel more at ease. Please share what's on your mind."  
+    - text:  
+        "Hey there! You've taken an important step by reaching out. How can I support you?"  
+    - text:  
+        "Hello! It's great to hear from you. How can I make things easier for you today?"  
+    - text:  
+        "Hi! I'm here for you. Please feel free to share whatever's on your mind, big or small."  
+    - text:  
+        "Hi there! I'm here to listen, understand, and help. How can I support you today?"
+     
+  utter_thanks_formal:  
+    - text:  
+        "You're most welcome. I'm glad I could assist you."  
+    - text:  
+        "I appreciate your kind words. Please don't hesitate to reach out again."  
+    - text:  
+        "Thank you! It's my pleasure to be here for you."  
+    - text:  
+        "You're very welcome. Wishing you all the best."  
+    - text:  
+        "You're very welcome. I'm here whenever you need me."  
+    - text:  
+        "No problem at all. I'm glad I could help."  
+    - text:  
+        "I appreciate you saying that. Remember, I'm always here to support you."  
+    - text:  
+        "You're welcome! Please don't hesitate to reach out again."  
+    - text:  
+        "I'm here for you anytime. Take care of yourself!"  
+    - text:  
+        "Thank you! It means a lot to me that I could help you today."
+   
+  utter_bye_formal:  
+    - text:  
+        "Goodbye! Please take care of yourself, and I'm here whenever you need me."  
+    - text:  
+        "Farewell. Wishing you all the best until we speak again."  
+    - text:  
+        "Take care. It's always a pleasure to assist you."  
+    - text:  
+        "Goodbye for now. I'm always here to support you." 
+    - text:  
+        "Take care of yourself, and I'll be here if you need me again."  
+    - text:  
+        "Goodbye for now. Remember, I'm always here whenever you want to talk."  
+    - text:  
+        "See you later! Take care and have a great day ahead."  
+    - text:  
+        "Bye! Reach out anytime you need support."  
+    - text:  
+        "Goodbye! You're doing great—keep it up, and I'm here whenever you need me."  
+    - text:  
+        "Take care! Don't hesitate to come back if you want to chat again."
+ 
+  utter_thanks_friendly:  
+    - text:  
+        "You're welcome, buddy! I'm always here for you."  
+    - text:  
+        "No worries, mate! Glad I could help."  
+    - text:  
+        "Anytime, pal! You've got this!"  
+    - text:  
+        "You're the best! Let me know if you ever need anything."
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  utter_bye_friendly:  
+    - text:  
+        "Catch you later, buddy! Take care."  
+    - text:  
+        "Peace out, pal! I'm always here for you."  
+    - text:  
+        "See you later, mate! Stay awesome."  
+    - text:  
+        "Later, friend! Let me know if you need anything."
+
+# happy (elaborate/comfort)
+
+  utter_elaborate_happy_new:
+    - text: "You seem happy—that's great. Want to tell me more about what's going on?"
+    - text: "You look happy! Would you like to tell me more about it?"
+    - text: "You sound happy, and that's so wonderful to hear! I'd love to know more."
+
+  utter_comfort_happy_new:
+    - text: "That's so nice to hear! I'm glad you're having such a good moment. {suggestion}"
+    - text: "That sounds amazing! It's these are the moments that make life so special. I'm so happy for you! {suggestion}"
+    - text: "That sounds so wonderful! Moments like these are what make life truly beautiful. Savor it, and remember, happiness deserves to be celebrated. {suggestion}"
+
+  utter_elaborate_happy_joy:
+    - text: "Sounds like something amazing happened. Care to tell me more?"
+    - text: "It's so lovely to see your excitement. Would you like to tell me more about it?"
+    - text: "You seem really happy! What's been going on?"
+    - text: "That's wonderful to hear! What's been bringing you so much joy?"
+    - text: "You seem happy—that's wonderful. Want to tell me more about what's going on?"
+
+  utter_comfort_happy_joy:
+    - text: "That sounds so wonderful! Moments like these are what make life truly beautiful. Savor it, and remember, happiness deserves to be celebrated. {suggestion}"
+    - text: "That's so wonderful to hear! I'm glad you're having such a good moment. {suggestion}"
+    - text: "It's so lovely to see you this happy. These moments remind us to cherish life's little blessings. {suggestion}"
+
+  utter_elaborate_happy_sorrow:
+    - text: "You sound happy, and that's so wonderful to hear! I'd love to know more."
+    - text: "Hearing your happiness is heartwarming. Tell me about what's brought this joy to you"
+    - text: "It's so nice to hear you're feeling good! What's going on?"
+
+  utter_comfort_happy_sorrow:
+    - text: "Your happiness is so well-deserved. It's great to see you enjoying this moment—let's hold onto this feeling for as long as we can. {suggestion}"
+    - text: "See, life is not always cloudy,there would be a sunshine! remember better days ahead,and enjoy your momment. {suggestion}"
+    - text: "This happiness you're feeling is a reminder of how strong you are. Even after tough times, you've found this joy, and that's amazing. {suggestion}"
+    - text: "Happiness looks good on you. Keep enjoying it! {suggestion}"
+
+  utter_elaborate_happy_fury/nervous:
+    - text: "You seem happy—that's so great to hear! What's been making you feel this way?"
+    - text: "This positive feeling, its happiness! what's going on"
+    - text: "It's so nice to hear you're feeling good! What's going on?"
+
+  utter_comfort_happy_fury:
+    - text: "Happiness looks good on you. Keep enjoying it! {suggestion}"
+    - text: "I'm so glad to hear you're happy. Joy can be a strong force to balance life's challenges—keep celebrating it! {suggestion}"
+    - text: "Seeing you happy is inspiring. It's a great reminder of how powerful positive emotions can be. {suggestion}"
+
+  utter_comfort_happy_nervous:
+    - text: "Happiness may feel a bit conflicting or overwhelming, but it's okay to experience it that way. Let's focus on the joy in this moment. {suggestion}"
+    - text: "Your happiness is so well-deserved. It's great to see you enjoying this moment—let's hold onto this feeling for as long as we can. {suggestion}"
+    - text: "Happiness looks good on you. Keep enjoying it! {suggestion}"
+
+# sad (elaborate/comfort) {suggestion}
+
+  utter_elaborate_sad_joy:
+    - text: "I can see you're feeling low. Even the bright sky have cloudy days. Would sharing your feelings help lighten the load?"
+    - text: "You seem a bit down, which is okay—everyone has tough days, Do you feel like talking about it?"
+
+  utter_comfort_sad_joy:
+    - text: "I'm sorry you're feeling this way. Even the happiest people can feel sad sometimes—it's completely okay. Remember, brighter days are ahead, and I'm here for you. {suggestion}"
+    - text: "I know it's tough right now, but your light hasn't dimmed—you're just in a moment of rest. It's okay to take things slow, and I'm here if you want to talk. {suggestion}"
+    - text: "Sadness can be a heavy emotion, but you've got such a resilient spirit. Lean into those feelings, and let's work through this together. {suggestion}"
+    - text: "It's tough to go through moments like these, but you've got this, even if it doesn't feel like it right now. {suggestion}"
+
+  utter_elaborate_sad_sorrow:
+    - text: "You seem sad, and I know how hard it can be to navigate these feelings. Would you like to share more with me? I'm here for you."
+    - text: "I can feel the heaviness in your words. It's okay to feel this way—talking might help lighten the load. What's on your mind?"
+
+  utter_comfort_sad_sorrow:
+    - text: "I'm so sorry you're feeling this way. You've been through so much, and it's okay to let yourself feel this sadness. Let's take this one step at a time, together. {suggestion}"
+    - text: "I know how hard this must be for you. You don't have to go through this alone—I'm here to listen, to support, and to help however I can. {suggestion}"
+    - text: "You've been through a lot, but it's just one part of your journey. You're not defined by it, and you don't have to face it alone. {suggestion}"
+    - text: "It understandable you are feeling sad, and it's okay to feel it.The more you face it the more stronger you become.So don't give up on yourself, becouse i don't. {suggestion}"
+
+  utter_elaborate_sad_fury:
+    - text: "It seems like you're feeling sad right now. I know how difficult that can be. Would you like to share more about what's going on?"
+    - text: "Sadness can feel heavy—it's okay to feel this way. What's been on your mind lately?"
+
+  utter_elaborate_sad_nervous:
+    - text: "It sounds like you're feeling sad. I'm here for you—would you like to share more about what's going on?"
+    - text: "I can sense some sadness in your words. It's okay to feel this way. Would talking about it help?"
+    - text: "It seems like something's weighing on you. I'm here to listen—would you like to tell me more?"
+
+  utter_comfort_sad_fury/nervous:
+    - text: "It's okay to feel sad, and I'm here to help you through it. Let's take a moment to breathe and focus on what you need right now. {suggestion}"
+    - text: "I hear your sadness, and it's valid to feel this way. Let's work through these feelings together—you're not alone in this. {suggestion}"
+    - text: "Sadness is tough, but you dont have to go through it alone. Let's talk about how we can make this moment feel lighter. {suggestion}"
+
+# angry (elaborate/comfort) {suggestion}
+
+  utter_elaborate_angry_joy:
+    - text: "It sounds like something has really upset you. Even someone as cheerful as you can feel anger—it's a natural reaction. Would you like to share what's going on?"
+    - text: "I sense frustration in your words. Anger can sometimes catch us by surprise, even on good days. Would talking about it help?"
+
+  utter_comfort_angry_joy:
+    - text: "I hear your frustration, and it's okay to feel this way. Anger is a sign that something matters deeply to you. Let's find a way to work through this together. {suggestion}"
+    - text: "Even the happiest people have moments of anger—it's a natural and valid feeling. I'm here to help you channel this emotion into something constructive. {suggestion}"
+    - text: "It's okay to feel angry. Let's take a moment to breathe and focus on what's within our control—you've got this. {suggestion}"
+
+  utter_elaborate_angry_sorrow/nervous:
+    - text: "I sense anger in your words, and I know how hard it can be to deal with that. Would you like to talk about what's causing these feelings?"
+    - text: "It sounds like you're really upset. Anger can often stem from deeper feelings. I'm here to listen—what's been bothering you?"
+
+  utter_comfort_angry_sorrow/nervous:
+    - text: "Anger is a strong emotion, and it's completely valid to feel this way. Let's focus on finding a way to release it in a way that feels right for you. {suggestion}"
+    - text: "It's okay to feel angry—it shows you care deeply about something. Let's channel this energy into something that helps you feel more at peace. {suggestion}"
+    - text: "I hear you, and I can feel the frustration in your words. Let's take a moment to reflect on what might help ease this feeling. {suggestion}"
+
+  utter_elaborate_angry_fury:
+    - text: "You seem angry again, Would you like to share more about what's been bothering you?"
+    - text: "I can sense the frustration in your words. Let's work together to understand what's causing it—what's on your mind?"
+
+  utter_comfort_angry_fury:
+    - text: "That must have been so hard to deal with.but you have deal with it ,without it consuming you. Let's find a way to channel it constructively and bring you some relief. {suggestion}"
+    - text: "I hear your frustration, and it seems you getting angry often. Let's take one step at time and tame it. {suggestion}"
+    - text: "Anger can feel like it's taking control, but you should be the one in control not the anger. Let's figure out what can help you feel more in control. {suggestion}"
+
+# anxious (elaborate/comfort)
+
+  utter_elaborate_anxious_joy:
+    - text: "You seem a little anxious. I know how overwhelming it can be to carry those feelings. Would you like to share what's been on your mind?"
+    - text: "I can sense unease in your words—it's okay to feel this way. Let's work together to ease it. What's been troubling you?"
+
+  utter_comfort_anxious_joy:
+    - text: "It's okay to feel anxious. I'm here to help you take it one step at a time—just know you're not alone in this. {suggestion}"
+    - text: "Anxiety can feel heavy, but even small steps can make a big difference. Let's focus on what's within our control together. {suggestion}"
+    - text: "Thank you for sharing your feelings. Anxiety is tough, but you don't have to go through it alone. Let's work through it together—I'm here for you. {suggestion}"
+
+  utter_elaborate_anxious_sorrow/fury:
+    - text: "You seem anxious, and I know that can feel difficult to handle. Would you like to share more about what's been troubling you?"
+    - text: "I sense unease in your words. Let's take a moment to breathe—what's been on your mind lately?"
+
+  utter_comfort_anxious_sorrow/fury:
+    - text: "Anxiety can feel tough to manage, but you're stronger than you think. Let's take it one step at a time—I'm here to help. {suggestion}"
+    - text: "It's okay to feel anxious, and I'm glad you shared this with me. Let's focus on what we can do together to ease those feelings. {suggestion}"
+    - text: "Anxiety can feel overwhelming, but even small actions can help. Let's work through this together—you're not alone in this. {suggestion}"
+
+  utter_elaborate_anxious_nervous:
+    - text: "You seem anxious again , what's going on"
+    - text: "I sense a lot of unease in your words. Let's work through it together—what's been on your mind?"
+
+  utter_comfort_anxious_nervous:
+    - text: "The frequent anxiety can be overwhelming, but you're it's not the end. Let's face it one step at a time. {suggestion}"
+    - text: "It seems you are experiencing a lot of anxiety recently. don't panic , you got this. I'm here to help you focus on small steps toward calmness. {suggestion}"
+    - text: "It understandable you are feeling anxious, and it's okay to feel it.The more you face it the more stronger you become.So don't give up on yourself, becouse i don't. {suggestion}"
+
+# fear (elaborate/comfort) {suggestion}
+
+  utter_elaborate_fear_sorrow/fury/nervous:
+    - text: "It sounds like you're feeling afraid. I know fear can feel overwhelming. Would you like to talk about what's been causing it?"
+    - text: "I sense some fear in your words. I understand that these feelings can be overwhelming. If you'd like, I'm here to listen to what's making you feel this way?"
+    - text: "Fear can be a strong and consuming emotion. I'm here for you—would you try talking about it to help ease the weight?"
+
+  utter_elaborate_fear_joy:
+    - text: "I sense some fear in your words. You are usually chill, what's going on?"
+    - text: "You seem worried. It's not like you, Want to share what's been making you feel this way?"
+
+  utter_comfort_fear_joy/fury:
+    - text: "Fear can feel overpowering, but It's okay , You got tis. Let's take this one step at a time—I'm here to help you. {suggestion}"
+    - text: "It's okay to feel afraid, and I'm so glad you shared this with me. Together, we'll work through this and find a sense of calm. {suggestion}"
+    - text: "Fear is a natural response, but it can be eased. Let's focus on grounding ourselves and finding a way forward—you've got this. {suggestion}"
+
+  utter_comfort_fear_sorrow/nervous:
+    - text: "It's understandable that you feeling scared considering your circumstances. Don't worry , Let's try to take a deep breath and work through this together. {suggestion}"
+    - text: "I know how much overwhelming this can be. You have been throgh a lot. Let's try to work through it together."
+    - text: "I hear you—it's not easy to going through this right now. But it's gonna be okay. I am with you. {suggestion}"
+
+# else
+  utter_deny_coping:
+    - condition:
+        - type: slot
+          name: emotion
+          value: angry
+      text: 
+        "I understand. If now's not the right time, that's okay. Let me know if there's another way I can help."
+    - condition:
+        - type: slot
+          name: emotion
+          value: angry
+      text: 
+        "It's alright. Sometimes it's best to take a step back—let me know if you'd like to try something later."
+    - condition:
+        - type: slot
+          name: emotion
+          value: sad
+      text: 
+        "It's completely fine if this doesn't feel right for you right now. Just know I'm here when you need support."
+    - condition:
+        - type: slot
+          name: emotion
+          value: sad
+      text: 
+        "That's okay. You know yourself best—let me know if there's something else I can do for you."
+    - condition:
+        - type: slot
+          name: emotion
+          value: anxious
+      text: 
+        "Got it. Take your time and let me know if you'd like to explore this later. I'll be here to help."
+    - condition:
+        - type: slot
+          name: emotion
+          value: anxious
+      text: 
+        "No problem. Sometimes stepping back is the best approach—let me know if you need help later."
+    - condition:
+        - type: slot
+          name: emotion
+          value: happy
+      text: 
+        "Okay, I understand. As long as you are happy that's all that matters."
+    - condition:
+        - type: slot
+          name: emotion
+          value: happy
+      text: 
+        "That's fine. Keep enjoying your positive energy and let me know if you need anything."
+    - condition:
+        - type: slot
+          name: emotion
+          value: fear
+      text: 
+        "That's okay. I respect your choice. If you feel ready later, let me know—I'll be here to support you."
+    - condition:
+        - type: slot
+          name: emotion
+          value: fear
+      text: 
+        "No problem. Fear can be tough to navigate—take your time, and we'll revisit when you're ready."
+    - text: 
+        "That's absolutely fine. If you feel okay, that's what matters."
+    - text: 
+        "No worries. Just remember, I'm here if you need help with anything."
+
+  utter_deny_elaboration:
+    - condition:
+        - type: slot
+          name: emotion
+          value: angry
+      text: 
+        "That's okay. You don't have to share if you're not ready. I'm here whenever you want to talk."
+    - condition:
+        - type: slot
+          name: emotion
+          value: angry
+      text: 
+        "No problem. Let's take a moment to regroup—you've got this."
+    - condition:
+        - type: slot
+          name: emotion
+          value: sad
+      text: 
+        "It's alright. Sometimes it's hard to open up, and that's okay. Let me know when you're ready."
+    - condition:
+        - type: slot
+          name: emotion
+          value: sad
+      text: 
+        "That's fine. I'll be here to listen whenever you feel comfortable sharing."
+    - condition:
+        - type: slot
+          name: emotion
+          value: anxious
+      text: 
+        "That's perfectly okay. Take your time, and I'll be here if you feel like opening up later."
+    - condition:
+        - type: slot
+          name: emotion
+          value: anxious
+      text: 
+        "No worries. Let's focus on what feels right for you right now."
+    - condition:
+        - type: slot
+          name: emotion
+          value: happy
+      text: 
+        "Okay, I understand. As long as you are happy that's all that matters."
+    - condition:
+        - type: slot
+          name: emotion
+          value: happy
+      text: 
+        "That's fine. Keep enjoying your positive energy and let me know if you need anything."
+    - condition:
+        - type: slot
+          name: emotion
+          value: fear
+      text: 
+        "That's okay. It's important to feel safe, and I'm here whenever you're ready."
+    - condition:
+        - type: slot
+          name: emotion
+          value: fear
+      text: 
+        "No problem at all. Let me know when you feel like talking, and I'll be here."
+    - text: 
+        "That's completely fine. You don't have to share if you're not ready."
+    - text: 
+        "I understand. Let me know if there's anything else you'd like to talk about."
+
+  utter_self_harm:
+    - text: "I'm so sorry you're feeling this way. Your well-being is very important. Please, consider reaching out to a trusted friend, family member, or a mental health professional immediately."
+    - text: "I know things may feel overwhelming, but there are people who care about you and want to help. Please, talk to someone you trust or contact a helpline."
+    - text: "You don't have to go through this alone. Speaking with a professional can help. Please consider seeking support from a counselor or a doctor."
+
+  utter_violence:
+    - text: "I understand you're feeling this way, but violence won't help. Can we talk about what's upsetting you and find a healthier way to handle it?"
+    - text: "I hear your frustration, but it's important to stay calm. Let's focus on finding a solution that doesn't involve hurting anyone or yourself."
+    - text: "I know you're feeling angry, but take a moment to breathe deeply. Talking about what's bothering you can help you gain control over these feelings."
+
+
+
+  utter_help:
+    - text: "here is the help =>  ' HELP ' "
+
+  utter_wrong:
+    - text: "I'm sorry if I misunderstood you. Can you please clarify what you mean?"
+    - text: "I might have gotten that wrong. Could you explain a bit more so I can help you better?"
+    - text: "Oops, it seems I misinterpreted that. Let's try again—can you rephrase it for me?"
+    - text: "Sorry about that. I'm here to help—could you provide more details?"
+
+# extra
+
+  # utter_self_harm:  
+  #   - text:  
+  #       "I'm so sorry you're feeling this way. You're not alone, and there are people who care about you and want to help."  
+  #   - text:  
+  #       "It's okay to feel overwhelmed sometimes. Please know that hurting yourself won't solve the pain. Let's think about how we can get you support."  
+  #   - text:  
+  #       "I can only imagine how hard this must be for you. Please consider reaching out to a trusted friend, family member, or a mental health professional."  
+  #   - text:  
+  #       "Your feelings are valid, and I'm here to help you through this. Can I help you find someone to talk to, like a counselor or a support line?"  
+  #   - text:  
+  #       "I'm so sorry you're feeling this way. Please reach out to a mental health professional or a helpline—they can provide the care and support you deserve."
+  
+  # # utter_violence:  
+  #   - text:  
+  #       "I can sense how strong your feelings are right now. It's okay to feel anger, but let's find a safe way to express it."  
+  #   - text:  
+  #       "I hear you—it's really tough to deal with such intense emotions. Try to pause and take a few deep breaths. You've got this."  
+  #   - text:  
+  #       "It's okay to feel angry, but hurting yourself or others won't solve the problem. Let's talk about what's bothering you and how we can manage it."  
+  #   - text:  
+  #       "I can tell you're feeling very upset. Would you like to try a calming exercise with me, like slow breathing or counting down?"  
+  #   - text:  
+  #       "Anger can feel overwhelming, but it's important to stay safe. Can I help you find someone to talk to, like a therapist or counselor?"
+
+
+
+
+
+
+  # utter_cheer_up:
+  # - text: "Here is something to cheer you up:"
+  #   image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  # utter_did_that_help:
+  # - text: "Did that help you?"
+
+  # utter_happy:
+  # - text: "Great, carry on!"
+
+  # utter_goodbye:
+  # - text: "Bye"
+
+  # utter_iamabot:
+  # - text: "I am a bot, powered by Rasa."
+
+
 
 session_config:
   session_expiration_time: 60

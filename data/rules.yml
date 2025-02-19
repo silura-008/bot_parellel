@@ -1,13 +1,12 @@
 version: "3.1"
 
 rules:
-
-- rule: Say goodbye anytime the user says goodbye
-  steps:
-  - intent: goodbye
-  - action: utter_goodbye
-
-- rule: Say 'I am a bot' anytime the user challenges
-  steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - rule: Respond to self-harm 
+    steps:
+      - intent: self_harm
+      - action: utter_self_harm
+    
+  - rule: Respond to violence 
+    steps:
+      - intent: violence
+      - action: utter_violence
