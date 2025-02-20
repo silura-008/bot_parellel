@@ -408,7 +408,6 @@ nlu:
     - I am so lonely.
     - I feel completely lost.
     - I don't know how to move forward.
-    - I hate feeling like this.
     - I feel like the world is against me.
     - I can't stop thinking about my mistakes.
     - I feel like I have no one to turn to.
@@ -531,7 +530,6 @@ nlu:
     - My team lost because someone didn't do their part!
     - I hate when people talk too loudly on the phone in public!
     - I hate being taken advantage of.
-    - I hate feeling like this.
     - I feel like screaming into a pillow.
     - This is ruining my day.
     - I hate being stuck in traffic.
@@ -875,6 +873,10 @@ nlu:
     - see you next time  
     - talk to you soon 
     - see you
+    - cyah
+    - cee yaa h
+    - cee yah
+    
 
 
 - intent: greet

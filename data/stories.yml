@@ -2,58 +2,59 @@ version: "3.1"
 
 stories:
 
-# greet/bye/thanks
+# # greet/bye/thanks
 
-  - story: Friendly greeting
-    steps:
-      - intent: greet_friendly
-      - action: action_set_tone
-      - slot_was_set:
-          - tone: friendly
-      - action: utter_greet_friendly
+#   - story: Friendly greeting
+#     steps:
+#       - intent: greet_friendly
+#       - action: action_set_tone
+#       - slot_was_set:
+#           - tone: friendly
+#       - action: utter_greet_friendly
 
-  - story: Formal greeting
-    steps:
-      - intent: greet_formal
-      - action: action_set_tone
-      - slot_was_set:
-          - tone: formal
-      - action: utter_greet_formal
+#   - story: Formal greeting
+#     steps:
+#       - intent: greet_formal
+#       - action: action_set_tone
+#       - slot_was_set:
+#           - tone: formal
+#       - action: utter_greet_formal
 
-  - story: Respond to thanks friendly
-    steps:
-      - intent: thanks
-      - slot_was_set:
-          - tone: friendly
-      - action: utter_thanks_friendly
+#   - story: Respond to thanks friendly
+#     steps:
+#       - intent: thanks
+#       - slot_was_set:
+#           - tone: friendly
+#       - action: utter_thanks_friendly
 
-  - story: Respond to thanks formally
-    steps:
-      - intent: thanks
-      - slot_was_set:
-          - tone: formal
-      - action: utter_thanks_formal
+#   - story: Respond to thanks formally
+#     steps:
+#       - intent: thanks
+#       - slot_was_set:
+#           - tone: formal
+#       - action: utter_thanks_formal
 
-  - story: Respond to bye friendly
-    steps:
-      - intent: bye
-      - slot_was_set:
-          - tone: friendly
-      - action: utter_bye_friendly
+#   - story: Respond to bye friendly
+#     steps:
+#       - intent: bye
+#       - slot_was_set:
+#           - tone: friendly
+#       - action: utter_bye_friendly
 
-  - story: Respond to bye formally
-    steps:
-      - intent: bye
-      - slot_was_set:
-          - tone: formal
-      - action: utter_bye_formal
+#   - story: Respond to bye formally
+#     steps:
+#       - intent: bye
+#       - slot_was_set:
+#           - tone: formal
+#       - action: utter_bye_formal
+
 
 # new paths
 
   - story: happy path new / WRONG /
     steps:
-      - intent: nlu_fallback
-      - action: action_handle_fallback
+      - intent: happy
+      - action: action_set_emotion
       - slot_was_set:
           - msg_type: share_emotion
           - personality: new
@@ -64,8 +65,8 @@ stories:
 
   - story: happy path new -- deny to elaborate --
     steps:
-      - intent: nlu_fallback
-      - action: action_handle_fallback
+      - intent: happy
+      - action: action_set_emotion
       - slot_was_set:
           - msg_type: share_emotion
           - personality: new
@@ -76,17 +77,16 @@ stories:
 
   - story: happy path new [ affirm coping ]
     steps:
-      - intent: nlu_fallback
-      - action: action_handle_fallback
+      - intent: happy
+      - action: action_set_emotion
       - slot_was_set:
           - msg_type: share_emotion
           - personality: new
           - emotion: happy
       - action: utter_elaborate_happy_new
-      - intent: nlu_fallback
-      - action: action_handle_fallback
-      - slot_was_set:
-          - msg_type: elaborate_emotion
+      - or:
+        - intent: nlu_fallback
+        - intent: happy
       - action: action_set_suggestion
       - action: utter_comfort_happy_new
       - intent: affirm
@@ -94,17 +94,17 @@ stories:
 
   - story: happy path new [ deny coping ]
     steps:
-      - intent: nlu_fallback
-      - action: action_handle_fallback
+      - intent: happy
+      - action: action_set_emotion
       - slot_was_set:
           - msg_type: share_emotion
           - personality: new
           - emotion: happy
       - action: utter_elaborate_happy_new
-      - intent: nlu_fallback
-      - action: action_handle_fallback
-      - slot_was_set:
-          - msg_type: elaborate_emotion
+      - action: utter_elaborate_happy_new
+      - or:
+        - intent: nlu_fallback
+        - intent: happy
       - action: action_set_suggestion
       - action: utter_comfort_happy_new
       - intent: deny
@@ -170,63 +170,63 @@ stories:
       - intent: deny
       - action: utter_deny_coping
 
-  - story: angry path new / WRONG /
+  - story: anger path new / WRONG /
     steps:
       - intent: nlu_fallback
       - action: action_handle_fallback
       - slot_was_set:
           - msg_type: share_emotion
           - personality: new
-          - emotion: angry
-      - action: utter_elaborate_angry_sorrow/nervous
+          - emotion: anger
+      - action: utter_elaborate_anger_sorrow/nervous
       - intent: wrong
       - action: utter_wrong
 
-  - story: angry path new -- deny to elaborate --
+  - story: anger path new -- deny to elaborate --
     steps:
       - intent: nlu_fallback
       - action: action_handle_fallback
       - slot_was_set:
           - msg_type: share_emotion
           - personality: new
-          - emotion: angry
-      - action: utter_elaborate_angry_sorrow/nervous
+          - emotion: anger
+      - action: utter_elaborate_anger_sorrow/nervous
       - intent: deny
       - action: utter_deny_elaboration
 
-  - story: angry path new [ affirm coping ]
+  - story: anger path new [ affirm coping ]
     steps:
       - intent: nlu_fallback
       - action: action_handle_fallback
       - slot_was_set:
           - msg_type: share_emotion
           - personality: new
-          - emotion: angry
-      - action: utter_elaborate_angry_sorrow/nervous
+          - emotion: anger
+      - action: utter_elaborate_anger_sorrow/nervous
       - intent: nlu_fallback
       - action: action_handle_fallback
       - slot_was_set:
           - msg_type: elaborate_emotion
       - action: action_set_suggestion
-      - action: utter_comfort_angry_sorrow/nervous
+      - action: utter_comfort_anger_sorrow/nervous
       - intent: affirm
       - action: utter_help
 
-  - story: angry path new [ deny coping ]
+  - story: anger path new [ deny coping ]
     steps:
       - intent: nlu_fallback
       - action: action_handle_fallback
       - slot_was_set:
           - msg_type: share_emotion
           - personality: new
-          - emotion: angry
-      - action: utter_elaborate_angry_sorrow/nervous
+          - emotion: anger
+      - action: utter_elaborate_anger_sorrow/nervous
       - intent: nlu_fallback
       - action: action_handle_fallback
       - slot_was_set:
           - msg_type: elaborate_emotion
       - action: action_set_suggestion
-      - action: utter_comfort_angry_sorrow/nervous
+      - action: utter_comfort_anger_sorrow/nervous
       - intent: deny
       - action: utter_deny_coping
 
@@ -498,63 +498,63 @@ stories:
       - intent: affirm
       - action: utter_help
 
-# angry paths 
+# anger paths 
 
-  - story: angry path joy
+  - story: anger path joy
     steps:
       - intent: nlu_fallback
       - action: action_handle_fallback
       - slot_was_set:
           - msg_type: share_emotion
           - personality: joy
-          - emotion: angry
-      - action: utter_elaborate_angry_joy
+          - emotion: anger
+      - action: utter_elaborate_anger_joy
       - intent: nlu_fallback
       - action: action_handle_fallback
       - slot_was_set:
           - msg_type: elaborate_emotion
       - action: action_set_suggestion
-      - action: utter_comfort_angry_joy
+      - action: utter_comfort_anger_joy
       - intent: affirm
       - action: utter_help
 
-  - story: angry path sorrow and nervous
+  - story: anger path sorrow and nervous
     steps:
       - intent: nlu_fallback
       - action: action_handle_fallback
       - slot_was_set:
           - msg_type: share_emotion
-          - emotion: angry
+          - emotion: anger
       - or:
         - slot_was_set:
           - personality: sorrow
         - slot_was_set:
           - personality: nervous
-      - action: utter_elaborate_angry_sorrow/nervous
+      - action: utter_elaborate_anger_sorrow/nervous
       - intent: nlu_fallback
       - action: action_handle_fallback
       - slot_was_set:
           - msg_type: elaborate_emotion
       - action: action_set_suggestion
-      - action: utter_comfort_angry_sorrow/nervous
+      - action: utter_comfort_anger_sorrow/nervous
       - intent: affirm
       - action: utter_help
 
-  - story: angry path fury
+  - story: anger path fury
     steps:
       - intent: nlu_fallback
       - action: action_handle_fallback
       - slot_was_set:
           - msg_type: share_emotion
           - personality: fury
-          - emotion: angry
-      - action: utter_elaborate_angry_fury
+          - emotion: anger
+      - action: utter_elaborate_anger_fury
       - intent: nlu_fallback
       - action: action_handle_fallback
       - slot_was_set:
           - msg_type: elaborate_emotion
       - action: action_set_suggestion
-      - action: utter_comfort_angry_fury
+      - action: utter_comfort_anger_fury
       - intent: affirm
       - action: utter_help
 

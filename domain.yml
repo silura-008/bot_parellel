@@ -543,7 +543,7 @@ slots:
     values:
         - happy
         - sad
-        - angry
+        - anger
         - anxious
         - fear
     mappings:
@@ -564,6 +564,7 @@ actions:
     - action_set_tone
     - action_handle_fallback
     - action_set_suggestion
+    - action_set_emotion
 
 session_config:
   session_expiration_time: 60

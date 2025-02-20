@@ -117,7 +117,20 @@ class ActionHandleFallback(Action):
                     UserUtteranceReverted()
                     ]
             
+class ActionSetEmotion(Action):
+   def name(self) -> Text:
+      return "action_set_emotion"
 
+   def run(self,
+           dispatcher: CollectingDispatcher,
+           tracker: Tracker,
+           domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        intent = tracker.latest_message['intent']['name']
+        
+        
+        return [SlotSet("emotion", intent),SlotSet("msg_type", "share_emotion")]
+   
 
 # class ActionHandleFallback(Action):
 #     def name(self):
