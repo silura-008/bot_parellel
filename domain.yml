@@ -226,29 +226,29 @@ responses:
 
 # angry (elaborate/comfort) {suggestion}
 
-  utter_elaborate_angry_joy:
+  utter_elaborate_anger_joy:
     - text: "It sounds like something has really upset you. Even someone as cheerful as you can feel anger—it's a natural reaction. Would you like to share what's going on?"
     - text: "I sense frustration in your words. Anger can sometimes catch us by surprise, even on good days. Would talking about it help?"
 
-  utter_comfort_angry_joy:
+  utter_comfort_anger_joy:
     - text: "I hear your frustration, and it's okay to feel this way. Anger is a sign that something matters deeply to you. Let's find a way to work through this together. {suggestion}"
     - text: "Even the happiest people have moments of anger—it's a natural and valid feeling. I'm here to help you channel this emotion into something constructive. {suggestion}"
     - text: "It's okay to feel angry. Let's take a moment to breathe and focus on what's within our control—you've got this. {suggestion}"
 
-  utter_elaborate_angry_sorrow/nervous:
+  utter_elaborate_anger_sorrow/nervous:
     - text: "I sense anger in your words, and I know how hard it can be to deal with that. Would you like to talk about what's causing these feelings?"
     - text: "It sounds like you're really upset. Anger can often stem from deeper feelings. I'm here to listen—what's been bothering you?"
 
-  utter_comfort_angry_sorrow/nervous:
+  utter_comfort_anger_sorrow/nervous:
     - text: "Anger is a strong emotion, and it's completely valid to feel this way. Let's focus on finding a way to release it in a way that feels right for you. {suggestion}"
     - text: "It's okay to feel angry—it shows you care deeply about something. Let's channel this energy into something that helps you feel more at peace. {suggestion}"
     - text: "I hear you, and I can feel the frustration in your words. Let's take a moment to reflect on what might help ease this feeling. {suggestion}"
 
-  utter_elaborate_angry_fury:
+  utter_elaborate_anger_fury:
     - text: "You seem angry again, Would you like to share more about what's been bothering you?"
     - text: "I can sense the frustration in your words. Let's work together to understand what's causing it—what's on your mind?"
 
-  utter_comfort_angry_fury:
+  utter_comfort_anger_fury:
     - text: "That must have been so hard to deal with.but you have deal with it ,without it consuming you. Let's find a way to channel it constructively and bring you some relief. {suggestion}"
     - text: "I hear your frustration, and it seems you getting angry often. Let's take one step at time and tame it. {suggestion}"
     - text: "Anger can feel like it's taking control, but you should be the one in control not the anger. Let's figure out what can help you feel more in control. {suggestion}"
