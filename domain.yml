@@ -304,137 +304,137 @@ responses:
     - text: "I hear you—it's not easy to going through this right now. But it's gonna be okay. I am with you. {suggestion}"
 
 # else
-  utter_deny_coping:
-    - condition:
-        - type: slot
-          name: emotion
-          value: angry
-      text: 
-        "I understand. If now's not the right time, that's okay. Let me know if there's another way I can help."
-    - condition:
-        - type: slot
-          name: emotion
-          value: angry
-      text: 
-        "It's alright. Sometimes it's best to take a step back—let me know if you'd like to try something later."
-    - condition:
-        - type: slot
-          name: emotion
-          value: sad
-      text: 
-        "It's completely fine if this doesn't feel right for you right now. Just know I'm here when you need support."
-    - condition:
-        - type: slot
-          name: emotion
-          value: sad
-      text: 
-        "That's okay. You know yourself best—let me know if there's something else I can do for you."
-    - condition:
-        - type: slot
-          name: emotion
-          value: anxious
-      text: 
-        "Got it. Take your time and let me know if you'd like to explore this later. I'll be here to help."
-    - condition:
-        - type: slot
-          name: emotion
-          value: anxious
-      text: 
-        "No problem. Sometimes stepping back is the best approach—let me know if you need help later."
-    - condition:
-        - type: slot
-          name: emotion
-          value: happy
-      text: 
-        "Okay, I understand. As long as you are happy that's all that matters."
-    - condition:
-        - type: slot
-          name: emotion
-          value: happy
-      text: 
-        "That's fine. Keep enjoying your positive energy and let me know if you need anything."
-    - condition:
-        - type: slot
-          name: emotion
-          value: fear
-      text: 
-        "That's okay. I respect your choice. If you feel ready later, let me know—I'll be here to support you."
-    - condition:
-        - type: slot
-          name: emotion
-          value: fear
-      text: 
-        "No problem. Fear can be tough to navigate—take your time, and we'll revisit when you're ready."
-    - text: 
-        "That's absolutely fine. If you feel okay, that's what matters."
-    - text: 
-        "No worries. Just remember, I'm here if you need help with anything."
+  # utter_deny_coping:
+  #   - condition:
+  #       - type: slot
+  #         name: emotion
+  #         value: angry
+  #     text: 
+  #       "I understand. If now's not the right time, that's okay. Let me know if there's another way I can help."
+  #   - condition:
+  #       - type: slot
+  #         name: emotion
+  #         value: angry
+  #     text: 
+  #       "It's alright. Sometimes it's best to take a step back—let me know if you'd like to try something later."
+  #   - condition:
+  #       - type: slot
+  #         name: emotion
+  #         value: sad
+  #     text: 
+  #       "It's completely fine if this doesn't feel right for you right now. Just know I'm here when you need support."
+  #   - condition:
+  #       - type: slot
+  #         name: emotion
+  #         value: sad
+  #     text: 
+  #       "That's okay. You know yourself best—let me know if there's something else I can do for you."
+  #   - condition:
+  #       - type: slot
+  #         name: emotion
+  #         value: anxious
+  #     text: 
+  #       "Got it. Take your time and let me know if you'd like to explore this later. I'll be here to help."
+  #   - condition:
+  #       - type: slot
+  #         name: emotion
+  #         value: anxious
+  #     text: 
+  #       "No problem. Sometimes stepping back is the best approach—let me know if you need help later."
+  #   - condition:
+  #       - type: slot
+  #         name: emotion
+  #         value: happy
+  #     text: 
+  #       "Okay, I understand. As long as you are happy that's all that matters."
+  #   - condition:
+  #       - type: slot
+  #         name: emotion
+  #         value: happy
+  #     text: 
+  #       "That's fine. Keep enjoying your positive energy and let me know if you need anything."
+  #   - condition:
+  #       - type: slot
+  #         name: emotion
+  #         value: fear
+  #     text: 
+  #       "That's okay. I respect your choice. If you feel ready later, let me know—I'll be here to support you."
+  #   - condition:
+  #       - type: slot
+  #         name: emotion
+  #         value: fear
+  #     text: 
+  #       "No problem. Fear can be tough to navigate—take your time, and we'll revisit when you're ready."
+  #   - text: 
+  #       "That's absolutely fine. If you feel okay, that's what matters."
+  #   - text: 
+  #       "No worries. Just remember, I'm here if you need help with anything."
 
-  utter_deny_elaboration:
-    - condition:
-        - type: slot
-          name: emotion
-          value: angry
-      text: 
-        "That's okay. You don't have to share if you're not ready. I'm here whenever you want to talk."
-    - condition:
-        - type: slot
-          name: emotion
-          value: angry
-      text: 
-        "No problem. Let's take a moment to regroup—you've got this."
-    - condition:
-        - type: slot
-          name: emotion
-          value: sad
-      text: 
-        "It's alright. Sometimes it's hard to open up, and that's okay. Let me know when you're ready."
-    - condition:
-        - type: slot
-          name: emotion
-          value: sad
-      text: 
-        "That's fine. I'll be here to listen whenever you feel comfortable sharing."
-    - condition:
-        - type: slot
-          name: emotion
-          value: anxious
-      text: 
-        "That's perfectly okay. Take your time, and I'll be here if you feel like opening up later."
-    - condition:
-        - type: slot
-          name: emotion
-          value: anxious
-      text: 
-        "No worries. Let's focus on what feels right for you right now."
-    - condition:
-        - type: slot
-          name: emotion
-          value: happy
-      text: 
-        "Okay, I understand. As long as you are happy that's all that matters."
-    - condition:
-        - type: slot
-          name: emotion
-          value: happy
-      text: 
-        "That's fine. Keep enjoying your positive energy and let me know if you need anything."
-    - condition:
-        - type: slot
-          name: emotion
-          value: fear
-      text: 
-        "That's okay. It's important to feel safe, and I'm here whenever you're ready."
-    - condition:
-        - type: slot
-          name: emotion
-          value: fear
-      text: 
-        "No problem at all. Let me know when you feel like talking, and I'll be here."
-    - text: 
-        "That's completely fine. You don't have to share if you're not ready."
-    - text: 
-        "I understand. Let me know if there's anything else you'd like to talk about."
+  # utter_deny_elaboration:
+  #   - condition:
+  #       - type: slot
+  #         name: emotion
+  #         value: angry
+  #     text: 
+  #       "That's okay. You don't have to share if you're not ready. I'm here whenever you want to talk."
+  #   - condition:
+  #       - type: slot
+  #         name: emotion
+  #         value: angry
+  #     text: 
+  #       "No problem. Let's take a moment to regroup—you've got this."
+  #   - condition:
+  #       - type: slot
+  #         name: emotion
+  #         value: sad
+  #     text: 
+  #       "It's alright. Sometimes it's hard to open up, and that's okay. Let me know when you're ready."
+  #   - condition:
+  #       - type: slot
+  #         name: emotion
+  #         value: sad
+  #     text: 
+  #       "That's fine. I'll be here to listen whenever you feel comfortable sharing."
+  #   - condition:
+  #       - type: slot
+  #         name: emotion
+  #         value: anxious
+  #     text: 
+  #       "That's perfectly okay. Take your time, and I'll be here if you feel like opening up later."
+  #   - condition:
+  #       - type: slot
+  #         name: emotion
+  #         value: anxious
+  #     text: 
+  #       "No worries. Let's focus on what feels right for you right now."
+  #   - condition:
+  #       - type: slot
+  #         name: emotion
+  #         value: happy
+  #     text: 
+  #       "Okay, I understand. As long as you are happy that's all that matters."
+  #   - condition:
+  #       - type: slot
+  #         name: emotion
+  #         value: happy
+  #     text: 
+  #       "That's fine. Keep enjoying your positive energy and let me know if you need anything."
+  #   - condition:
+  #       - type: slot
+  #         name: emotion
+  #         value: fear
+  #     text: 
+  #       "That's okay. It's important to feel safe, and I'm here whenever you're ready."
+  #   - condition:
+  #       - type: slot
+  #         name: emotion
+  #         value: fear
+  #     text: 
+  #       "No problem at all. Let me know when you feel like talking, and I'll be here."
+  #   - text: 
+  #       "That's completely fine. You don't have to share if you're not ready."
+  #   - text: 
+  #       "I understand. Let me know if there's anything else you'd like to talk about."
 
   utter_self_harm:
     - text: "I'm so sorry you're feeling this way. Your well-being is very important. Please, consider reaching out to a trusted friend, family member, or a mental health professional immediately."
@@ -459,50 +459,97 @@ responses:
 
 # extra
 
-  # utter_self_harm:  
-  #   - text:  
-  #       "I'm so sorry you're feeling this way. You're not alone, and there are people who care about you and want to help."  
-  #   - text:  
-  #       "It's okay to feel overwhelmed sometimes. Please know that hurting yourself won't solve the pain. Let's think about how we can get you support."  
-  #   - text:  
-  #       "I can only imagine how hard this must be for you. Please consider reaching out to a trusted friend, family member, or a mental health professional."  
-  #   - text:  
-  #       "Your feelings are valid, and I'm here to help you through this. Can I help you find someone to talk to, like a counselor or a support line?"  
-  #   - text:  
-  #       "I'm so sorry you're feeling this way. Please reach out to a mental health professional or a helpline—they can provide the care and support you deserve."
-  
-  # # utter_violence:  
-  #   - text:  
-  #       "I can sense how strong your feelings are right now. It's okay to feel anger, but let's find a safe way to express it."  
-  #   - text:  
-  #       "I hear you—it's really tough to deal with such intense emotions. Try to pause and take a few deep breaths. You've got this."  
-  #   - text:  
-  #       "It's okay to feel angry, but hurting yourself or others won't solve the problem. Let's talk about what's bothering you and how we can manage it."  
-  #   - text:  
-  #       "I can tell you're feeling very upset. Would you like to try a calming exercise with me, like slow breathing or counting down?"  
-  #   - text:  
-  #       "Anger can feel overwhelming, but it's important to stay safe. Can I help you find someone to talk to, like a therapist or counselor?"
 
+  utter_deny_coping_new:
+    - condition:
+        - type: slot
+          name: emotion
+          value: happy
+      text: "That's completely fine! Your happiness is what matters most. Just remember, I'm here whenever you need me."
 
+    - condition:
+        - type: slot
+          name: emotion
+          value: happy
+      text: "As long as you're feeling good, that's what's important! If anything changes, I'll be ready to help."
 
+    - condition:
+        - type: slot
+          name: emotion
+          value: happy
+      text: "It's great that you're doing well! If you ever want to explore ways to keep this happiness going, I'm here for you."
 
+    - condition:
+        - type: slot
+          name: emotion
+          value: sad
+      text: "I understand. You don't have to accept help right now. Just know that if you ever want to talk about it, I'll be here."
 
+    - condition:
+        - type: slot
+          name: emotion
+          value: sad
+      text: "That's okay, no pressure. When you feel like you need support, I'll always be ready to listen."
 
-  # utter_cheer_up:
-  # - text: "Here is something to cheer you up:"
-  #   image: "https://i.imgur.com/nGF1K8f.jpg"
+    - condition:
+        - type: slot
+          name: emotion
+          value: sad
+      text: "I respect that. Sometimes, just knowing someone is here can make a difference. I'll be right here when you need me."
 
-  # utter_did_that_help:
-  # - text: "Did that help you?"
+    - condition:
+        - type: slot
+          name: emotion
+          value: anger
+      text: "I get it—sometimes you just need space. But if that anger ever feels too much, I'm always here to help you through it."
 
-  # utter_happy:
-  # - text: "Great, carry on!"
+    - condition:
+        - type: slot
+          name: emotion
+          value: anger
+      text: "That's okay, you don't have to take any steps right now. But if you ever want to channel that energy into something positive, I'll be here."
 
-  # utter_goodbye:
-  # - text: "Bye"
+    - condition:
+        - type: slot
+          name: emotion
+          value: anger
+      text: "It's completely fine. Just know that you don't have to handle everything alone. Whenever you're ready, we can work through it together."
 
-  # utter_iamabot:
-  # - text: "I am a bot, powered by Rasa."
+    - condition:
+        - type: slot
+          name: emotion
+          value: anxious
+      text: "I understand. If you don't want help right now, that's okay. But if you ever need a way to ease that worry, I'll be here with suggestions."
+
+    - condition:
+        - type: slot
+          name: emotion
+          value: anxious
+      text: "You're not alone in this. If now isn't the right time, that's okay. Just remember, there's no harm in seeking a little support when you're ready."
+
+    - condition:
+        - type: slot
+          name: emotion
+          value: anxious
+      text: "No worries! If things ever feel too overwhelming, I can always share small steps that might help."
+
+    - condition:
+        - type: slot
+          name: emotion
+          value: fear
+      text: "I respect that. But just remember, fear is easier to face when you're not alone. I'll be here when you're ready."
+
+    - condition:
+        - type: slot
+          name: emotion
+          value: fear
+      text: "That's alright. If you ever want to take a small step toward facing this, I can help guide you through it."
+
+    - condition:
+        - type: slot
+          name: emotion
+          value: fear
+      text: "No rush. Just know that you don't have to deal with fear alone—I'll be here whenever you feel ready to take that step."
 
 
 
