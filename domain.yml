@@ -476,12 +476,6 @@ responses:
     - condition:
         - type: slot
           name: emotion
-          value: happy
-      text: "It's great that you're doing well! If you ever want to explore ways to keep this happiness going, I'm here for you."
-
-    - condition:
-        - type: slot
-          name: emotion
           value: sad
       text: "I understand. You don't have to accept help right now. Just know that if you ever want to talk about it, I'll be here."
 
@@ -551,6 +545,70 @@ responses:
           value: fear
       text: "No rush. Just know that you don't have to deal with fear alone—I'll be here whenever you feel ready to take that step."
 
+  utter_deny_coping_joy:
+    - text:  
+        "You're strong, and I know you'll get through this! But if you ever need a little support, I've got your back."  
+    - text:  
+        "I trust that you'll handle this in your own way. Just remember, I'm always here if you change your mind!"  
+    - text:  
+        "You've always bounced back before, and I believe in you. But if you ever want a helping hand, I'll be right here."
+
+  utter_deny_coping_sorrow:
+    - condition:
+        - type: slot
+          name: emotion
+          value: sad
+      text: "I hear you—you don't feel like accepting help right now. But sadness can be isolating, and I don't want you to carry it alone.Please remember that you deserve support. Maybe just start with something small—{suggestion}"
+
+    - condition:
+        - type: slot
+          name: emotion
+          value: sad
+      text: "I know it's tempting to push help away, especially when you're feeling this low. But denying support won't make the weight lighter. You don't have to do this alone—I'm here when you're ready, and so are others who care about you.{suggestion}"
+
+    - condition:
+        - type: slot
+          name: emotion
+          value: sad
+      text: "You don't have to take a big step, but completely refusing help might only make this sadness feel heavier. You matter, and there is a way forward. Let's take it one small step at a time?.{suggestion}"
+
+  utter_deny_coping_fury:
+    - condition:
+        - type: slot
+          name: emotion
+          value: anger
+      text: "I see that you're struggling with anger, and I know it can feel like a fire that won't go out. But you don't have to fight this battle alone. Let's find a way to release it in a way that actually helps, not just buries it deeper.{suggestion}"
+
+    - condition:
+        - type: slot
+          name: emotion
+          value: anger
+      text: "You don't want help—I get that. But what I also know is that carrying all this anger alone won't make it go away. Let's not fight against healing—let's find a way to work through it together.{suggestion}"
+
+    - condition:
+        - type: slot
+          name: emotion
+          value: anger
+      text: "You might not want help now, but I know how much this is weighing on you. Let's find a way to release that tension.{suggestion}"
+
+  utter_deny_coping_nervous:
+    - condition:
+        - type: slot
+          name: emotion
+          value: anxious
+      text: "I see that you're pushing help away, and I understand—it's scary. But denying support won't make the anxiety disappear. What if we take a small step together?.{suggestion}"
+
+    - condition:
+        - type: slot
+          name: emotion
+          value: anxious
+      text: "You don't have to accept everything at once, but completely shutting help out isn't the way forward either. Let's start with something small. {suggestion}"
+
+    - condition:
+        - type: slot
+          name: emotion
+          value: anxious
+      text: "I get it, help can feel overwhelming. But saying no won't make things better. Even if it's just a tiny step, I'm here to take it with you.{suggestion}"
 
 
 

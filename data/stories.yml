@@ -408,7 +408,7 @@ stories:
       - action: action_set_suggestion
       - action: utter_comfort_happy_joy
       - intent: deny
-      - action: utter_deny_coping
+      - action: utter_deny_coping_new
 
 
 
@@ -468,7 +468,7 @@ stories:
       - action: action_set_suggestion
       - action: utter_comfort_happy_sorrow
       - intent: deny
-      - action: utter_deny_coping
+      - action: utter_deny_coping_joy
 
 
 
@@ -528,7 +528,7 @@ stories:
       - action: action_set_suggestion
       - action: utter_comfort_happy_fury
       - intent: deny
-      - action: utter_deny_coping
+      - action: utter_deny_coping_joy
 
 
 
@@ -588,7 +588,7 @@ stories:
       - action: action_set_suggestion
       - action: utter_comfort_happy_nervous
       - intent: deny
-      - action: utter_deny_coping
+      - action: utter_deny_coping_joy
 
 # sad path
   - story: sad path joy / WRONG /
@@ -707,7 +707,7 @@ stories:
       - action: action_set_suggestion
       - action: utter_comfort_sad_sorrow
       - intent: deny
-      - action: utter_deny_coping
+      - action: utter_deny_coping_sorrow
 
 
 
@@ -1023,7 +1023,7 @@ stories:
       - action: action_set_suggestion
       - action: utter_comfort_anger_fury
       - intent: deny
-      - action: utter_deny_coping
+      - action: utter_deny_coping_fury
 
 # anxious paths
 
@@ -1218,7 +1218,7 @@ stories:
       - action: action_set_suggestion
       - action: utter_comfort_anxious_nervous
       - intent: deny
-      - action: utter_deny_coping
+      - action: utter_deny_coping_nrevous
 
 # fear paths
 
@@ -1278,7 +1278,7 @@ stories:
       - action: action_set_suggestion
       - action: utter_comfort_fear_joy
       - intent: deny
-      - action: utter_deny_coping
+      - action: utter_deny_coping_new
 
 
 
@@ -1354,7 +1354,7 @@ stories:
       - action: action_set_suggestion
       - action: utter_comfort_fear_sorrow/nervous
       - intent: deny
-      - action: utter_deny_coping
+      - action: utter_deny_coping_new
 
 
   - story: fear path fury / WRONG /
@@ -1413,7 +1413,7 @@ stories:
       - action: action_set_suggestion
       - action: utter_comfort_fear_fury
       - intent: deny
-      - action: utter_deny_coping
+      - action: utter_deny_coping_new
 
 # else
 
