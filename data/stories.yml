@@ -647,7 +647,7 @@ stories:
       - action: action_set_suggestion
       - action: utter_comfort_sad_joy
       - intent: deny
-      - action: utter_deny_coping
+      - action: utter_deny_coping_new
 
 
 
@@ -692,7 +692,7 @@ stories:
       - intent: affirm
       - action: utter_help
 
-  - story: sad path sorrow [ deny coping ]
+  - story: sad path sorrow [ deny coping (deny) ]
     steps:
       - intent: sad
       - action: action_set_emotion
@@ -708,6 +708,27 @@ stories:
       - action: utter_comfort_sad_sorrow
       - intent: deny
       - action: utter_deny_coping_sorrow
+      - intent: deny
+      - action: utter_deny_coping_new
+
+  - story: sad path sorrow [ deny coping (affirm) ]
+    steps:
+      - intent: sad
+      - action: action_set_emotion
+      - slot_was_set:
+          - msg_type: share_emotion
+          - personality: sorrow
+          - emotion: sad
+      - action: utter_elaborate_sad_sorrow
+      - or:
+        - intent: nlu_fallback
+        - intent: sad
+      - action: action_set_suggestion
+      - action: utter_comfort_sad_sorrow
+      - intent: deny
+      - action: utter_deny_coping_sorrow
+      - intent: affirm
+      - action: utter_help
 
 
 
@@ -767,7 +788,7 @@ stories:
       - action: action_set_suggestion
       - action: utter_comfort_sad_fury
       - intent: deny
-      - action: utter_deny_coping
+      - action: utter_deny_coping_new
 
 
 
@@ -827,7 +848,7 @@ stories:
       - action: action_set_suggestion
       - action: utter_comfort_sad_nervous
       - intent: deny
-      - action: utter_deny_coping
+      - action: utter_deny_coping_new
 
 # anger paths 
 
@@ -887,7 +908,7 @@ stories:
       - action: action_set_suggestion
       - action: utter_comfort_anger_joy
       - intent: deny
-      - action: utter_deny_coping
+      - action: utter_deny_coping_new
 
 
 
@@ -963,7 +984,7 @@ stories:
       - action: action_set_suggestion
       - action: utter_comfort_anger_sorrow/nervous
       - intent: deny
-      - action: utter_deny_coping
+      - action: utter_deny_coping_new
 
 
 
@@ -1008,7 +1029,7 @@ stories:
       - intent: affirm
       - action: utter_help
 
-  - story: anger path fury [ deny coping ]
+  - story: anger path fury [ deny coping (affirm) ]
     steps:
       - intent: anger
       - action: action_set_emotion
@@ -1024,6 +1045,27 @@ stories:
       - action: utter_comfort_anger_fury
       - intent: deny
       - action: utter_deny_coping_fury
+      - intent: affirm
+      - action: utter_help
+
+  - story: anger path fury [ deny coping (deny) ]
+    steps:
+      - intent: anger
+      - action: action_set_emotion
+      - slot_was_set:
+          - msg_type: share_emotion
+          - personality: fury
+          - emotion: anger
+      - action: utter_elaborate_anger_fury
+      - or:
+        - intent: nlu_fallback
+        - intent: anger
+      - action: action_set_suggestion
+      - action: utter_comfort_anger_fury
+      - intent: deny
+      - action: utter_deny_coping_fury
+      - intent: deny
+      - action: utter_deny_coping_new
 
 # anxious paths
 
@@ -1083,7 +1125,7 @@ stories:
       - action: action_set_suggestion
       - action: utter_comfort_anxious_joy
       - intent: deny
-      - action: utter_deny_coping
+      - action: utter_deny_coping_new
 
 
 
@@ -1159,7 +1201,7 @@ stories:
       - action: action_set_suggestion
       - action: utter_comfort_anxious_sorrow/fury
       - intent: deny
-      - action: utter_deny_coping
+      - action: utter_deny_coping_new
 
 
   - story: anxious path nervous / WRONG /
@@ -1203,7 +1245,7 @@ stories:
       - intent: affirm
       - action: utter_help
 
-  - story: anxious path nervous [ deny coping ]
+  - story: anxious path nervous [ deny coping (affirm) ]
     steps:
       - intent: anxious
       - action: action_set_emotion
@@ -1219,6 +1261,27 @@ stories:
       - action: utter_comfort_anxious_nervous
       - intent: deny
       - action: utter_deny_coping_nrevous
+      - intent: affirm
+      - action: utter_help
+
+  - story: anxious path nervous [ deny coping (deny) ]
+    steps:
+      - intent: anxious
+      - action: action_set_emotion
+      - slot_was_set:
+          - msg_type: share_emotion
+          - personality: nervous
+          - emotion: anxious
+      - action: utter_elaborate_anxious_nervous
+      - or:
+        - intent: nlu_fallback
+        - intent: anxious
+      - action: action_set_suggestion
+      - action: utter_comfort_anxious_nervous
+      - intent: deny
+      - action: utter_deny_coping_nrevous
+      - intent: deny
+      - action: utter_deny_coping_new
 
 # fear paths
 
