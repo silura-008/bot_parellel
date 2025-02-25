@@ -678,7 +678,7 @@ stories:
           - emotion: sad
       - action: utter_elaborate_sad_joy
       - intent: deny
-      - action: utter_deny_coping_new
+      - action: utter_deny_elaborate_joy
 
   - story: sad path joy [ affirm coping ]
     steps:
@@ -712,7 +712,7 @@ stories:
       - action: action_set_suggestion
       - action: utter_comfort_sad_joy
       - intent: deny
-      - action: utter_deny_coping_new
+      - action: utter_deny_coping_joy
 
 
 
@@ -738,6 +738,7 @@ stories:
           - emotion: sad
       - action: utter_elaborate_sad_sorrow
       - intent: deny
+      - action: action_set_suggestion
       - action: utter_deny_elaborate_sorrow_sad
       - intent: deny
       - action: utter_deny_coping_new
@@ -752,6 +753,7 @@ stories:
           - emotion: sad
       - action: utter_elaborate_sad_sorrow
       - intent: deny
+      - action: action_set_suggestion
       - action: utter_deny_elaborate_sorrow_sad
       - intent: affirm
       - action: utter_help
@@ -788,6 +790,7 @@ stories:
       - action: action_set_suggestion
       - action: utter_comfort_sad_sorrow
       - intent: deny
+      - action: action_set_suggestion
       - action: utter_deny_coping_sorrow
       - intent: deny
       - action: utter_deny_coping_new
@@ -807,6 +810,7 @@ stories:
       - action: action_set_suggestion
       - action: utter_comfort_sad_sorrow
       - intent: deny
+      - action: action_set_suggestion
       - action: utter_deny_coping_sorrow
       - intent: affirm
       - action: utter_help
@@ -835,11 +839,12 @@ stories:
           - emotion: sad
       - action: utter_elaborate_sad_fury
       - intent: deny
+      - action: action_set_suggestion
       - action: utter_deny_elaborate_sorrow_other
       - intent: deny
       - action: utter_deny_coping_new
 
-  - story: sad path fury -- deny to elaborataffirm (deny help)
+  - story: sad path fury -- deny to elaborataffirm (affirm help)
     steps:
       - intent: sad
       - action: action_set_emotion
@@ -849,6 +854,7 @@ stories:
           - emotion: sad
       - action: utter_elaborate_sad_fury
       - intent: deny
+      - action: action_set_suggestion
       - action: utter_deny_elaborate_sorrow_other
       - intent: affirm
       - action: utter_help
@@ -911,6 +917,7 @@ stories:
           - emotion: sad
       - action: utter_elaborate_sad_nervous
       - intent: deny
+      - action: action_set_suggestion
       - action: utter_deny_elaborate_sorrow_other
       - intent: deny
       - action: utter_deny_coping_new
@@ -925,6 +932,7 @@ stories:
           - emotion: sad
       - action: utter_elaborate_sad_nervous
       - intent: deny
+      - action: action_set_suggestion
       - action: utter_deny_elaborate_sorrow_other
       - intent: affirm
       - action: utter_help
@@ -946,7 +954,7 @@ stories:
       - intent: affirm
       - action: utter_help
 
-  - story: sad path nervous [ deny coping ]
+  - story: sad path nervous [ deny coping (deny)]
     steps:
       - intent: sad
       - action: action_set_emotion
@@ -961,7 +969,30 @@ stories:
       - action: action_set_suggestion
       - action: utter_comfort_sad_nervous
       - intent: deny
+      - action: action_set_suggestion
+      - action: utter_deny_elaborate_nervous_other
+      - intent: deny
       - action: utter_deny_coping_new
+
+  - story: sad path nervous [ deny coping (affirm)]
+    steps:
+      - intent: sad
+      - action: action_set_emotion
+      - slot_was_set:
+          - msg_type: share_emotion
+          - personality: nervous
+          - emotion: sad
+      - action: utter_elaborate_sad_nervous
+      - or:
+        - intent: nlu_fallback
+        - intent: sad
+      - action: action_set_suggestion
+      - action: utter_comfort_sad_nervous
+      - intent: deny
+      - action: action_set_suggestion
+      - action: utter_deny_elaborate_nervous_other
+      - intent: affirm
+      - action: utter_help
 
 # anger paths 
 
