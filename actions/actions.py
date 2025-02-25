@@ -49,7 +49,7 @@
 
 from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
-from rasa_sdk.events import SlotSet, UserUtteranceReverted
+from rasa_sdk.events import SlotSet, UserUtteranceReverted,Restarted
 from rasa_sdk.executor import CollectingDispatcher
 
 class ActionSetTone(Action):
@@ -130,6 +130,23 @@ class ActionSetEmotion(Action):
         
         
         return [SlotSet("emotion", intent),SlotSet("msg_type", "share_emotion")]
+   
+            
+class ActionUtterWrong(Action):
+   def name(self) -> Text:
+      return "action_utter_wrong"
+
+   def run(self,
+           dispatcher: CollectingDispatcher,
+           tracker: Tracker,
+           domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        slots_to_keep = ["personality",]
+        current_slot_values = {slot: tracker.get_slot(slot) for slot in slots_to_keep}
+        kept_slots = [SlotSet(slot, value) for slot, value in current_slot_values.items()]
+        
+        dispatcher.utter_message(response="utter_wrong")
+        return [Restarted()] + kept_slots
    
 
 # class ActionHandleFallback(Action):

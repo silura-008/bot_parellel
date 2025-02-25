@@ -61,7 +61,7 @@ stories:
           - emotion: happy
       - action: utter_elaborate_happy_new
       - intent: wrong
-      - action: utter_wrong
+      - action: action_utter_wrong
 
   - story: happy path new -- deny to elaborate --
     steps:
@@ -122,7 +122,7 @@ stories:
           - emotion: sad
       - action: utter_elaborate_sad_nervous
       - intent: wrong
-      - action: utter_wrong
+      - action: action_utter_wrong
 
   - story: Sad path new -- deny to elaborate (deny help) --
     steps:
@@ -198,7 +198,7 @@ stories:
           - emotion: anger
       - action: utter_elaborate_anger_sorrow/nervous
       - intent: wrong
-      - action: utter_wrong
+      - action: action_utter_wrong
 
   - story: anger path new -- deny to elaborate (deny help)--
     steps:
@@ -274,7 +274,7 @@ stories:
           - emotion: anxious
       - action: utter_elaborate_anxious_joy
       - intent: wrong
-      - action: utter_wrong
+      - action: action_utter_wrong
 
   - story: anxious path new -- deny to elaborate (deny help) --
     steps:
@@ -350,7 +350,7 @@ stories:
           - emotion: fear
       - action: utter_elaborate_fear_sorrow/fury/nervous
       - intent: wrong
-      - action: utter_wrong
+      - action: action_utter_wrong
 
   - story: fear path new -- deny to elaborate (deny help)--
     steps:
@@ -426,7 +426,7 @@ stories:
           - emotion: happy
       - action: utter_elaborate_happy_joy
       - intent: wrong
-      - action: utter_wrong
+      - action: action_utter_wrong
 
   - story: happy path joy -- deny to elaborate --
     steps:
@@ -486,7 +486,7 @@ stories:
           - emotion: happy
       - action: utter_elaborate_happy_sorrow
       - intent: wrong
-      - action: utter_wrong
+      - action: action_utter_wrong
 
   - story: happy path sorrow -- deny to elaborate  (deny help)--
     steps:
@@ -562,7 +562,7 @@ stories:
           - emotion: happy
       - action: utter_elaborate_happy_fury/nervous
       - intent: wrong
-      - action: utter_wrong
+      - action: action_utter_wrong
 
   - story: happy path fury -- deny to elaborate -- (deny help)
     steps:
@@ -638,7 +638,7 @@ stories:
           - emotion: happy
       - action: utter_elaborate_happy_fury/nervous
       - intent: wrong
-      - action: utter_wrong
+      - action: action_utter_wrong
 
   - story: happy path nervous -- deny to elaborate (deny help) --
     steps:
@@ -713,7 +713,7 @@ stories:
           - emotion: sad
       - action: utter_elaborate_sad_joy
       - intent: wrong
-      - action: utter_wrong
+      - action: action_utter_wrong
 
   - story: sad path joy -- deny to elaborate --
     steps:
@@ -773,7 +773,7 @@ stories:
           - emotion: sad
       - action: utter_elaborate_sad_sorrow
       - intent: wrong
-      - action: utter_wrong
+      - action: action_utter_wrong
 
   - story: sad path sorrow -- deny to elaborate  (deny help)--
     steps:
@@ -870,7 +870,7 @@ stories:
           - emotion: sad
       - action: utter_elaborate_sad_fury
       - intent: wrong
-      - action: utter_wrong
+      - action: action_utter_wrong
 
   - story: sad path fury -- deny to elaborate -- (deny help)
     steps:
@@ -946,7 +946,7 @@ stories:
           - emotion: sad
       - action: utter_elaborate_sad_nervous
       - intent: wrong
-      - action: utter_wrong
+      - action: action_utter_wrong
 
   - story: sad path nervous -- deny to elaborate (deny help) --
     steps:
@@ -1022,7 +1022,7 @@ stories:
           - emotion: anger
       - action: utter_elaborate_anger_joy
       - intent: wrong
-      - action: utter_wrong
+      - action: action_utter_wrong
 
   - story: anger path joy -- deny to elaborate --
     steps:
@@ -1086,7 +1086,7 @@ stories:
           - personality: nervous
       - action: utter_elaborate_anger_sorrow/nervous
       - intent: wrong
-      - action: utter_wrong
+      - action: action_utter_wrong
 
   - story: anger path sorrow and nervous -- deny to elaborate (deny help)--
     steps:
@@ -1178,7 +1178,7 @@ stories:
           - emotion: anger
       - action: utter_elaborate_anger_fury
       - intent: wrong
-      - action: utter_wrong
+      - action: action_utter_wrong
 
   - story: anger path fury -- deny to elaborate (deny help)--
     steps:
@@ -1275,7 +1275,7 @@ stories:
           - emotion: anxious
       - action: utter_elaborate_anxious_joy
       - intent: wrong
-      - action: utter_wrong
+      - action: action_utter_wrong
 
   - story: anxious path joy -- deny to elaborate --
     steps:
@@ -1339,7 +1339,7 @@ stories:
           - personality: fury
       - action: utter_elaborate_anxious_sorrow/fury
       - intent: wrong
-      - action: utter_wrong
+      - action: action_utter_wrong
 
   - story: anxious path sorrow and fury -- deny to elaborate (deny help) --
     steps:
@@ -1431,7 +1431,7 @@ stories:
           - emotion: anxious
       - action: utter_elaborate_anxious_nervous
       - intent: wrong
-      - action: utter_wrong
+      - action: action_utter_wrong
 
   - story: anxious path nervous -- deny to elaborate (deny help) --
     steps:
@@ -1528,7 +1528,7 @@ stories:
           - emotion: fear
       - action: utter_elaborate_fear_joy
       - intent: wrong
-      - action: utter_wrong
+      - action: action_utter_wrong
 
   - story: fear path joy -- deny to elaborate --
     steps:
@@ -1592,7 +1592,7 @@ stories:
           - personality: nervous
       - action: utter_elaborate_fear_sorrow/fury/nervous
       - intent: wrong
-      - action: utter_wrong
+      - action: action_utter_wrong
 
   - story: fear path sorrow and nervous -- deny to elaborate (deny help) --
     steps:
@@ -1683,7 +1683,7 @@ stories:
           - emotion: fear
       - action: utter_elaborate_fear_fury
       - intent: wrong
-      - action: utter_wrong
+      - action: action_utter_wrong
 
   - story: fear path fury -- deny to elaborate (deny help)--
     steps:

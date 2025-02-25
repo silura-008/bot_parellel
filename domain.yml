@@ -323,7 +323,6 @@ responses:
     - text: "I'm sorry if I misunderstood you. Can you please clarify what you mean?"
     - text: "I might have gotten that wrong. Could you explain a bit more so I can help you better?"
     - text: "Oops, it seems I misinterpreted that. Let's try again—can you rephrase it for me?"
-    - text: "Sorry about that. I'm here to help—could you provide more details?"
 
 # deny
 
@@ -597,6 +596,7 @@ actions:
     - action_handle_fallback
     - action_set_suggestion
     - action_set_emotion
+    - action_utter_wrong
 
 session_config:
   session_expiration_time: 60
