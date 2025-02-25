@@ -678,7 +678,7 @@ stories:
           - emotion: sad
       - action: utter_elaborate_sad_joy
       - intent: deny
-      - action: utter_deny_elaborate_joy
+      - action: utter_deny_coping_new
 
   - story: sad path joy [ affirm coping ]
     steps:
@@ -1052,7 +1052,7 @@ stories:
       - action: action_set_suggestion
       - action: utter_comfort_anger_joy
       - intent: deny
-      - action: utter_deny_coping_new
+      - action: utter_deny_coping_joy
 
 
 
@@ -1086,6 +1086,7 @@ stories:
           - personality: nervous
       - action: utter_elaborate_anger_sorrow/nervous
       - intent: deny
+      - action: action_set_suggestion
       - action: utter_deny_elaborate_fury_other
       - intent: deny
       - action: utter_deny_coping_new
@@ -1104,6 +1105,7 @@ stories:
           - personality: nervous
       - action: utter_elaborate_anger_sorrow/nervous
       - intent: deny
+      - action: action_set_suggestion
       - action: utter_deny_elaborate_fury_other
       - intent: affirm
       - action: utter_help
@@ -1174,6 +1176,7 @@ stories:
           - emotion: anger
       - action: utter_elaborate_anger_fury
       - intent: deny
+      - action: action_set_suggestion
       - action: utter_deny_elaborate_fury_anger
       - intent: deny
       - action: utter_deny_coping_new
@@ -1188,6 +1191,7 @@ stories:
           - emotion: anger
       - action: utter_elaborate_anger_fury
       - intent: deny
+      - action: action_set_suggestion
       - action: utter_deny_elaborate_fury_anger
       - intent: afirm
       - action: utter_help
@@ -1224,6 +1228,7 @@ stories:
       - action: action_set_suggestion
       - action: utter_comfort_anger_fury
       - intent: deny
+      - action: action_set_suggestion
       - action: utter_deny_coping_fury
       - intent: affirm
       - action: utter_help
@@ -1243,6 +1248,7 @@ stories:
       - action: action_set_suggestion
       - action: utter_comfort_anger_fury
       - intent: deny
+      - action: action_set_suggestion
       - action: utter_deny_coping_fury
       - intent: deny
       - action: utter_deny_coping_new
@@ -1305,7 +1311,7 @@ stories:
       - action: action_set_suggestion
       - action: utter_comfort_anxious_joy
       - intent: deny
-      - action: utter_deny_coping_new
+      - action: utter_deny_coping_joy
 
 
 
