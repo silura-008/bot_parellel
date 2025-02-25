@@ -333,13 +333,31 @@ responses:
         - type: slot
           name: emotion
           value: happy
-      text: "That's completely fine! Your happiness is what matters most. Just remember, I'm here whenever you need me."
+      text: "No worries at all, I just thought it would be a fun way to spread some positivity, but your happiness is what's most important to me, and I'm glad you're feeling good."
 
     - condition:
         - type: slot
           name: emotion
           value: happy
-      text: "As long as you're feeling good, that's what's important! If anything changes, I'll be ready to help."
+      text: "I was just trying to help you celebrate, but I understand if you'd rather keep it to yourself. What's most important is that you're feeling happy and content, and that's something to be cherished."
+
+    - condition:
+        - type: slot
+          name: emotion
+          value: happy
+      text: " Your happiness is what matters most. As long as you're doing well, that's all that counts."
+
+    - condition:
+        - type: slot
+          name: emotion
+          value: happy
+      text: "I won't push you to do something you are  uncomfortable with. Just knowing that you're happy is enough for me, and I'm here to support you in any way I can."
+
+    - condition:
+        - type: slot
+          name: emotion
+          value: happy
+      text: "That's completely okay, Your happiness is what truly matters. You can celebrate it in your own way, even if it's just for you."
 
     - condition:
         - type: slot
