@@ -488,7 +488,7 @@ stories:
       - intent: wrong
       - action: action_utter_wrong
 
-  - story: happy path sorrow -- deny to elaborate  (deny help)--
+  - story: happy path sorrow -- deny to elaborate --
     steps:
       - intent: happy
       - action: action_set_emotion
@@ -497,24 +497,8 @@ stories:
           - personality: sorrow
           - emotion: happy
       - action: utter_elaborate_happy_sorrow
-      - intent: deny
-      - action: utter_deny_elaborate_joy
       - intent: deny
       - action: utter_deny_coping_new
-
-  - story: happy path sorrow -- deny to elaborate  (affirm help)--
-    steps:
-      - intent: happy
-      - action: action_set_emotion
-      - slot_was_set:
-          - msg_type: share_emotion
-          - personality: sorrow
-          - emotion: happy
-      - action: utter_elaborate_happy_sorrow
-      - intent: deny
-      - action: utter_deny_elaborate_joy
-      - intent: affirm
-      - action: utter_help
 
   - story: happy path sorrow [ affirm coping ]
     steps:
@@ -548,7 +532,7 @@ stories:
       - action: action_set_suggestion
       - action: utter_comfort_happy_sorrow
       - intent: deny
-      - action: utter_deny_coping_joy
+      - action: utter_deny_coping_new
 
 
 
@@ -564,7 +548,7 @@ stories:
       - intent: wrong
       - action: action_utter_wrong
 
-  - story: happy path fury -- deny to elaborate -- (deny help)
+  - story: happy path fury -- deny to elaborate --
     steps:
       - intent: happy
       - action: action_set_emotion
@@ -573,24 +557,8 @@ stories:
           - personality: fury
           - emotion: happy
       - action: utter_elaborate_happy_fury/nervous
-      - intent: deny
-      - action: utter_deny_elaborate_joy
       - intent: deny
       - action: utter_deny_coping_new
-
-  - story: happy path fury -- deny to elaborate -- (affirm help)
-    steps:
-      - intent: happy
-      - action: action_set_emotion
-      - slot_was_set:
-          - msg_type: share_emotion
-          - personality: fury
-          - emotion: happy
-      - action: utter_elaborate_happy_fury/nervous
-      - intent: deny
-      - action: utter_deny_elaborate_joy
-      - intent: affirm
-      - action: utter_help
 
   - story: happy path fury [ affirm coping ]
     steps:
@@ -624,7 +592,7 @@ stories:
       - action: action_set_suggestion
       - action: utter_comfort_happy_fury
       - intent: deny
-      - action: utter_deny_coping_joy
+      - action: utter_deny_coping_new
 
 
 
@@ -640,7 +608,7 @@ stories:
       - intent: wrong
       - action: action_utter_wrong
 
-  - story: happy path nervous -- deny to elaborate (deny help) --
+  - story: happy path nervous -- deny to elaborate --
     steps:
       - intent: happy
       - action: action_set_emotion
@@ -649,24 +617,9 @@ stories:
           - personality: nervous
           - emotion: happy
       - action: utter_elaborate_happy_fury/nervous
-      - intent: deny
-      - action: utter_deny_elaborate_joy
       - intent: deny
       - action: utter_deny_coping_new
 
-  - story: happy path nervous -- deny to elaborate (affirm help) --
-    steps:
-      - intent: happy
-      - action: action_set_emotion
-      - slot_was_set:
-          - msg_type: share_emotion
-          - personality: nervous
-          - emotion: happy
-      - action: utter_elaborate_happy_fury/nervous
-      - intent: deny
-      - action: utter_deny_elaborate_joy
-      - intent: affirm
-      - action: utter_help
 
   - story: happy path nervous [ affirm coping ]
     steps:
