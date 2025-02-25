@@ -1345,6 +1345,7 @@ stories:
           - personality: fury
       - action: utter_elaborate_anxious_sorrow/fury
       - intent: deny
+      - action: action_set_suggestion
       - action: utter_deny_elaborate_nervous_other
       - intent: deny
       - action: utter_deny_coping_new
@@ -1363,6 +1364,7 @@ stories:
           - personality: fury
       - action: utter_elaborate_anxious_sorrow/fury
       - intent: deny
+      - action: action_set_suggestion
       - action: utter_deny_elaborate_nervous_other
       - intent: affirm
       - action: utter_help
@@ -1433,6 +1435,7 @@ stories:
           - emotion: anxious
       - action: utter_elaborate_anxious_nervous
       - intent: deny
+      - action: action_set_suggestion
       - action: utter_deny_elaborate_nervous_anxious
       - intent: deny
       - action: utter_deny_coping_new
@@ -1447,6 +1450,7 @@ stories:
           - emotion: anxious
       - action: utter_elaborate_anxious_nervous
       - intent: deny
+      - action: action_set_suggestion
       - action: utter_deny_elaborate_nervous_anxious
       - intent: affirm
       - action: utter_help
@@ -1483,7 +1487,8 @@ stories:
       - action: action_set_suggestion
       - action: utter_comfort_anxious_nervous
       - intent: deny
-      - action: utter_deny_coping_nrevous
+      - action: action_set_suggestion
+      - action: utter_deny_coping_nervous
       - intent: affirm
       - action: utter_help
 
@@ -1502,7 +1507,8 @@ stories:
       - action: action_set_suggestion
       - action: utter_comfort_anxious_nervous
       - intent: deny
-      - action: utter_deny_coping_nrevous
+      - action: action_set_suggestion
+      - action: utter_deny_coping_nervous
       - intent: deny
       - action: utter_deny_coping_new
 
