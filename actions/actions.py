@@ -1,73 +1,43 @@
-# This files contains your custom actions which can be used to run
-# custom Python code.
-#
-# See this guide on how to implement these action:
-# https://rasa.com/docs/rasa/custom-actions
-
-
-# This is a simple example for a custom action which utters "Hello World!"
-
-# from typing import Any, Text, Dict, List
-#
-# from rasa_sdk import Action, Tracker
-# from rasa_sdk.executor import CollectingDispatcher
-#
-#
-# class ActionHelloWorld(Action):
-#
-#     def name(self) -> Text:
-#         return "action_hello_world"
-#
-#     def run(self, dispatcher: CollectingDispatcher,
-#             tracker: Tracker,
-#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-#
-#         dispatcher.utter_message(text="Hello World!")
-#
-#         return []
-
-
-
-
-
-# from rasa_sdk import Action
-# from rasa_sdk.events import SlotSet
-# from typing import Text
-
-# class ActionSeTone(Action):
-#     def name(self) -> Text:
-#         return "action_set_tone"
-
-#     def run(self, dispatcher, tracker, domain):
-#         intent = tracker.latest_message['intent']['name']
-        
-#         if intent == "greet_friendly":
-#             return [SlotSet("tone", "friendly")]
-#         elif intent == "greet_formal":
-#             return [SlotSet("tone", "formal")]
-
-
+import requests
 from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.events import SlotSet, UserUtteranceReverted,Restarted
 from rasa_sdk.executor import CollectingDispatcher
 
-class ActionSetTone(Action):
-   def name(self) -> Text:
-      return "action_set_tone"
 
-   def run(self,
+      
+class ActionSessionStart(Action):
+    def name(self):
+        return "action_session_start"
+
+    def run(self,
            dispatcher: CollectingDispatcher,
            tracker: Tracker,
            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        intent = tracker.latest_message['intent']['name']
-        
-        if intent == "greet_friendly":
-            return [SlotSet("tone", "friendly")]
-        elif intent == "greet_formal":
-            return [SlotSet("tone", "formal")]
-        
+        user_id = tracker.sender_id
+        api_url = f"http://your-django-api.com/user/{user_id}/profile"
+
+        personality, preference =None, "new", 
+
+        try:
+            response = requests.get(api_url, timeout=5)
+            if response.status_code == 200:
+                data = response.json()
+                personality = data.get("personality", "new")
+                preference = data.get("preference", None)
+
+        except requests.exceptions.RequestException:
+            dispatcher.utter_message("I couldn't fetch your profile. We'll proceed with default settings.")
+
+        # Set slots before the conversation starts
+        return [
+            SessionStarted(),
+            SlotSet("personality", personality),
+            SlotSet("preference", preference),
+            ActionExecuted("action_listen"), 
+        ]
+      
 class ActionSetSuggestion(Action):
    def name(self) -> Text:
       return "action_set_suggestion"
@@ -177,23 +147,3 @@ class ActionUtterWrong(Action):
 #         return any(keyword in message.lower() for keyword in keywords)
 
 
-
-
-# from typing import Text, Dict, Any, List
-# from rasa_sdk import Action
-# from rasa_sdk.events import SlotSet
-
-# class ActionCheckRestaurants(Action):
-#    def name(self) -> Text:
-#       return "action_check_restaurants"
-
-#    def run(self,
-#            dispatcher: CollectingDispatcher,
-#            tracker: Tracker,
-#            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-#       cuisine = tracker.get_slot('cuisine')
-#       q = "select * from restaurants where cuisine='{0}' limit 1".format(cuisine)
-#       result = db.query(q)
-
-#       return [SlotSet("matches", result if result is not None else [])]

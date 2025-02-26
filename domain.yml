@@ -559,16 +559,6 @@ slots:
     initial_value: ""
     influence_conversation: false
 
-  tone:
-    type: categorical
-    values:
-        - friendly
-        - formal   
-    mappings:
-        - type: custom
-    initial_value: formal
-    influence_conversation: true
-
   personality:
     type: categorical
     values:
