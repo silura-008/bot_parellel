@@ -872,7 +872,7 @@ stories:
         - intent: nlu_fallback
         - intent: sad
       - action: action_set_suggestion
-      - action: utter_comfort_sad_fury
+      - action: utter_comfort_sad_fury/nervous
       - intent: affirm
       - action: utter_help
 
@@ -889,7 +889,7 @@ stories:
         - intent: nlu_fallback
         - intent: sad
       - action: action_set_suggestion
-      - action: utter_comfort_sad_fury
+      - action: utter_comfort_sad_fury/nervous
       - intent: deny
       - action: utter_deny_coping_new
 
@@ -950,7 +950,7 @@ stories:
         - intent: nlu_fallback
         - intent: sad
       - action: action_set_suggestion
-      - action: utter_comfort_sad_nervous
+      - action: utter_comfort_sad_fury/nervous
       - intent: affirm
       - action: utter_help
 
@@ -967,7 +967,7 @@ stories:
         - intent: nlu_fallback
         - intent: sad
       - action: action_set_suggestion
-      - action: utter_comfort_sad_nervous
+      - action: utter_comfort_sad_fury/nervous
       - intent: deny
       - action: action_set_suggestion
       - action: utter_deny_elaborate_nervous_other
@@ -987,7 +987,7 @@ stories:
         - intent: nlu_fallback
         - intent: sad
       - action: action_set_suggestion
-      - action: utter_comfort_sad_nervous
+      - action: utter_comfort_sad_fury/nervous
       - intent: deny
       - action: action_set_suggestion
       - action: utter_deny_elaborate_nervous_other
@@ -1181,7 +1181,7 @@ stories:
       - intent: deny
       - action: utter_deny_coping_new
 
-  - story: anger path fury -- deny to elaborate (afirm help)--
+  - story: anger path fury -- deny to elaborate (affirm help)--
     steps:
       - intent: anger
       - action: action_set_emotion
@@ -1193,7 +1193,7 @@ stories:
       - intent: deny
       - action: action_set_suggestion
       - action: utter_deny_elaborate_fury_anger
-      - intent: afirm
+      - intent: affirm
       - action: utter_help
 
   - story: anger path fury [ affirm coping ]
@@ -1551,7 +1551,7 @@ stories:
         - intent: nlu_fallback
         - intent: fear
       - action: action_set_suggestion
-      - action: utter_comfort_fear_joy
+      - action: utter_comfort_fear_joy/fury
       - intent: affirm
       - action: utter_help
 
@@ -1568,7 +1568,7 @@ stories:
         - intent: nlu_fallback
         - intent: fear
       - action: action_set_suggestion
-      - action: utter_comfort_fear_joy
+      - action: utter_comfort_fear_joy/fury
       - intent: deny
       - action: utter_deny_coping_joy
 
@@ -1679,7 +1679,7 @@ stories:
           - msg_type: share_emotion
           - personality: fury
           - emotion: fear
-      - action: utter_elaborate_fear_fury
+      - action:   utter_elaborate_fear_sorrow/fury/nervous
       - intent: wrong
       - action: action_utter_wrong
 
@@ -1691,7 +1691,7 @@ stories:
           - msg_type: share_emotion
           - personality: fury
           - emotion: fear
-      - action: utter_elaborate_fear_fury
+      - action:   utter_elaborate_fear_sorrow/fury/nervous
       - intent: deny
       - action: action_set_suggestion
       - action: utter_deny_elaborate_new
@@ -1706,7 +1706,7 @@ stories:
           - msg_type: share_emotion
           - personality: fury
           - emotion: fear
-      - action: utter_elaborate_fear_fury
+      - action:   utter_elaborate_fear_sorrow/fury/nervous
       - intent: deny
       - action: action_set_suggestion
       - action: utter_deny_elaborate_new
@@ -1721,12 +1721,12 @@ stories:
           - msg_type: share_emotion
           - personality: fury
           - emotion: fear
-      - action: utter_elaborate_fear_fury
+      - action:   utter_elaborate_fear_sorrow/fury/nervous
       - or:
         - intent: nlu_fallback
         - intent: fear
       - action: action_set_suggestion
-      - action: utter_comfort_fear_fury
+      - action: utter_comfort_fear_joy/fury
       - intent: affirm
       - action: utter_help
 
@@ -1738,12 +1738,12 @@ stories:
           - msg_type: share_emotion
           - personality: fury
           - emotion: fear
-      - action: utter_elaborate_fear_fury
+      - action:   utter_elaborate_fear_sorrow/fury/nervous
       - or:
         - intent: nlu_fallback
         - intent: fear
       - action: action_set_suggestion
-      - action: utter_comfort_fear_fury
+      - action: utter_comfort_fear_joy/fury
       - intent: deny
       - action: utter_deny_coping_new
 

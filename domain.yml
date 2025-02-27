@@ -225,7 +225,7 @@ responses:
     - text: "I can sense some sadness in your words. It's okay to feel this way. Would talking about it help?"
     - text: "It seems like something's weighing on you. I'm here to listen—would you like to tell me more?"
 
-  utter_comfort_sad_fury_nervous:
+  utter_comfort_sad_fury/nervous:
     - text: "It's okay to feel sad, and I'm here to help you through it. Let's take a moment to breathe and focus on what you need right now. Would you like to try {suggestion} to help you feel a bit better?"
     - text: "I hear your sadness, and it's completely valid to feel this way. Let's work through these feelings together—you're not alone in this. How about we explore {suggestion} together?"
     - text: "Sadness is tough, and it's important to acknowledge that. You don't have to go through it alone. Would you like to consider {suggestion} to help lighten this moment?"
@@ -247,7 +247,7 @@ responses:
     - text: "I sense anger in your words, and I know how hard it can be to deal with that. Would you like to talk about what's causing these feelings?"
     - text: "It sounds like you're really upset. Anger can often stem from deeper feelings. I'm here to listen—what's been bothering you?"
 
-  utter_comfort_anger_sorrow_nervous:
+  utter_comfort_anger_sorrow/nervous:
     - text: "Anger is a strong emotion, and it's completely valid to feel this way. Let's focus on finding a way to release it in a way that feels right for you. How about trying {suggestion} ?"
     - text: "It's okay to feel angry—it shows you care deeply about something. Let's channel this energy into something that helps you feel more at peace. Would you like to consider {suggestion} ?"
     - text: "I hear you, and I can feel the frustration in your words. Let's take a moment to reflect on what might help ease this feeling. Maybe {suggestion} could help."
@@ -279,7 +279,7 @@ responses:
     - text: "You seem anxious, and I know that can feel difficult to handle. Would you like to share more about what's been troubling you?"
     - text: "I sense unease in your words. Let's take a moment to breathe—what's been on your mind lately?"
 
-  utter_comfort_anxious_sorrow_fury:
+  utter_comfort_anxious_sorrow/fury:
     - text: "Anxiety can feel tough to manage, but you're stronger than you think. Let's take it one step at a time—I'm here to help. How about taking a little step with {suggestion} ?"
     - text: "It's okay to feel anxious, and I'm glad you shared this with me. Let's focus on what we can do together to ease those feelings. Maybe trying {suggestion} could be a good initiative to start with?"
     - text: "Anxiety can feel overwhelming, but even small actions can help. Let's work through this together—you're not alone in this. Why don't we take  {suggestion} as a small step forward?"
@@ -290,7 +290,7 @@ responses:
     - text: "I sense a lot of unease in your words. Let's work through it together—what's been on your mind?"
 
   utter_comfort_anxious_nervous:
-    - text: "The frequent anxiety can be overwhelming, but you're it's not the end. Let's face it one step at a time. Let's try {suggestion}, kay?""
+    - text: "The frequent anxiety can be overwhelming, but you're it's not the end. Let's face it one step at a time. Let's try {suggestion}, kay?"
     - text:  "It seems you've been dealing with a lot of anxiety lately. It's completely okay to feel this way. You've shown so much strength already. Let's focus on some small, positive steps toward calmness. How about we give {suggestion} a shot, yeah?"
     - text: "It understandable you are feeling anxious, and it's okay to feel it.The more you face it the more stronger you become.So don't give up on yourself, because i don't. How about we try {suggestion} ?"
 
@@ -305,7 +305,7 @@ responses:
     - text: "I sense some fear in your words. You are usually chill, what's going on?"
     - text: "You seem worried. It's not like you, Want to share what's been making you feel this way?"
 
-  utter_comfort_fear_joy_fury:
+  utter_comfort_fear_joy/fury:
     - text: "Fear can feel overpowering, but it's okay—you've got this. Let's take this one step at a time—I'm here to help you. Would you like to try {suggestion} ?"
     - text: "It's okay to feel afraid, and I'm so glad you shared this with me. Together, we'll work through this and find a sense of calm. How about {suggestion} ?"
     - text: "Fear is a natural response, but it can be eased. Let's focus on grounding ourselves and finding a way forward—you've got this. Maybe {suggestion} could help."

@@ -6,37 +6,37 @@ from rasa_sdk.executor import CollectingDispatcher
 
 
       
-class ActionSessionStart(Action):
-    def name(self):
-        return "action_session_start"
+# class ActionSessionStart(Action):
+#     def name(self):
+#         return "action_session_start"
 
-    def run(self,
-           dispatcher: CollectingDispatcher,
-           tracker: Tracker,
-           domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+#     def run(self,
+#            dispatcher: CollectingDispatcher,
+#            tracker: Tracker,
+#            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        user_id = tracker.sender_id
-        api_url = f"http://your-django-api.com/user/{user_id}/profile"
+#         user_id = tracker.sender_id
+#         api_url = f"http://your-django-api.com/user/{user_id}/profile"
 
-        personality, preference =None, "new", 
+#         personality, preference =None, "new", 
 
-        try:
-            response = requests.get(api_url, timeout=5)
-            if response.status_code == 200:
-                data = response.json()
-                personality = data.get("personality", "new")
-                preference = data.get("preference", None)
+#         try:
+#             response = requests.get(api_url, timeout=5)
+#             if response.status_code == 200:
+#                 data = response.json()
+#                 personality = data.get("personality", "new")
+#                 preference = data.get("preference", None)
 
-        except requests.exceptions.RequestException:
-            dispatcher.utter_message("I couldn't fetch your profile. We'll proceed with default settings.")
+#         except requests.exceptions.RequestException:
+#             dispatcher.utter_message("I couldn't fetch your profile. We'll proceed with default settings.")
 
-        # Set slots before the conversation starts
-        return [
-            SessionStarted(),
-            SlotSet("personality", personality),
-            SlotSet("preference", preference),
-            ActionExecuted("action_listen"), 
-        ]
+#         # Set slots before the conversation starts
+#         return [
+#             SessionStarted(),
+#             SlotSet("personality", personality),
+#             SlotSet("preference", preference),
+#             ActionExecuted("action_listen"), 
+#         ]
       
 class ActionSetSuggestion(Action):
    def name(self) -> Text:
