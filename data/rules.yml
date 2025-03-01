@@ -10,3 +10,20 @@ rules:
     steps:
       - intent: violence
       - action: utter_violence
+
+
+  - rule: Greet the user
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+
+  - rule: Respond to thanks
+    steps:
+      - intent: thanks
+      - action: utter_thanks
+
+  - rule: Respond to bye
+    steps:
+      - intent: bye
+      - action: utter_bye

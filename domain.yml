@@ -22,59 +22,29 @@ responses:
 
 # greet/bye/thanks
 
-  utter_greet_friendly:  
+  utter_greet:  
     - text:  
-        "Hey buddy! I'm here for you. What's up?"  
+        "Hello! I'm here for you. How are you feeling today?"  
     - text:  
-        "Yo! Let's talk, I've got your back."   
+        "Hi! I'm here to listen. How has your day been?"  
     - text:  
-        "Hey there, my friend! I'm all ears, what's going on?"  
+        "Hey! It's so nice to connect with you. How can I assist you today?"   
     - text:  
-        "Yo! Let's chat. I'm here to support you."  
+        "Hello! I'm here to support you. What's on your mind?"  
     - text:  
-        "Hey buddy! Whatever's on your mind, I'm here to help."  
+        "Hi! I'm here to check in. How are you feeling?"  
     - text:  
-        "Hi there, pal! How is it going?"
+        "Hello! I'm here to listen. How have you been lately?"  
     - text:  
-        "What's up, mate? I've got your back—tell me what's on your mind."  
+        "Hi there! Whatever's on your mind, I'm here. How are you feeling today?"   
     - text:  
-        "Hey there! Let's talk, I'm here for anything you need." 
+        "Hello! I'm here to support you. How are you feeling at the moment?"  
     - text:  
-        "Yo! Let's talk—whatever's on your mind, I'm all ears."  
+        "Hi! I'm here if you'd like to share. How has your day been?"
     - text:  
-        "Sup, mate? I'm here for you , what's going on?"
+        "Hi! I'm here for you. Please feel free to share whatever's on your mind, big or small."
 
-  utter_greet_formal:  
-    - text:  
-        "Hello! I'm here to listen, what's on your mind?"
-    - text:  
-        "Hi! I'm here to help you with anything you need."
-    - text:  
-        "Hi there! I'm here to listen and help in any way I can. What's on your mind?"  
-    - text:  
-        "Hey! It's so nice to connect with you. How can I assist you today?"  
-    - text:  
-        "Hello! You're in a safe space here. How can I help you feel better?"  
-    - text:  
-        "Hi! I'm here for you. Please share anything you'd like to talk about."
-    - text:  
-        "Hello! It's wonderful to connect with you. I'm here to support you in any way I can."  
-    - text:  
-        "Hi there! Please know this is a safe space, and I'm here to listen to whatever's on your mind."  
-    - text:  
-        "Good to see you! How can I assist you today? You're not alone, and I'm here to help."  
-    - text:  
-        "Hi! I'm here to help you feel more at ease. Please share what's on your mind."  
-    - text:  
-        "Hey there! You've taken an important step by reaching out. How can I support you?"  
-    - text:  
-        "Hello! It's great to hear from you. How can I make things easier for you today?"  
-    - text:  
-        "Hi! I'm here for you. Please feel free to share whatever's on your mind, big or small."  
-    - text:  
-        "Hi there! I'm here to listen, understand, and help. How can I support you today?"
-     
-  utter_thanks_formal:  
+  utter_thanks:  
     - text:  
         "You're most welcome. I'm glad I could assist you."  
     - text:  
@@ -96,7 +66,7 @@ responses:
     - text:  
         "Thank you! It means a lot to me that I could help you today."
    
-  utter_bye_formal:  
+  utter_bye:  
     - text:  
         "Goodbye! Please take care of yourself, and I'm here whenever you need me."  
     - text:  
@@ -117,26 +87,6 @@ responses:
         "Goodbye! You're doing great—keep it up, and I'm here whenever you need me."  
     - text:  
         "Take care! Don't hesitate to come back if you want to chat again."
- 
-  utter_thanks_friendly:  
-    - text:  
-        "You're welcome, buddy! I'm always here for you."  
-    - text:  
-        "No worries, mate! Glad I could help."  
-    - text:  
-        "Anytime, pal! You've got this!"  
-    - text:  
-        "You're the best! Let me know if you ever need anything."
-
-  utter_bye_friendly:  
-    - text:  
-        "Catch you later, buddy! Take care."  
-    - text:  
-        "Peace out, pal! I'm always here for you."  
-    - text:  
-        "See you later, mate! Stay awesome."  
-    - text:  
-        "Later, friend! Let me know if you need anything."
 
 # happy (elaborate/comfort)
 
