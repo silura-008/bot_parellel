@@ -2,51 +2,6 @@ version: "3.1"
 
 stories:
 
-# # greet/bye/thanks
-
-#   - story: Friendly greeting
-#     steps:
-#       - intent: greet_friendly
-#       - action: action_set_tone
-#       - slot_was_set:
-#           - tone: friendly
-#       - action: utter_greet_friendly
-
-#   - story: Formal greeting
-#     steps:
-#       - intent: greet_formal
-#       - action: action_set_tone
-#       - slot_was_set:
-#           - tone: formal
-#       - action: utter_greet_formal
-
-#   - story: Respond to thanks friendly
-#     steps:
-#       - intent: thanks
-#       - slot_was_set:
-#           - tone: friendly
-#       - action: utter_thanks_friendly
-
-#   - story: Respond to thanks formally
-#     steps:
-#       - intent: thanks
-#       - slot_was_set:
-#           - tone: formal
-#       - action: utter_thanks_formal
-
-#   - story: Respond to bye friendly
-#     steps:
-#       - intent: bye
-#       - slot_was_set:
-#           - tone: friendly
-#       - action: utter_bye_friendly
-
-#   - story: Respond to bye formally
-#     steps:
-#       - intent: bye
-#       - slot_was_set:
-#           - tone: formal
-#       - action: utter_bye_formal
 
 
 # new paths

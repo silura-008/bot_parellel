@@ -1,41 +1,14 @@
 version: "3.1"
 
 nlu:
-# - intent: greet
-#   examples: |
-#     - hey
-#     - hello
-#     - hi
-#     - hello there
-#     - good morning
-#     - good evening
-#     - moin
-#     - hey there
-#     - let's go
-#     - hey dude
-#     - goodmorning
-#     - goodevening
-#     - good afternoon
 
-# - intent: goodbye
-#   examples: |
-#     - cu
-#     - good by
-#     - cee you later
-#     - good night
-#     - bye
-#     - goodbye
-#     - have a nice day
-#     - see you around
-#     - bye bye
-#     - see you later
 
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+# - intent: bot_challenge
+#   examples: |
+#     - are you a bot?
+#     - are you a human?
+#     - am I talking to a bot?
+#     - am I talking to a human?
     
 
 - intent: happy
@@ -735,8 +708,6 @@ nlu:
     - I don't want to be left alone here at this moment.
 
 
-
-
 - intent: affirm
   examples: |
     - yes
@@ -877,8 +848,6 @@ nlu:
     - cee yaa h
     - cee yah
     
-
-
 - intent: greet
   examples: |  
     - hey buddy  
@@ -938,8 +907,6 @@ nlu:
     - good to see you 
     - moin
     - morning
-
-
 
 
 - intent: self_harm  
@@ -1019,7 +986,3 @@ nlu:
     - I want to shatter this glass right now  
     - I want to stab her in the back
 
-
-
-# - intent: greet_formal  
-#   examples: |  

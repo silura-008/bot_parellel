@@ -15,7 +15,7 @@ intents:
   - happy
   - anxious
   - fear
-  - bot_challenge
+  # - bot_challenge
 
 
 responses:  
@@ -533,6 +533,13 @@ slots:
     initial_value: ""
     influence_conversation: false
 
+  preference:
+    type: any  
+    mappings:
+        - type: custom
+    initial_value: {}
+    influence_conversation: false
+
   help_line:
     type: text  
     mappings:
@@ -576,7 +583,6 @@ slots:
     influence_conversation: true
 
 actions:
-    - action_handle_fallback
     - action_set_suggestion
     - action_set_emotion
     - action_utter_wrong
