@@ -267,20 +267,37 @@ responses:
     - text: "I hear you—it's not easy to go through this right now, but it's going to be okay. You're not alone in this. I'm here with you. Would you be open to {suggestion} as a way to help you feel better?"
 
 # else
-  utter_self_harm:
-    - text: "I'm so sorry you're feeling this way. Your well-being is very important. Please, consider reaching out to a trusted friend, family member, or a mental health professional immediately."
-    - text: "I know things may feel overwhelming, but there are people who care about you and want to help. Please, talk to someone you trust or contact a helpline."
-    - text: "You don't have to go through this alone. Speaking with a professional can help. Please consider seeking support from a counselor or a doctor."
+  utter_self_harm:  
+    - text:  
+        "I'm really sorry you're feeling this way. You don't have to go through this alone—please consider reaching out to a professional, a trusted friend, or a family member. Talking to someone can help. For immediate support, please contact {help_line}."  
+    - text:  
+        "It's okay to feel overwhelmed, but hurting yourself won't make things better. You are important, and there are people who truly care about you. I strongly encourage you to talk to a professional or reach out to someone you trust. Please contact {help_line} for immediate support."  
+    - text:  
+        "I'm really sorry that you're going through this. You are not alone—there are professionals who can help. Please consider talking to a therapist, a counselor, or a trusted person in your life. To get urgent support, {help_line} is available."  
+    - text:  
+        "I understand that this is really difficult for you. But please know that help is available. Talking to a professional, a close friend, or a supportive family member could make a big difference. For immediate help, please call {help_line}."  
+    - text:  
+        "I hear you, and I know this isn't easy. There are people who genuinely care about you and want to help. Please consider talking to a professional or reaching out to someone you trust. To get urgent support, {help_line} is here for you."
 
-  utter_violence:
-    - text: "I understand you're feeling this way, but violence won't help. Can we talk about what's upsetting you and find a healthier way to handle it?"
-    - text: "I hear your frustration, but it's important to stay calm. Let's focus on finding a solution that doesn't involve hurting anyone or yourself."
-    - text: "I know you're feeling angry, but take a moment to breathe deeply. Talking about what's bothering you can help you gain control over these feelings."
-
+  utter_violence:  
+    - text:  
+        "I know that when emotions run high, acting on impulse can feel like the only option. But violence often leads to regret—it won't bring the relief you're looking for. Please take a moment to breathe and reach out to someone who can help, like a professional, a counselor, or someone you trust. You don't have to go through this alone. If you need immediate support, {help_line} is here for you."  
+    - text:  
+        "I can tell you're feeling overwhelmed, and in moments like this, it's easy to act before thinking. But once that moment passes, the consequences can be painful—for you and those around you. You deserve real support, and a professional, counselor, or trusted friend can help you work through this in a way that won't bring regret. If you need urgent support, {help_line} is here for you."  
+    - text:  
+        "Strong emotions can make things feel urgent, like you have to react right now. But taking a step back can prevent choices that might bring regret later. Violence won't truly solve what's underneath. There are better ways to handle this, and you don't have to do it alone. A therapist, counselor, or trusted person can help. If you need immediate support, {help_line} is here for you."  
+    - text:  
+        "I know how overwhelming things can feel in the moment. It's easy to act without thinking, but violence often leads to more harm—sometimes even to yourself. You don't deserve to carry that weight alone. There are people who can help, like a counselor, a therapist, or someone you trust. If you need support now, {help_line} is available."  
+    - text:  
+        "When emotions are this strong, it's tempting to act right away. But once that moment passes, the regret can be just as intense. You don't have to go through this alone. Please consider talking to a professional, a counselor, or someone you trust. There are better ways to work through this, and help is available at {help_line} if you need immediate support."  
+    - text:  
+        "I understand how overpowering strong emotions can be, and in those moments, it's easy to react without thinking. But violence can have lasting consequences, and often, it leads to regret. You deserve a way forward that won't bring harm—to you or anyone else. A professional, counselor, or trusted person can help. If you need urgent support, {help_line} is here for you."  
+    - text:  
+        "I can tell this is a lot to handle, and it's hard when emotions feel out of control. But violence won't bring real relief—it often leads to regret. There are better ways to cope, and you don't have to figure them out alone. Please talk to a professional, a trusted friend, or a counselor. If you need immediate help, {help_line} is available."
 
 
   utter_help:
-    - text: "here is the help =>  ' HELP ' "
+    - text: "here is the help =>  {help} "
 
   utter_wrong:
     - text: "I'm sorry if I misunderstood you. Can you please clarify what you mean?"
@@ -509,6 +526,20 @@ slots:
     initial_value: ""
     influence_conversation: false
 
+  help:
+    type: text  
+    mappings:
+        - type: custom
+    initial_value: ""
+    influence_conversation: false
+
+  help_line:
+    type: text  
+    mappings:
+        - type: custom
+    initial_value: "988"
+    influence_conversation: false
+
   personality:
     type: categorical
     values:
@@ -545,7 +576,6 @@ slots:
     influence_conversation: true
 
 actions:
-    - action_set_tone
     - action_handle_fallback
     - action_set_suggestion
     - action_set_emotion

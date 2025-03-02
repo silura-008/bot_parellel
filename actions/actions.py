@@ -49,9 +49,12 @@ class ActionSetSuggestion(Action):
 
         intent = tracker.latest_message['intent']['name']
         
-        suggestion= "need help?"
+        suggestion= "SUGGESTION"
+        help= "HELP"
 
-        return [SlotSet("suggestion", suggestion)]
+        return [SlotSet("suggestion", suggestion),
+                SlotSet("help", help)
+                ]
 
 class ActionHandleFallback(Action):
    def name(self) -> Text:
