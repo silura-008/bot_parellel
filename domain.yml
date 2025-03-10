@@ -586,6 +586,7 @@ actions:
     - action_set_suggestion
     - action_set_emotion
     - action_utter_wrong
+    - action_session_start
 
 session_config:
   session_expiration_time: 60

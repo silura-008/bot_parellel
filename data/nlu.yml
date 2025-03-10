@@ -736,6 +736,17 @@ nlu:
     - not really
     - nah
     - nop
+    - I don't want to talk about it
+    - I don't feel like talking
+    - I'd rather not say
+    - I don't want to discuss it
+    - That's not something I want to talk about
+    - I have nothing to say about that
+    - I don't feel like sharing
+    - I don't want to open up about this
+    - Let's not go there
+    - That's personal
+    - I don't want to get into that
 
 - intent: wrong
   examples: |
