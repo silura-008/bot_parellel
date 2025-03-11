@@ -15,9 +15,14 @@ class ActionSessionStart(Action):
            tracker: Tracker,
            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
+        for event in tracker.events:
+            if event.get("event") == "restart":
+                print("Restart detected, resetting session")
+                return [Restarted(), SessionStarted(), ActionExecuted("action_listen")]
+             
         user_id = tracker.sender_id
         api_url = f"http://localhost:8000/api/get_initial/"
-
+        print("seeeeeession")
         personality, preference =None, "new", 
 
         try:
@@ -26,7 +31,8 @@ class ActionSessionStart(Action):
                 data = response.json()
                 personality = data.get("personality", "new")
                 preference = data.get("preference", None)
-
+                help_line = data.get("helpline",988)
+                print(data)
         except requests.exceptions.RequestException:
             dispatcher.utter_message("I couldn't fetch your profile. We'll proceed with default settings.")
 
@@ -35,6 +41,7 @@ class ActionSessionStart(Action):
             SessionStarted(),
             SlotSet("personality", personality),
             SlotSet("preference", preference),
+            SlotSet("help_line", help_line),
             ActionExecuted("action_listen"), 
         ]
       
