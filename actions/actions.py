@@ -43,8 +43,7 @@ class ActionSessionStart(Action):
             ActionExecuted("action_listen"), 
         ]
 
-def coping_mechanism(emotion,preference,intent):
-   cope_dump = {
+cope_dump = {
    "Text-based":{
       "a simple breathing technique":{
          "sad" : [
@@ -91,7 +90,7 @@ def coping_mechanism(emotion,preference,intent):
             
          ],
       },
-      "article_tips ": {
+      "an insightful article": {
          "anger": [
                   "You're doing great by addressing your emotions. Managing anger isn't about suppressing it but expressing it in a healthy way. This guide covers practical techniques: https://www.healthline.com/health/mental-health/how-to-control-anger",
                   "Taking steps to understand anger is powerful! This resource from the American Psychological Association explains strategies for control: https://www.apa.org/topics/anger/strategies-controlling",
@@ -123,11 +122,30 @@ def coping_mechanism(emotion,preference,intent):
                   "You're being brave! Science explains how fear impacts the brain and how to rewire responses: https://www.sciencedirect.com/science/article/abs/pii/S0306452211013443",
                   "You're tackling this well! Therapy-based techniques can help overcome fear step by step: https://www.choosingtherapy.com/how-to-overcome-fear/"
             ],
-      },
-      
+      },  
    },
-
-   "Audio_based":[],
+   "Audio_based":{
+      "a calming audio guide": {
+         "anger": [
+            "I'm glad you're taking this step to understand and manage anger in a healthy way. Listening to guided insights can provide new perspectives and techniques to regain control when emotions run high. This audio explores different ways to process and release anger constructively, helping you respond rather than react. Listen here : https://open.spotify.com/show/56iaHI3hHIAcqW6D6upalE"
+         ],
+         "anxious": [
+            "It's great that you're open to exploring ways to ease anxiety. Having a guide can make a difference in navigating those overwhelming moments. This audio provides practical techniques to manage anxiety, covering everything from breathwork to mindset shifts. It helps build resilience and calmness in day-to-day life. Listen here : https://open.spotify.com/show/5UsxoX6ikTr3ETvzQAHbdP",
+            
+            "I appreciate you taking the time to focus on yourself. Understanding anxiety is a powerful first step toward managing it effectively. This audio is designed for high achievers who struggle with high-functioning anxiety, offering ways to feel more balanced, confident, and at ease. Listen here : https://open.spotify.com/show/0gahU19SN8cT3fkotPwzT5",
+            
+            "It's strong of you to take a moment to work through anxious thoughts. Having a knowledgeable guide can make all the difference. Hosted by a psychotherapist specializing in anxiety, this audio offers expert strategies to ease fear, stress, and overwhelming emotions in daily life. Listen here : https://open.spotify.com/show/7wQlyLJ8DorFkI41mT3EEF"
+         ],
+         "sad": [
+            "I appreciate you for doing this. Taking time to explore and process emotions can be a meaningful step toward healing. This audio provides gentle guidance on navigating emotions like sadness, offering practical exercises and reflections to bring clarity and peace. Listen here : https://open.spotify.com/show/3Z9pPvKcxEksVstTt1x3nY",
+            
+            "It's strong of you to take a moment to work through this. Humor can sometimes bring light to even the heaviest feelings. This audio blends comedy with candid discussions about depression, helping to normalize emotions and offer a refreshing perspective on mental well-being. Listen here : https://open.spotify.com/show/3Z9pPvKcxEksVstTt1x3nY"
+         ],
+         "fear": [
+            "I appreciate you taking this step. Facing fear and past emotional wounds can be challenging, but it's also a sign of strength. This audio provides tools for healing fear, emotional wounds, and trauma, offering practical guidance to move forward with resilience. Listen here : https://open.spotify.com/show/4n7mVBjNRjWgiXALoy2zXS"
+         ],
+      },
+   },
    "Visual-Based":{
       "a simple breathing technique":{
          "sad" : [
@@ -174,7 +192,7 @@ def coping_mechanism(emotion,preference,intent):
             
          ],
       },
-      "videos" : {
+      "a guided video session" : {
          "anxious": [
                   "You're taking the right step! These techniques can help manage anxiety and restore calm. Check them out: https://youtu.be/WWloIAQpMcQ",
                   "It's great that you're open to this! Here are some practical ways to ground yourself and reduce anxious feelings: https://youtu.be/Q2sixA1vPKk",
@@ -201,9 +219,8 @@ def coping_mechanism(emotion,preference,intent):
             ],
       },
    },
-
    "Physical-Activities":{
-         "activities" : {
+         "a quick energizing activity" : {
             "sad": [
                      "Great job for giving this a try! When sadness weighs you down, gentle movement and self-soothing actions can help lift some of that heaviness. Let's do Rhythmic Self-Tapping—gently tap your arms, legs, and shoulders in a steady rhythm. It reconnects you with your body and brings a sense of comfort.",
                      "Nice! Holding certain positions can give your nervous system a break from emotional overload. Try Forward Bend Hold—stand or sit, slowly bend forward, and let your arms hang loose. It naturally soothes and releases emotional tension.",
@@ -238,8 +255,15 @@ def coping_mechanism(emotion,preference,intent):
                ],
          },
    },
-   }
+}
 
+suggestions = {
+    "an insightful article" :["an insightful article","a thoughtful read", "a self help resource","a calming read","a guiding article"],
+    "a guided video session" :["a guided video session","a helpful visual guide","a calming watch","a gentle video walkthrough"],
+    "a simple breathing technique":["a simple breathing technique","A gentle breathwork session","a deep relaxation breath","a centering breath practice"],
+    "a calming audio guide":["a calming audio guide","an audio check-in",],
+    "a quick energizing activity":["a quick energizing activity","a simple physical ascivity","a slow and steady movment","a centering movement"],
+}
    
 
 
@@ -262,10 +286,11 @@ class ActionSetSuggestion(Action):
             if(intent != "deny"):
                coping_type = random.choice(preference[emotion]) 
                coping_strategy = random.choice(list(cope_dump[coping_type].keys()))
-               coping = random.choice(random.choice(coping_strategy[emotion]))
+               suggestion = random.choice(suggestions[coping_strategy])
+               help = random.choice(random.choice(coping_strategy[emotion]))
             else:
                coping_strategy = random.choice(coping_type)
-               coping = random.choice(coping_strategy)
+               help = random.choice(coping_strategy)
                 
                 
         else:
@@ -274,7 +299,7 @@ class ActionSetSuggestion(Action):
 
 
         return [SlotSet("suggestion", coping_strategy),
-                SlotSet("help", coping)
+                SlotSet("help", help)
                 ]
 
 class ActionHandleFallback(Action):
