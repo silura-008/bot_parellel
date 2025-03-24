@@ -287,10 +287,10 @@ class ActionSetSuggestion(Action):
                coping_type = random.choice(preference[emotion]) 
                coping_strategy = random.choice(list(cope_dump[coping_type].keys()))
                suggestion = random.choice(suggestions[coping_strategy])
-               help = random.choice(random.choice(coping_strategy[emotion]))
+               help = random.choice(random.choice(cope_dump[coping_type][coping_strategy][emotion]))
             else:
-               coping_strategy = random.choice(coping_type)
-               help = random.choice(coping_strategy)
+               suggestion= "a simple breathing technique"
+               help = random.choice(random.choice(cope_dump["Text-based"]["a simple breathing technique"][emotion]))
                 
                 
         else:
@@ -298,7 +298,7 @@ class ActionSetSuggestion(Action):
             help = ""
 
 
-        return [SlotSet("suggestion", coping_strategy),
+        return [SlotSet("suggestion", suggestion),
                 SlotSet("help", help)
                 ]
 
