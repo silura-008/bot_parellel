@@ -90,8 +90,43 @@ def coping_mechanism(emotion,preference,intent):
                "Great!,  Let's try Candle Breathing—it's a simple way to ease fear and bring focus. Fear can make the mind feel scattered, but controlled breathwork helps bring it back. Imagine a candle in front of you. Inhale deeply through your nose, and then exhale slowly through pursed lips, as if trying to make the flame flicker without putting it out. This slow, steady breath helps calm your mind."
             
          ],
-      }
+      },
+      "article_tips ": {
+         "anger": [
+                  "You're doing great by addressing your emotions. Managing anger isn't about suppressing it but expressing it in a healthy way. This guide covers practical techniques: https://www.healthline.com/health/mental-health/how-to-control-anger",
+                  "Taking steps to understand anger is powerful! This resource from the American Psychological Association explains strategies for control: https://www.apa.org/topics/anger/strategies-controlling",
+                  "You're on the right track! This article provides a science-backed approach to anger management: https://positivepsychology.com/anger-management-techniques/",
+                  "Recognizing anger is the first step! Learn about what triggers it and how to deal with it: https://www.medicalnewstoday.com/articles/162035",
+                  "Great! WebMD outlines professional anger management strategies: https://www.webmd.com/mental-health/anger-management",
+                  "You're taking the right step! Learn mindfulness-based approaches to calming anger here: https://www.calm.com/blog/steps-to-calming-anger"
+            ],
+
+         "anxious": [
+                  "You're making the right choice! Breathing exercises are scientifically proven to reduce anxiety. Check these out: https://blog.calm.com/breathing-exercises-for-anxiety",
+                  "Great! This article outlines immediate ways to manage anxiety and regain control: https://www.healthline.com/health/how-to-calm-anxiety",
+                  "You're taking the right step! Discover 16 natural ways to relieve stress and anxiety: https://www.healthline.com/nutrition/16-ways-relieve-stress-anxiety",
+                  "You're handling this well! Learn expert-approved ways to naturally lower anxiety levels: https://www.medicalnewstoday.com/articles/326115",
+                  "It's great that you're working on this! Explore natural techniques for long-term anxiety relief: https://www.healthline.com/health/natural-ways-to-reduce-anxiety"
+            ],
+
+         "sad": [
+                  "You're taking the right step! Learn expert-backed ways to navigate sadness: https://www.talkspace.com/blog/how-to-deal-with-sadness/",
+                  "Great! This is a great choice! Here are structured strategies to release sadness effectively: https://www.linkedin.com/pulse/strategies-can-help-you-release-sadness-kal-patel",
+                  "You're moving in the right direction! Gundersen Health provides a structured guide to managing sadness: https://www.gundersenhealth.org/health-wellness/mental-health-relationships/healthy-ways-to-deal-with-sadness",
+                  "You're taking the right step! Mindfulness-based techniques can shift emotions gently. Learn more here: https://www.calm.com/blog/how-to-stop-feeling-sad",
+                  "Taking small steps can lead to big changes. Here's a professional breakdown of coping with sadness: https://healtreatmentcenters.com/mental-health/how-to-deal-with-sadness/"
+            ],
+
+         "fear": [
+                  "You're facing your fears head-on, and that's commendable! NHS provides a step-by-step guide to managing fear: https://www.nhsinform.scot/healthy-living/mental-wellbeing/fears-and-phobias/10-ways-to-fight-your-fears/",
+                  "Acknowledging fear is the first step! This article breaks down the psychology of fear: https://dazedbysunny.medium.com/an-article-about-fear-79a68ec88c88",
+                  "You're being brave! Science explains how fear impacts the brain and how to rewire responses: https://www.sciencedirect.com/science/article/abs/pii/S0306452211013443",
+                  "You're tackling this well! Therapy-based techniques can help overcome fear step by step: https://www.choosingtherapy.com/how-to-overcome-fear/"
+            ],
+      },
+      
    },
+
    "Audio_based":[],
    "Visual-Based":{
       "a simple breathing technique":{
@@ -138,9 +173,71 @@ def coping_mechanism(emotion,preference,intent):
                "You're making a great choice by trying this. Candle Breathing helps redirect fearful energy by focusing on slow, gentle exhales, bringing back control. Have a look at the video.  https://youtu.be/ObZ0LzUOL4o"
             
          ],
-      }
+      },
+      "videos" : {
+         "anxious": [
+                  "You're taking the right step! These techniques can help manage anxiety and restore calm. Check them out: https://youtu.be/WWloIAQpMcQ",
+                  "It's great that you're open to this! Here are some practical ways to ground yourself and reduce anxious feelings: https://youtu.be/Q2sixA1vPKk",
+                  "Nice move! This video guides you through body-based methods to ease anxiety: https://youtu.be/HseTZkLLS_c",
+                  "gREAT! Try these techniques to slow down racing thoughts: https://youtu.be/ScpDOm08wx8"
+            ],
+         "fear": [
+                  "Good! Facing fear starts with small steps. Check out these techniques to regain control: https://youtu.be/Q2sixA1vPKk",
+                  "It's great that you're open to this! These strategies help shift fear into confidence: https://youtu.be/nX4dpGQ5wF4",
+                  "You're taking the right step! Watch this video for ways to calm the nervous system when fear takes over: https://youtu.be/CPdBWXiRTaI"
+            ],
+         "anger": [
+                  "You're choosing a healthy way to release anger! Here are some powerful techniques to manage frustration: https://youtu.be/H4WYp9a6Yzg",
+                  "Great call! These strategies help you process anger constructively: https://youtu.be/Yh1-y3TzSO4",
+                  "You're taking the right step! Watch how small actions can help you cool down: https://youtu.be/BsVq5R_F6RA",
+                  "It's great that you're open to this! This video guides you through calming techniques for anger: https://youtu.be/kZWhem4kiwE",
+                  "Great! These exercises help release tension and regain clarity: https://youtu.be/F22ZvJR2mss"
+            ],
+         "sad": [
+                  "You're taking the right step! This video shares ways to lift your mood: https://youtu.be/HvSOHmqWMAw",
+                  "You're doing the right thing by addressing your emotions. Check out these helpful strategies: https://youtu.be/ph8av8MQ29I",
+                  "Nice! These tips can help you reconnect with yourself and find comfort: https://youtu.be/3bEA4ejqVfk",
+                  "It's great that you're open to this! Watch this for some useful guidance: https://youtu.be/ZBOZKSvkr-o"
+            ],
+      },
    },
-   "Physical-Activities":[],
+
+   "Physical-Activities":{
+         "activities" : {
+            "sad": [
+                     "Great job for giving this a try! When sadness weighs you down, gentle movement and self-soothing actions can help lift some of that heaviness. Let's do Rhythmic Self-Tapping—gently tap your arms, legs, and shoulders in a steady rhythm. It reconnects you with your body and brings a sense of comfort.",
+                     "Nice! Holding certain positions can give your nervous system a break from emotional overload. Try Forward Bend Hold—stand or sit, slowly bend forward, and let your arms hang loose. It naturally soothes and releases emotional tension.",
+                     "You're doing great! Deep-pressure stimulation can be really comforting when you're feeling down. Let's try Hug Compression Hold—cross your arms over your chest and squeeze firmly. This mimics a reassuring hug and provides a calming effect.",
+                     "You're taking the right step! Sometimes, grounding with physical weight can bring emotional stability. Try Weighted Object Hold—hold a moderately heavy object (like a book or kettlebell) close to your chest for a minute. The added pressure creates a sense of security.",
+                     "You got this! Slow, rhythmic movement can gently lift your energy levels. Let's do Cross-Lateral Marching—raise your right knee and touch it with your left hand, then switch. This stimulates coordination and slowly energizes you.",
+                     "Great! Slight muscle engagement can counteract emotional numbness. Try Wall Sit Hold—press your back against a wall, lower into a sitting position, and hold for 20-30 seconds. This helps you feel grounded and present."
+               ],
+            "anxious": [
+                     "Well done for taking control! Anxiety often gets stored as physical tension, so let's release some of it. Try Butterfly Hug Tapping—cross your arms and alternately tap your shoulders. This self-soothing technique regulates the nervous system and provides instant relief.",
+                     "Nice! Releasing built-up tension in the muscles can also release anxious energy. Let's do Progressive Muscle Tensing—clench your fists for 5 seconds, then release. Repeat with your shoulders, legs, and feet. It helps discharge tension and brings calmness.",
+                     "You're taking a solid step in easing anxiety! Small, repetitive motions can interrupt racing thoughts. Try Finger Tapping Sequences—tap each fingertip to your thumb in a set pattern. This keeps your mind engaged and reduces overthinking.",
+                     "Great! Anxiety often makes you feel disconnected, but grounding exercises help. Let's do Heel Raises—slowly lift your heels off the ground, then lower them back down. This keeps you present and stabilizes your energy.",
+                     "You're taking the right step! Slight pressure can have a grounding effect. Try Cross-Body Shoulder Press—press one hand firmly against the opposite shoulder and hold. It brings an immediate sense of calm.",
+                     "Nice! Gentle shifting movements can help bring balance back to your nervous system. Let's do Standing Weight Shifting—stand with feet hip-width apart and gently shift your weight from one foot to the other. This reestablishes stability and focus."
+               ],
+            "anger": [
+                     "Way to channel that energy in a healthy way! Anger needs an outlet, and controlled exertion can help. Try Pillow Punching—grab a pillow and punch it as hard as you can for a set time. It allows frustration to be expressed safely.",
+                     "Smart move! Pressing against a solid surface gives your body a safe way to exert energy. Let's do Isometric Wall Pushes—press both hands against a wall and push with all your strength for 5-10 seconds, then release. This mimics an outlet for frustration.",
+                     "You're handling this well! Twisting motions help release stored aggression in the body. Try Woodchopper Twists—stand with feet apart, clasp hands together, and swing them diagonally down as if chopping wood. It's a great way to move anger through your system.",
+                     "You're taking the right step! Repetitive force-based movements are excellent for releasing aggression. Let's try Sledgehammer Slams (if accessible)—use a sledgehammer or heavy object to strike a tire or padded surface. This helps channel frustration constructively.",
+                     "I see you're ready to release some tension! Twisting motions can help express pent-up anger. Try Resisted Towel Twisting—hold a towel in both hands and twist it tightly as if wringing out water. This engages tension and provides an outlet.",
+                     "Great decision! High-energy exercises are ideal for letting go of anger. Let's do Jump Squats—explode upward from a squat position and land back into a squat. This intense movement helps release frustration while keeping control."
+               ],
+            "fear": [
+                     "You're taking the right step! Fear makes the body feel unsteady, so grounding is key. Try Grounding Stomps—firmly stomp your feet against the floor a few times. This sends signals of stability to your nervous system and reinforces control.",
+                     "Great! Balance exercises build a sense of inner steadiness. Let's do Single-Leg Balancing—lift one foot slightly off the ground and hold. This strengthens focus and counteracts feelings of uncertainty.",
+                     "Nice! Controlled resistance builds a sense of security. Try Isometric Presses—press your palms firmly together or push against a solid surface. This engages muscles and helps reinforce inner strength.",
+                     "This is a great step! Coordinated movements break the cycle of fear. Let's try Cross-Body Reaches—extend your right arm toward your left foot, then switch. This helps engage coordination and disrupt fear-driven thought patterns.",
+                     "You're taking charge! Controlled descent exercises train your mind to feel safer. Try Slow Step Downs—stand on a step or platform, lower one foot down slowly, then return. This reinforces a sense of safety and control.",
+                     "Proud of you! Posture can influence emotional strength. Let's do Power Stance Hold—stand with feet wide apart, hands on hips, and chest lifted. Holding this strong posture sends confidence signals to your brain and reduces vulnerability."
+               ],
+         },
+   },
    }
 
    
