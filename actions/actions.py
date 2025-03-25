@@ -265,7 +265,7 @@ suggestions = {
     "a quick energizing activity":["a quick energizing activity","a simple physical ascivity","a slow and steady movment","a centering movement"],
 }
    
-
+happy_suggestion = ["talking to a friend about it","write it down in your journal","share in your social media"]
 
 
 
