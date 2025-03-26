@@ -18,8 +18,15 @@ class ActionSessionStart(Action):
 
         user_id = tracker.sender_id
         api_url = f"http://localhost:8000/api/get_initial/"
-        personality, preference =None, "new", 
-
+        personality ="new"
+        preference = {
+            "sad": ["Visual-Based", "Audio-Based", "Text-Based", "Physical-Activities"],
+            "anger": ["Visual-Based", "Audio-Based", "Text-Based", "Physical-Activities"],
+            "anxious": ["Visual-Based", "Audio-Based", "Text-Based", "Physical-Activities"],
+            "fear": ["Visual-Based", "Audio-Based", "Text-Based", "Physical-Activities"]
+        }
+         
+        help_line =988
         try:
             response = requests.post(api_url, json={"user_id": user_id}, timeout=5)
             if response.status_code == 200:
@@ -31,7 +38,13 @@ class ActionSessionStart(Action):
         except requests.exceptions.RequestException:
             print("I couldn't fetch your profile. We'll proceed with default settings.")
             personality ="new"
-            preference = None
+            preference = {
+               "sad": ["Visual-Based", "Audio-Based", "Text-Based", "Physical-Activities"],
+               "anger": ["Visual-Based", "Audio-Based", "Text-Based", "Physical-Activities"],
+               "anxious": ["Visual-Based", "Audio-Based", "Text-Based", "Physical-Activities"],
+               "fear": ["Visual-Based", "Audio-Based", "Text-Based", "Physical-Activities"]
+            }
+            
             help_line =988
 
         # Set slots before the conversation starts
@@ -44,7 +57,7 @@ class ActionSessionStart(Action):
         ]
 
 cope_dump = {
-   "Text-based":{
+   "Text-Based":{
       "a simple breathing technique":{
          "sad" : [
             
@@ -285,9 +298,17 @@ class ActionSetSuggestion(Action):
         if(emotion != "happy"):
             if(intent != "deny"):
                coping_type = random.choice(preference[emotion]) 
+               print(f"coping type : {coping_type}")
                coping_strategy = random.choice(list(cope_dump[coping_type].keys()))
+               print(f"coping_strategy : {coping_strategy}")
                suggestion = random.choice(suggestions[coping_strategy])
-               help = random.choice(random.choice(cope_dump[coping_type][coping_strategy][emotion]))
+               print(f"suggestion : {suggestion} ")
+
+               help_list = cope_dump[coping_type][coping_strategy].get(emotion, [])
+               print(f"Available help options: {help_list}")
+
+               help = random.choice(cope_dump[coping_type][coping_strategy][emotion])
+               print(f"help : {help}")
             else:
                suggestion= "a simple breathing technique"
                help = random.choice(random.choice(cope_dump["Text-based"]["a simple breathing technique"][emotion]))
