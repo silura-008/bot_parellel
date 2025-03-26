@@ -297,25 +297,17 @@ class ActionSetSuggestion(Action):
 
         if(emotion != "happy"):
             if(intent != "deny"):
-               coping_type = random.choice(preference[emotion]) 
-               print(f"coping type : {coping_type}")
+               coping_type = random.choice(preference[emotion])
                coping_strategy = random.choice(list(cope_dump[coping_type].keys()))
-               print(f"coping_strategy : {coping_strategy}")
                suggestion = random.choice(suggestions[coping_strategy])
-               print(f"suggestion : {suggestion} ")
-
-               help_list = cope_dump[coping_type][coping_strategy].get(emotion, [])
-               print(f"Available help options: {help_list}")
-
                help = random.choice(cope_dump[coping_type][coping_strategy][emotion])
-               print(f"help : {help}")
             else:
                suggestion= "a simple breathing technique"
-               help = random.choice(random.choice(cope_dump["Text-based"]["a simple breathing technique"][emotion]))
-                
+               help = random.choice(cope_dump["Text-Based"]["a simple breathing technique"][emotion])
+               
                 
         else:
-            coping_strategy = random.choice(happy_suggestion)
+            suggestion = random.choice(happy_suggestion)
             help = ""
 
 
