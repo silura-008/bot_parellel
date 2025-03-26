@@ -280,6 +280,29 @@ suggestions = {
    
 happy_suggestion = ["talking to a friend about it","write it down in your journal","share in your social media"]
 
+happy_responses = {
+    "talking to a friend about it": [
+        "Great! Sharing with a friend makes the moment even more meaningful.",
+        "Wonderful! A conversation can make your happiness even more real.",
+        "Awesome! Connecting with someone makes happy moments even better.",
+        "Fantastic! Sharing happiness strengthens bonds."
+    ],
+    "writing it down in your journal": [
+        "Brilliant! Writing it down helps keep the memory alive.",
+        "Wonderful! Journaling makes the feeling last longer.",
+        "Amazing! Capturing the moment in words makes it timeless.",
+        "Fantastic! Your journal will hold this joy forever.",
+        "Great! Recording happiness makes it even more special."
+    ],
+    "sharing it on social media": [
+        "Awesome! Spreading positivity is always wonderful.",
+        "Fantastic! Celebrating moments makes them even more special.",
+        "Brilliant! Your happiness might brighten someone else's day.",
+        "Wonderful! Sharing joy makes the world a happier place.",
+        "Amazing! A little positivity on social media is always welcome."
+    ]
+}
+
 
 
 class ActionSetSuggestion(Action):
@@ -308,7 +331,7 @@ class ActionSetSuggestion(Action):
                 
         else:
             suggestion = random.choice(happy_suggestion)
-            help = ""
+            help = random.choice(happy_responses[suggestion])
 
 
         return [SlotSet("suggestion", suggestion),
