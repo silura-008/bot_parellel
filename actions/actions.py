@@ -20,10 +20,10 @@ class ActionSessionStart(Action):
         api_url = f"http://localhost:8000/api/get_initial/"
         personality ="new"
         preference = {
-            "sad": ["Visual-Based", "Audio-Based", "Text-Based", "Physical-Activities"],
-            "anger": ["Visual-Based", "Audio-Based", "Text-Based", "Physical-Activities"],
-            "anxious": ["Visual-Based", "Audio-Based", "Text-Based", "Physical-Activities"],
-            "fear": ["Visual-Based", "Audio-Based", "Text-Based", "Physical-Activities"]
+            "sad": ["Visual-Based", "Audio_based", "Text-based", "Physical-Activities"],
+            "anger": ["Visual-Based", "Audio_based", "Text-based", "Physical-Activities"],
+            "anxious": ["Visual-Based", "Audio_based", "Text-based", "Physical-Activities"],
+            "fear": ["Visual-Based", "Audio_based", "Text-based", "Physical-Activities"]
         }
          
         help_line =988
@@ -39,10 +39,10 @@ class ActionSessionStart(Action):
             print("I couldn't fetch your profile. We'll proceed with default settings.")
             personality ="new"
             preference = {
-               "sad": ["Visual-Based", "Audio-Based", "Text-Based", "Physical-Activities"],
-               "anger": ["Visual-Based", "Audio-Based", "Text-Based", "Physical-Activities"],
-               "anxious": ["Visual-Based", "Audio-Based", "Text-Based", "Physical-Activities"],
-               "fear": ["Visual-Based", "Audio-Based", "Text-Based", "Physical-Activities"]
+               "sad": ["Visual-Based", "Audio_based", "Text-based", "Physical-Activities"],
+               "anger": ["Visual-Based", "Audio_based", "Text-based", "Physical-Activities"],
+               "anxious": ["Visual-Based", "Audio_based", "Text-based", "Physical-Activities"],
+               "fear": ["Visual-Based", "Audio_based", "Text-based", "Physical-Activities"]
             }
             
             help_line =988
@@ -57,7 +57,7 @@ class ActionSessionStart(Action):
         ]
 
 cope_dump = {
-   "Text-Based":{
+   "Text-based":{
       "a simple breathing technique":{
          "sad" : [
             
